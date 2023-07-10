@@ -1,0 +1,31 @@
+/** @format */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+/*
+
+
+*/
+
+@font-face {
+  font-family: "Cousine";
+  src: url("../public/assets/fonts/Cousine/Cousine-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
