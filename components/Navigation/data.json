@@ -1,1 +1,27 @@
-["o nama", "usluge", "partneri", "blog", "kontakt"]
+[
+  {
+    "en": "about",
+    "rs": "o nama",
+    "route": "about"
+  },
+  {
+    "en": "services",
+    "rs": "usluge",
+    "route": "services"
+  },
+  {
+    "en": "partners",
+    "rs": "partneri",
+    "route": "partners"
+  },
+  {
+    "en": "blog",
+    "rs": "blog",
+    "route": "blog"
+  },
+  {
+    "en": "contact",
+    "rs": "kontakt",
+    "route": "contact"
+  }
+]

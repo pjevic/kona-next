@@ -9,6 +9,7 @@ import styles from "./Navigation.module.scss";
 import data from "./data.json";
 
 function Navigation() {
+  console.log(data);
   return (
     <header>
       <div></div>
@@ -26,13 +27,17 @@ function Navigation() {
         </div>
         <ul className={styles.navigation__links}>
           {data.map((link, index) => (
-            <li
-              key={index}
-              className={`${styles.navigation__link} ${
-                index === data.length - 1 ? styles["navigation__link--ca"] : ""
-              }`}
-            >
-              {link}
+            <li key={index}>
+              <Link
+                href={link.route}
+                className={`${styles.navigation__link} ${
+                  index === data.length - 1
+                    ? styles["navigation__link--ca"]
+                    : ""
+                }`}
+              >
+                {link.rs}
+              </Link>
             </li>
           ))}
         </ul>
