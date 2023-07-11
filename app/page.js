@@ -3,11 +3,20 @@
 "use client";
 
 import Image from "next/image";
+
+import HelloSection from "@/components/HelloSection/HelloSection";
+
 import styles from "./page.module.scss";
 
-import { useRouter } from "next/router";
-import Link from "next/link";
-
 export default function Home() {
-  return <main>Hello</main>;
+  return (
+    <main>
+      <HelloSection
+        teaser="trideset godina"
+        line1="Računovođa"
+        line2="Carinski zastupnik"
+        line3="Sve na jednom mestu"
+      />
+    </main>
+  );
 }

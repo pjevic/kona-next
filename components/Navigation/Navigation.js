@@ -5,11 +5,16 @@ import Link from "next/link";
 import Image from "next/image";
 
 import styles from "./Navigation.module.scss";
-
 import data from "./data.json";
 
+import { Cousine } from "next/font/google";
+
+const cousine = Cousine({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
 function Navigation() {
-  console.log(data);
   return (
     <header>
       <div></div>
@@ -30,6 +35,7 @@ function Navigation() {
             <li key={index}>
               <Link
                 href={link.route}
+                style={cousine.style}
                 className={`${styles.navigation__link} ${
                   index === data.length - 1
                     ? styles["navigation__link--ca"]
