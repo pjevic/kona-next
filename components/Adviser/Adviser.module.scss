@@ -1,0 +1,58 @@
+/** @format */
+
+@import "../../styles/variables.scss";
+
+.adviser {
+  max-width: 57.7rem;
+
+  &__picker {
+    /* Add your styles for the adviser picker container here */
+    display: flex;
+    margin-bottom: 3rem;
+  }
+
+  &__number {
+    position: relative;
+    padding: 1rem 0;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+
+    /* Add your other styles for the adviser number here */
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    &:not(:last-child) {
+      margin-right: 3rem;
+    }
+
+    &.active::after {
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background-color: $secondary-color;
+      border-radius: 2px;
+    }
+  }
+
+  &__heading {
+    font-size: 3.6rem;
+    color: $primary-color;
+    margin-bottom: 2.5rem;
+  }
+
+  &__paragraph {
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+
+    &:last-child {
+      margin-bottom: 8rem;
+    }
+  }
+
+  /* Add your other styles for the Adviser component here */
+}
