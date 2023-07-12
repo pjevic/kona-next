@@ -3,10 +3,23 @@
 @import "../../styles/variables.scss";
 
 .adviser {
-  max-width: 57.7rem;
+  display: flex;
+  justify-content: space-between;
+
+  &__container {
+    flex: 1;
+    flex-basis: 50%;
+    &--left {
+      max-width: 57.7rem;
+    }
+    &--right {
+      position: absolute;
+      right: 0;
+      top: -50px;
+    }
+  }
 
   &__picker {
-    /* Add your styles for the adviser picker container here */
     display: flex;
     margin-bottom: 3rem;
   }
@@ -17,7 +30,6 @@
     border-bottom: 4px solid transparent;
     cursor: pointer;
 
-    /* Add your other styles for the adviser number here */
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.6rem;
@@ -54,5 +66,7 @@
     }
   }
 
-  /* Add your other styles for the Adviser component here */
+  &__btns {
+    margin-top: 8rem;
+  }
 }

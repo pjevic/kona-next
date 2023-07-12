@@ -24,8 +24,6 @@ export default function Home() {
 
       <Section>
         <Adviser />
-        <BtnCTA />
-        <Btn>saznaj više</Btn>
       </Section>
     </main>
   );

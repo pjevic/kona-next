@@ -16,7 +16,6 @@ const cousine = Cousine({
 function Navigation() {
   return (
     <header>
-      <div></div>
       <nav className={styles.navigation}>
         <div>
           <Link href="/">
@@ -47,7 +46,6 @@ function Navigation() {
           ))}
         </ul>
       </nav>
-      <div></div>
     </header>
   );
 }
