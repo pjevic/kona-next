@@ -1,0 +1,21 @@
+/** @format */
+
+@import "../../../styles/variables.scss";
+
+.btn {
+  margin-left: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $primary-color;
+  width: 176.375px;
+  height: 38.5px;
+  border-radius: 10px;
+  border: 1px solid $primary-color;
+  background-color: transparent;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: rgba(233, 204, 238, 0.25);
+    border: 1px solid transparent;
+  }
+}

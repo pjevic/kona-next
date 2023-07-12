@@ -4,9 +4,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import styles from "./Navigation.module.scss";
 import data from "./data.json";
-
+import styles from "./Navigation.module.scss";
 import { Cousine } from "next/font/google";
 
 const cousine = Cousine({

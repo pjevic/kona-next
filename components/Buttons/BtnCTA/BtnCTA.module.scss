@@ -1,0 +1,59 @@
+/** @format */
+
+@import "../../../styles/variables.scss";
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 60px 10px 35px;
+
+  background-color: $primary-color;
+  color: $white;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 1s;
+
+  transition: background-color 0.3s;
+  overflow: hidden;
+
+  &:hover {
+    background-color: $primary-color;
+
+    .circle1 {
+      transform: translate(70%, -50%);
+    }
+
+    .circle2 {
+      transform: translate(65%, -60%);
+    }
+  }
+}
+
+.circle1 {
+  position: absolute;
+  top: -10px;
+  right: -2px;
+  transform: translate(80%, -50%);
+  width: 120%;
+  height: 200%;
+  background-color: rgba(233, 204, 238, 0.7);
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.circle2 {
+  position: absolute;
+  top: 8px;
+  right: -24px;
+  transform: translate(80%, -50%);
+  width: 120%;
+  height: 200%;
+  background-color: rgba(233, 204, 238, 0.6);
+  border-radius: 50%;
+  transition: transform 0.4s;
+}

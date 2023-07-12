@@ -4,9 +4,12 @@
 
 import Image from "next/image";
 
-import HelloSection from "@/components/HelloSection/HelloSection";
-
 import styles from "./page.module.scss";
+import HelloSection from "@/components/HelloSection/HelloSection";
+import Section from "@/components/Section/Section";
+
+import BtnCTA from "@/components/Buttons/BtnCTA/BtnCTA";
+import Btn from "@/components/Buttons/Btn/Btn";
 
 export default function Home() {
   return (
@@ -17,6 +20,11 @@ export default function Home() {
         line2="Carinski zastupnik"
         line3="Sve na jednom mestu"
       />
+
+      <Section>
+        <BtnCTA />
+        <Btn />
+      </Section>
     </main>
   );
 }
