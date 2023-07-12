@@ -3,8 +3,8 @@
 import React from "react";
 import styles from "./Btn.module.scss";
 
-function Btn() {
-  return <button className={styles.btn}>saznaj više &rarr;</button>;
+function Btn({ children }) {
+  return <button className={styles.btn}>{children}&rarr;</button>;
 }
 
 export default Btn;

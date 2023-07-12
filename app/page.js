@@ -23,7 +23,7 @@ export default function Home() {
 
       <Section>
         <BtnCTA />
-        <Btn />
+        <Btn>saznaj više</Btn>
       </Section>
     </main>
   );
