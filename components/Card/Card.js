@@ -19,15 +19,13 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "700"],
 });
 
-const CardLabel = ({ gradinet, icon1, title }) => {
-  const { altName, x1, x2 } = icon1;
-
+const CardLabel = ({ gradinet, icon1: { name, x1, x2 }, title }) => {
   return (
     <div
       className={`${styles.label} ${styles[`label__gradient--${gradinet}`]}`}
     >
       <div className={styles["label__icon-container"]}>
-        <Image src={x1} width={36} height={36} alt={altName} />
+        <Image src={x1} width={36} height={36} alt={name} />
       </div>
       <h3 style={dmSerifDisplay.style} className={styles.label__title}>
         {title}

@@ -1,16 +1,13 @@
 /** @format */
 
 import React from "react";
-
-import styles from "./Cards.module.scss";
-
-import data from "./data-SR.json";
-
 import Card from "../Card/Card";
+import data from "./data-SR.json";
+import styles from "./Cards.module.scss";
 
 function Cards() {
   return (
-    <div>
+    <div className={styles.cards}>
       {data.map((card, index) => (
         <Card
           key={index}

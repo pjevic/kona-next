@@ -7,8 +7,22 @@
   height: 591px;
 
   position: relative;
+  flex-basis: calc(33.33% - 40px);
+  margin: 20px;
 
   perspective: 2500px;
+
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: calc(50% - 20px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      flex-basis: 100%;
+    }
+  }
 
   &:hover {
     .card__body {
