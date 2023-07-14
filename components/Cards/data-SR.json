@@ -1,0 +1,168 @@
+[
+  {
+    "icon1": {
+      "name": "company",
+      "x1": "/assets/imgs/icons/company-1x.png",
+      "x2": "/assets/imgs/icons/company-2x.png"
+    },
+
+    "title": "Osnivanje firme",
+
+    "text": [
+      "Da biste započeli biznis morate se registorvati u Agenciji za privredne registre (APR).",
+
+      "Tu smo da Vam predočimo opcije pravih formi tako da izaberete formu privrednog subjekata koji naviše odgovara vašim potrebama.",
+
+      "Uz našu potpunu podršku, izbegnite pogrešne korake i postavite odgovarajući temelj svom uspešnom poslovanju."
+    ],
+
+    "icon2": {
+      "name": "checked",
+      "x1": "/assets/imgs/icons/checked-1x.png",
+      "x2": "/assets/imgs/icons/checked-2x.png"
+    },
+
+    "bullets": [
+      "Izrada poslovnog plana",
+      "Registraciona dokumentacija",
+      "Registracija preduzećaa",
+      "Otvaranje poslovnog računa",
+      "Savetovanje o pravnoj formi",
+      "Konsultacije o poslovnim propisima"
+    ],
+
+    "linkTo": "link"
+  },
+  {
+    "icon1": {
+      "name": "calculator",
+      "x1": "/assets/imgs/icons/calculator-1x.png",
+      "x2": "/assets/imgs/icons/calculator-2x.png"
+    },
+    "title": "Knjigovodstvo",
+    "text": [
+      "Kao naš poslovni partner, možete se osloniti na našu ekspertizu u pružanju širokog spektra knjigovodstvenih usluga.",
+
+      "Trideset godina uspešno sarađujemo sa mikro, malim, srednjim i velikim preduzećima, kao i startupovima i međunarodnim kompanijama koje svoje poslovanje obavljaju u Srbiji."
+    ],
+    "icon2": {
+      "name": "checked",
+      "x1": "/assets/imgs/icons/checked-1x.png",
+      "x2": "/assets/imgs/icons/checked-2x.png"
+    },
+    "bullets": [
+      "Finansijsko knjigovodstvo",
+      "Knjigovodstvo troškova i učinaka",
+      "Obračun PDV-a i zarada",
+      "Naplate i plaćanje preko dinarskih i deviznih računa",
+      "Izrada finansijskih izveštaja",
+      "Poresko savetovanje"
+    ],
+    "linkTo": "link"
+  },
+  {
+    "icon1": {
+      "name": "graph",
+      "x1": "/assets/imgs/icons/graph-1x.png",
+      "x2": "/assets/imgs/icons/graph-2x.png"
+    },
+    "title": "Računovodstvo",
+    "text": [
+      "Ako ste preduzetnik sa složenijom poslovnom strukturom ili privredno društvo, pored knjigovođe potreban vam je i računovođa.",
+
+      "Naši klijenti uživaju u dostupnosti računovodstvenih usluga od pravovremnih saveta do različitih izveštaja, planova, računovodstvenih kontrola i analiza."
+    ],
+    "icon2": {
+      "name": "checked",
+      "x1": "/assets/imgs/icons/checked-1x.png",
+      "x2": "/assets/imgs/icons/checked-2x.png"
+    },
+    "bullets": [
+      "Računovodstveno planiranje",
+      "Analiza kretanja i uzoraka promena",
+      "Knjigovodstvena evidencija",
+      "Izrada finansijskih izveštaja",
+      "Računovdstvena kontrola i nadzor",
+      "Poresko savetovanje"
+    ],
+    "linkTo": "link"
+  },
+  {
+    "icon1": {
+      "name": "bank",
+      "x1": "/assets/imgs/icons/bank-1x.png",
+      "x2": "/assets/imgs/icons/bank-2x.png"
+    },
+    "title": "Obračun PDV-a",
+    "text": [
+      "Pravilan obračun PDV-a je od suštinske važnosti za uspešno vođenje poslovanja.",
+
+      "Naša stručnost u obračunu PDV-a garantuje da ćete ispravno ispunjavati sve poreske obaveze, izbeći potencijalne probleme i iskoristi sva prava u okviru zakona čime održavate transparentnost i sprečavate nepotrebne rizike i troškove."
+    ],
+    "icon2": {
+      "name": "checked",
+      "x1": "/assets/imgs/icons/checked-1x.png",
+      "x2": "/assets/imgs/icons/checked-2x.png"
+    },
+    "bullets": [
+      "Poresko savetovanje za PDV",
+      "Izrada i podnošenje PDV prijava",
+      "Izrada, analiza i revizija PDV-a",
+      "Priprema dokumentacije za PDV inspekcije",
+      "Izrada i podnošenje dokumentacije za pretežnog izvoznika"
+    ],
+    "linkTo": "link"
+  },
+  {
+    "icon1": {
+      "name": "payment",
+      "x1": "/assets/imgs/icons/payment-1x.png",
+      "x2": "/assets/imgs/icons/payment-2x.png"
+    },
+    "title": "Obračun zarada",
+    "text": [
+      "Naša stručnost, pažljivost i tačnost garantuju da ćete dobiti vrhunsku uslugu obračuna zarada koja je prilagođena vašim potrebama.",
+
+      "Pouzdajte se u nas i oslobodite se briga, dok mi vodimo računa o svakom aspektu obračuna zarada, pružajući vam mir i sigurnost u upravljanju platama vašeg tima."
+    ],
+    "icon2": {
+      "name": "checked",
+      "x1": "/assets/imgs/icons/checked-1x.png",
+      "x2": "/assets/imgs/icons/checked-2x.png"
+    },
+    "bullets": [
+      "Izrada normativnih akata",
+      "Obračun, evidencija zarada i obustava",
+      "Potvrde (ne)zaposlenim o isplaćenim zaradama i drugim primanjima",
+      "Savetovanje o poreskim olakšicama i benificijama",
+      "Komunikacija sa nadležnim organima"
+    ],
+    "linkTo": "link"
+  },
+  {
+    "icon1": {
+      "name": "globe",
+      "x1": "/assets/imgs/icons/globe-1x.png",
+      "x2": "/assets/imgs/icons/globe-2x.png"
+    },
+    "title": "Carinsko zastupanje",
+    "text": [
+      "Mi smo pouzdani carinski zastupnik i špediter koji vam pruža stručne usluge u vezi sa uvozom i izvozom robe i svim posebnim carinskim postupcima.",
+
+      "Sa našim znanjem o carinskom zakonodavstvu, izbegavate potencijalne probleme. Pružamo vam podršku i savete za uspešan rezultat. Vaš najbolji partner za problem-free prekogranićnog kretanja robe."
+    ],
+    "icon2": {
+      "name": "checked",
+      "x1": "/assets/imgs/icons/checked-1x.png",
+      "x2": "/assets/imgs/icons/checked-2x.png"
+    },
+    "bullets": [
+      "Komunikacija sa carinskim organima",
+      "Tarifiranje robe po carinskoj nomenklaturi",
+      "Izrada zahteva nadležnim organima",
+      "Izrada spoljnotrgovinskih ugovora i specifičnih za Lohn posao",
+      "Carinsko savetovanje"
+    ],
+    "linkTo": "link"
+  }
+]

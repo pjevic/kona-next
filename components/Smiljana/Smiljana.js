@@ -13,6 +13,7 @@ function Smiljana() {
         alt="Smiljana Simic"
         width={597}
         height={767}
+        priority
       />
     </div>
   );
