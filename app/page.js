@@ -10,6 +10,7 @@ import HelloSection from "@/components/HelloSection/HelloSection";
 import Section from "@/components/Section/Section";
 import Adviser from "@/components/Adviser/Adviser";
 import Cards from "@/components/Cards/Cards";
+import Overview from "@/components/Overview/Overview";
 
 export default function Home() {
   return (
@@ -27,6 +28,10 @@ export default function Home() {
 
       <Section>
         <Cards />
+      </Section>
+
+      <Section>
+        <Overview />
       </Section>
     </main>
   );
