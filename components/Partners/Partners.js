@@ -19,7 +19,7 @@ export default function Partners() {
     <div className={styles.partners}>
       <Image
         className={styles.partners__waves}
-        src={"/assets/imgs/waves/partners-waves-1728px.svg"}
+        src={"/assets/imgs/waves/waves-partners-1728px.svg"}
         width={1728}
         height={818}
         alt="waves"
