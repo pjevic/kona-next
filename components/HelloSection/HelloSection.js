@@ -36,7 +36,7 @@ function HelloSection({ teaser, line1, line2, line3 }) {
         </h1>
       </div>
       <Image
-        src="assets/imgs/hero/hero-1728px.svg"
+        src="assets/imgs/waves/hero-1728px.svg"
         width={1728}
         height={1022}
         alt="waves"

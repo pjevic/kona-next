@@ -11,6 +11,7 @@ import Section from "@/components/Section/Section";
 import Adviser from "@/components/Adviser/Adviser";
 import Cards from "@/components/Cards/Cards";
 import Overview from "@/components/Overview/Overview";
+import Partners from "@/components/Partners/Partners";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
       <Section>
         <Overview />
       </Section>
+
+      <Partners />
     </main>
   );
 }

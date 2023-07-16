@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Blik Produkt - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/BlikProdukt-x1.png",
+      "x2": "/assets/imgs/partners/BlikProdukt-x2.png"
+    }
+  },
+  {
+    "name": "Gigraphix - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Gigraphix-x1.png",
+      "x2": "/assets/imgs/partners/Gigraphix-x2.png"
+    }
+  },
+  {
+    "name": "Grindex - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Grindex-x1.png",
+      "x2": "/assets/imgs/partners/Grindex-x2.png"
+    }
+  },
+  {
+    "name": "Italtex Intimo - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Italtex-x1.png",
+      "x2": "/assets/imgs/partners/Italtex-x2.png"
+    }
+  },
+  {
+    "name": "Jaffa - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Jaffa-x1.png",
+      "x2": "/assets/imgs/partners/Jaffa-x2.png"
+    }
+  },
+  {
+    "name": "Koralšped - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Koralšped-x1.png",
+      "x2": "/assets/imgs/partners/Koralšped-x2.png"
+    }
+  },
+
+  {
+    "name": "MSK - Metnalsko Sirćetni Komlepks - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/MSK-x1.png",
+      "x2": "/assets/imgs/partners/MSK-x2.png"
+    }
+  },
+  {
+    "name": "Palet Pak - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/PaletPak-x1.png",
+      "x2": "/assets/imgs/partners/PaletPak-x2.png"
+    }
+  },
+  {
+    "name": "Poljopromet - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Poljopromet-x1.png",
+      "x2": "/assets/imgs/partners/Poljopromet-x2.png"
+    }
+  },
+  {
+    "name": "Potisje Kanjiža - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/PotisjeKanjiža-x1.png",
+      "x2": "/assets/imgs/partners/PotisjeKanjiža-x2.png"
+    }
+  },
+  {
+    "name": "Pro Universal - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/ProUniversal-x1.png",
+      "x2": "/assets/imgs/partners/ProUniversal-x2.png"
+    }
+  },
+  {
+    "name": "Šole - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Šole-x1.png",
+      "x2": "/assets/imgs/partners/Šole-x2.png"
+    }
+  },
+  {
+    "name": "Trans Cargo Group - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/TransCargo-x1.png",
+      "x2": "/assets/imgs/partners/TransCargo-x2.png"
+    }
+  },
+  {
+    "name": "Zoppas Industries Serbia - logo",
+    "path": {
+      "x1": "/assets/imgs/partners/Zoppas-x1.png",
+      "x2": "/assets/imgs/partners/Zoppas-x2.png"
+    }
+  }
+]

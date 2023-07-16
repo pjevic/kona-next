@@ -1,0 +1,75 @@
+/** @format */
+
+@import "../../styles//variables.scss";
+
+.partners {
+  position: relative;
+
+  &__waves {
+  }
+
+  &__box {
+    position: absolute;
+    width: 1728px;
+    height: 40%;
+    // background-color: #eee;
+    top: 30%;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:hover .partners__line--1 {
+      animation-play-state: paused;
+    }
+  }
+
+  &__line {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 1rem 0;
+
+    &--1 {
+      display: inline-block;
+
+      animation: 88s sliderToLeft infinite linear;
+
+      & img {
+        height: 135px;
+        width: 439px;
+        margin: 0 15px;
+      }
+    }
+
+    &--2 {
+      display: inline-block;
+
+      animation: 88s sliderToRight infinite linear;
+
+      & img {
+        height: 135px;
+        width: 439px;
+        margin: 0 15px;
+      }
+    }
+  }
+}
+
+@keyframes sliderToLeft {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes sliderToRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
