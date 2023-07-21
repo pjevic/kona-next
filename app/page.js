@@ -2,16 +2,15 @@
 
 "use client";
 
-import Image from "next/image";
-
-import styles from "./page.module.scss";
-
 import HelloSection from "@/components/HelloSection/HelloSection";
 import Section from "@/components/Section/Section";
 import Adviser from "@/components/Adviser/Adviser";
 import Cards from "@/components/Cards/Cards";
 import Overview from "@/components/Overview/Overview";
 import Partners from "@/components/Partners/Partners";
+
+import Image from "next/image";
+import styles from "./page.module.scss";
 
 export default function Home() {
   return (
@@ -31,9 +30,9 @@ export default function Home() {
         <Cards />
       </Section>
 
-      <Section>
+      {/* <Section>
         <Overview />
-      </Section>
+      </Section> */}
 
       <Partners />
     </main>
