@@ -1,6 +1,6 @@
 /** @format */
 
-@import "../../styles//variables.scss";
+@import "../../styles/variables.scss";
 
 .form {
   background-color: $white;
@@ -38,36 +38,12 @@
     margin-bottom: 3rem;
   }
 
-  &__email {
-    margin-bottom: 3rem;
-  }
-
-  &__company {
-    margin-bottom: 3rem;
-  }
-
-  &__companyName {
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  }
-
-  &__companyID {
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  }
-
+  &__email,
+  &__phone,
+  &__company,
+  &__companyName,
+  &__companyID,
   &__companyTAX {
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  }
-
-  &__phone {
     margin-bottom: 3rem;
   }
 
@@ -77,8 +53,20 @@
 
   &__label {
   }
+
+  &__date--label {
+  }
+
+  &__date--input {
+  }
 }
 
 .button {
   padding: 1rem 3rem;
+}
+
+.error {
+  color: red;
+  font-size: 1.2rem;
+  text-align: left;
 }
