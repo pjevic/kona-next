@@ -23,6 +23,7 @@ export default function Partners() {
         width={1728}
         height={818}
         alt="waves"
+        priority
       />
       <div className={styles.partners__box}>
         <div className={styles.partners__line}>
