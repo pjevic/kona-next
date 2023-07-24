@@ -61,6 +61,16 @@ function Form() {
 
   const isCompany = watch("company.isCompany") === "no";
 
+  const phoneInputStyle = {
+    container: {},
+    input: {
+      fontSize: "1.4rem",
+      width: "70%",
+      height: "3rem",
+      border: "1px solid rgba(0, 0, 0, 0.3)",
+    },
+  };
+
   useEffect(() => {
     if (isSubmitSuccessful) {
       reset();
@@ -123,58 +133,87 @@ function Form() {
           </div>
         </div>
 
-        <div className={styles.form__date}>
-          <div className={styles}>
-            <label
-              className={`${styles} ${styles["form__label--firstName"]}`}
-              htmlFor="dob"
-            >
-              Vas datum rodjenja
-            </label>
+        <div className={styles.form__birth}>
+          <div className={styles.form__date}>
+            <div className={styles}>
+              <label
+                className={`${styles.form__label} ${styles["form__label--dob"]}`}
+                htmlFor="dob"
+              >
+                Vaš datum rodjenja
+              </label>
 
-            <input
-              className={`${styles.form__input} ${styles["form__input--firstName"]}`}
-              type="date"
-              id="dob"
-              {...register("dob", {
-                valueAsDate: true,
-                required: {
-                  value: true,
-                  message: "Vaš datum rođenja je obavezan.",
-                },
-              })}
-            />
-            <p className={styles.error}>{errors.dob?.message}</p>
+              <input
+                className={`${styles.form__input} ${styles["form__input--dob"]}`}
+                type="date"
+                id="dob"
+                {...register("dob", {
+                  valueAsDate: true,
+                  required: {
+                    value: true,
+                    message: "Vaš datum rođenja je obavezan.",
+                  },
+                })}
+              />
+              <p className={styles.error}>{errors.dob?.message}</p>
+            </div>
           </div>
-        </div>
 
-        <div className={styles.form__gender}>
-          <input
-            type="radio"
-            id="male"
-            value="male"
-            {...register("gender", {
-              required: {
-                value: true,
-                message: "Ovo polje je obavezno.",
-              },
-            })}
-          />
-          <label htmlFor="male">Male</label>
+          <div>
+            <div
+              className={`${styles.form__label} ${styles["form__label--firstName"]}`}
+            >
+              Pol
+            </div>
+            <div className={styles.form__gender}>
+              <label
+                className={`${styles["form__label-radio"]} ${styles["form__label-radio--male"]}`}
+                htmlFor="male"
+              >
+                <input
+                  className={`${styles["form__input-radio"]} ${styles["form__input-radio--male"]}`}
+                  type="radio"
+                  id="male"
+                  value="male"
+                  {...register("gender", {
+                    required: {
+                      value: true,
+                      message: "Ovo polje je obavezno.",
+                    },
+                  })}
+                />
+                Muško
+                <span
+                  className={`${styles["form__input-span"]} ${styles["form__input-span--male"]}`}
+                  htmlFor="male"
+                ></span>{" "}
+              </label>
 
-          <input
-            type="radio"
-            id="female"
-            value="female"
-            {...register("gender", {
-              required: {
-                value: true,
-                message: "Ovo polje je obavezno.",
-              },
-            })}
-          />
-          <label htmlFor="female">Female</label>
-          <p className={styles.error}>{errors.gender?.message}</p>
+              <label
+                className={`${styles["form__label-radio"]} ${styles["form__label-radio--female"]}`}
+                htmlFor="female"
+              >
+                <input
+                  type="radio"
+                  id="female"
+                  value="female"
+                  className={`${styles["form__input-radio"]} ${styles["form__input-radio--female"]}`}
+                  {...register("gender", {
+                    required: {
+                      value: true,
+                      message: "Ovo polje je obavezno.",
+                    },
+                  })}
+                />
+                Žensko
+                <span
+                  className={`${styles["form__input-span"]} ${styles["form__input-span--female"]}`}
+                ></span>{" "}
+              </label>
+
+              <p className={styles.error}>{errors.gender?.message}</p>
+            </div>
+          </div>
         </div>
 
         <div className={styles.form__email}>
@@ -214,8 +253,12 @@ function Form() {
         </div>
 
         <div className={styles.form__phone}>
-          <label htmlFor="phone">Vaš telefon</label>
+          <label className={styles.form__label} htmlFor="phone">
+            Vaš telefon
+          </label>
           <PhoneInput
+            containerStyle={phoneInputStyle.container}
+            inputStyle={phoneInputStyle.input}
             id="phone"
             country="rs"
             type="tel"
@@ -227,37 +270,63 @@ function Form() {
         </div>
 
         <div className={styles.form__company}>
-          <label htmlFor="yes">Da</label>
-          <input
-            type="radio"
-            id="yes"
-            value="yes"
-            {...register("company.isCompany", {
-              required: {
-                value: true,
-                message: "Ovaj unos je obavezan.",
-              },
-            })}
-          />
-          <label htmlFor="no">Ne</label>
-          <input
-            type="radio"
-            id="no"
-            value="no"
-            {...register("company.isCompany", {
-              required: {
-                value: true,
-                message: "Ovaj unos je obavezan.",
-              },
-            })}
-          />
-          <p className={styles.error}>{errors.company?.isCompany?.message}</p>
+          <div
+            className={`${styles["form__label-radio"]} ${styles["form__label-radio--company"]}`}
+          >
+            Da li ste aktivno pravno lice
+          </div>
+          <div>
+            <label
+              className={`${styles["form__label-radio"]} ${styles["form__label-radio--male"]}`}
+              htmlFor="yes"
+            >
+              <input
+                type="radio"
+                id="yes"
+                value="yes"
+                {...register("company.isCompany", {
+                  required: {
+                    value: true,
+                    message: "Ovaj unos je obavezan.",
+                  },
+                })}
+              />
+              Da
+              <span
+                className={`${styles["form__input-span"]} ${styles["form__input-span--male"]}`}
+              ></span>
+            </label>
+
+            <label
+              className={`${styles["form__label-radio"]} ${styles["form__label-radio--female"]}`}
+              htmlFor="no"
+            >
+              <input
+                type="radio"
+                id="no"
+                value="no"
+                {...register("company.isCompany", {
+                  required: {
+                    value: true,
+                    message: "Ovaj unos je obavezan.",
+                  },
+                })}
+              />
+              Ne
+              <span
+                className={`${styles["form__input-span"]} ${styles["form__input-span--male"]}`}
+              ></span>
+            </label>
+            <p className={styles.error}>{errors.company?.isCompany?.message}</p>
+          </div>
         </div>
 
         <div className={styles.form__companyName}>
-          <label htmlFor="companyName">Naziv firme</label>
+          <label className={styles.form__label} htmlFor="companyName">
+            Naziv firme
+          </label>
           <input
-            className={styles.form__input}
+            className={`${styles.form__input} ${styles["form__input--companyName"]}`}
             type="text"
             id="companyName"
             {...register("company.name", {
@@ -272,9 +341,11 @@ function Form() {
         </div>
 
         <div className={styles.form__companyID}>
-          <label htmlFor="companyID">Matični broj</label>
+          <label className={styles.form__label} htmlFor="companyID">
+            Matični broj
+          </label>
           <input
-            className={styles.form__input}
+            className={`${styles.form__input} ${styles["form__input--companyID"]}`}
             type="number"
             id="companyID"
             {...register("company.id", {
@@ -289,9 +360,11 @@ function Form() {
         </div>
 
         <div className={styles.form__companyTAX}>
-          <label htmlFor="companyTAX">PIB:</label>
+          <label className={styles.form__label} htmlFor="companyTAX">
+            PIB:
+          </label>
           <input
-            className={styles.form__input}
+            className={`${styles.form__input} ${styles["form__input--companyTAX"]}`}
             type="number"
             id="companyTAX"
             {...register("company.taxID", {

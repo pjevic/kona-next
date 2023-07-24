@@ -25,45 +25,180 @@
   &__lastName {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
-    width: 45%;
+
+    width: 46%;
+  }
+
+  &__birth {
+    display: flex;
+    gap: 8%;
+    align-items: flex-end;
   }
 
   &__date {
-    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 46%;
+  }
+  &__gender {
+    padding-bottom: 1rem;
+  }
+
+  &__email {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  &__company {
+    display: flex;
+    gap: 8%;
+  }
+
+  &__companyName {
     display: flex;
     flex-direction: column;
   }
 
-  &__gender {
-    margin-bottom: 3rem;
+  &__companyID {
+    display: flex;
+    flex-direction: column;
   }
 
+  &__companyTAX {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name,
+  &__birth,
   &__email,
   &__phone,
   &__company,
   &__companyName,
   &__companyID,
   &__companyTAX {
-    margin-bottom: 3rem;
+    margin-bottom: 1.8rem;
+  }
+
+  &__company {
+    margin-top: 5rem;
   }
 
   &__input {
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+    border-radius: 5px;
+    padding: 0.6rem;
+
+    &--dob {
+      width: 100%;
+    }
+
+    &--companyName {
+      width: 70%;
+    }
+
+    &--companyID {
+      width: 70%;
+    }
+
+    &--companyTAX {
+      width: 70%;
+    }
+  }
+
+  &__input-radio {
+    // display: none;
+
+    &__:checked + label {
+      transform: translate(-50%, -50%) scale(1);
+    }
   }
 
   &__label {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding-bottom: 0.8rem;
   }
 
-  &__date--label {
-  }
+  &__label-radio {
+    font-size: 1.4rem;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 3rem;
+    cursor: pointer;
 
-  &__date--input {
+    position: relative;
+
+    &--male {
+      margin-right: 1.6rem;
+    }
+
+    &--company {
+      padding-left: 0;
+      width: 46%;
+      gap: 8%;
+    }
+
+    input[type="radio"] {
+      display: none;
+
+      &:checked ~ span::after {
+        transform: translate(-50%, -50%) scale(1);
+      }
+    }
+
+    span {
+      width: 2rem;
+      height: 2rem;
+      border: 2px solid #6c63ff;
+      border-radius: 50%;
+
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      &::after {
+        content: "";
+        height: 1.2rem;
+        width: 1.2rem;
+        border-radius: 50%;
+        background-color: #6c63ff;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: ease-in-out 0.3s;
+      }
+    }
   }
 }
 
 .button {
   padding: 1rem 3rem;
+  font-size: 1.4rem;
+  // font-weight: 700;
+  letter-spacing: 1px;
+  width: 70%;
+  margin-top: 3rem;
+  background: $gradient-1;
+  transform: scale(1);
+  color: $white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease; // Add transition for smooth effect
+
+  &:hover {
+    transform: scale(1.025);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
 }
 
 .error {
