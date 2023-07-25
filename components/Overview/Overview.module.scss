@@ -1,3 +1,70 @@
 /** @format */
 
 @import "../../styles//variables.scss";
+
+.overview {
+  &__barline {
+    background: $gradient;
+    padding: 1.5rem 6rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  &__body {
+    padding: 6rem;
+    background: $gradient-4;
+  }
+
+  &__title {
+    // text-transform: uppercase;
+    color: #393e92;
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 6rem;
+    grid-column-gap: 6rem;
+  }
+
+  &__col1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  &__col2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  &__paragraph {
+    margin-bottom: 1.8rem;
+    line-height: 1.4;
+  }
+
+  &__list {
+    margin-bottom: 1.8rem;
+    padding-left: 3rem;
+  }
+
+  &__img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    align-self: end;
+    justify-self: center;
+  }
+
+  &__listItem {
+  }
+
+  &__btnsContainer {
+  }
+}

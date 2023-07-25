@@ -31,10 +31,10 @@ export default function Home() {
       <Section>
         <Cards />
       </Section>
-      {/* 
+
       <Section>
         <Overview />
-      </Section> */}
+      </Section>
 
       <Partners />
 
