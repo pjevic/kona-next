@@ -15,8 +15,10 @@ const cousine = Cousine({
 
 function Navigation() {
   return (
-    <header>
-      <nav className={styles.navigation}>
+    <header className={styles.navigation__container}>
+      {/* Desktop navigation */}
+
+      {/* <nav className={styles.navigation}>
         <div>
           <Link href="/">
             <Image
@@ -28,6 +30,7 @@ function Navigation() {
             />
           </Link>
         </div>
+
         <ul className={styles.navigation__links}>
           {data.map((link, index) => (
             <li key={index}>
@@ -45,7 +48,33 @@ function Navigation() {
             </li>
           ))}
         </ul>
-      </nav>
+      </nav> */}
+
+      {/* Mobile navigation */}
+      <div className={styles.mob}>
+        <input className={styles.mob__checkbox} type="checkbox" id="mob" />
+        <label className={styles.mob__button} htmlFor="mob">
+          <span className={styles.mob__icon}>&nbsp;</span>
+        </label>
+
+        <div className={styles.mob__background}>&nbsp;</div>
+
+        <nav className={styles.mob__nav}>
+          <ul className={styles.mob__list}>
+            {data.map((link, index) => (
+              <li key={index} className={styles.mob__item}>
+                <Link
+                  href={link.route}
+                  style={cousine.style}
+                  className={styles.mob__link}
+                >
+                  {link.rs}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }

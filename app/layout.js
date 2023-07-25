@@ -18,8 +18,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navigation />
-        {children}
-        <Footer />
+        {/* {children} */}
+        {/* <Footer /> */}
       </body>
     </html>
   );

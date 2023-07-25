@@ -6,6 +6,7 @@ $tertiary-color: #a92280;
 $white: #fff;
 
 $gradient: linear-gradient(to right, $primary-color, $secondary-color);
+$gradient-radial: radial-gradient($primary-color, $secondary-color);
 $gradient-1: linear-gradient(to right, #323f92, #5d358c);
 $gradient-2: linear-gradient(to right, #69328a, #922884);
 $gradient-3: linear-gradient(to right, #9d2582, #c51b7c);
