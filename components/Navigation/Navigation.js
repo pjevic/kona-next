@@ -15,11 +15,10 @@ const cousine = Cousine({
 
 function Navigation() {
   return (
-    <header className={styles.navigation__container}>
-      {/* Desktop navigation */}
-
-      {/* <nav className={styles.navigation}>
-        <div>
+    <header className={styles.container}>
+      <nav className={styles.navigation}>
+        {/* LOGO */}
+        <div className={styles["navigation__logo-container"]}>
           <Link href="/">
             <Image
               src="assets/imgs/logo/KONA-logo-whiteFill.svg"
@@ -31,15 +30,19 @@ function Navigation() {
           </Link>
         </div>
 
-        <ul className={styles.navigation__links}>
+        {/* DESKTOP */}
+        <ul className={styles.navigation__desktop}>
           {data.map((link, index) => (
-            <li key={index}>
+            <li
+              key={index}
+              className={styles["navigation__desktop--list-item"]}
+            >
               <Link
                 href={link.route}
                 style={cousine.style}
-                className={`${styles.navigation__link} ${
+                className={`${styles["navigation__desktop--link"]} ${
                   index === data.length - 1
-                    ? styles["navigation__link--ca"]
+                    ? styles["navigation__desktop--link-CA"]
                     : ""
                 }`}
               >
@@ -48,33 +51,40 @@ function Navigation() {
             </li>
           ))}
         </ul>
-      </nav> */}
 
-      {/* Mobile navigation */}
-      <div className={styles.mob}>
-        <input className={styles.mob__checkbox} type="checkbox" id="mob" />
-        <label className={styles.mob__button} htmlFor="mob">
-          <span className={styles.mob__icon}>&nbsp;</span>
-        </label>
+        {/* MOBILE  */}
+        <div className={styles.navigation__mobile}>
+          <input
+            className={styles["navigation__mobile--checkbox"]}
+            type="checkbox"
+            id="navigation__mobile"
+          />
+          <label
+            className={styles["navigation__mobile--button"]}
+            htmlFor="navigation__mobile"
+          >
+            <span className={styles["navigation__mobile--icon"]}>&nbsp;</span>
+          </label>
 
-        <div className={styles.mob__background}>&nbsp;</div>
+          <div className={styles["navigation__mobile--background"]}>&nbsp;</div>
 
-        <nav className={styles.mob__nav}>
-          <ul className={styles.mob__list}>
-            {data.map((link, index) => (
-              <li key={index} className={styles.mob__item}>
-                <Link
-                  href={link.route}
-                  style={cousine.style}
-                  className={styles.mob__link}
-                >
-                  {link.rs}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
+          <nav className={styles["navigation__mobile--nav"]}>
+            <ul className={styles["navigation__mobile--list"]}>
+              {data.map((link, index) => (
+                <li key={index} className={styles["navigation__mobile--item"]}>
+                  <Link
+                    href={link.route}
+                    style={cousine.style}
+                    className={styles["navigation__mobile--link"]}
+                  >
+                    {link.rs}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+      </nav>
     </header>
   );
 }
