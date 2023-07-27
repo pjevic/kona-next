@@ -24,25 +24,25 @@ export default function Home() {
         line3="Sve na jednom mestu"
       />
 
-      <Section>
+      {/* <Section>
         <Adviser />
-      </Section>
+      </Section> */}
 
-      <Section>
+      {/* <Section>
         <Cards />
-      </Section>
+      </Section> */}
 
-      <Section>
+      {/* <Section>
         <Overview />
-      </Section>
+      </Section> */}
 
-      <Partners />
+      {/* <Partners /> */}
 
-      <Section>
+      {/* <Section>
         <GradientBox>
           <Form />
         </GradientBox>
-      </Section>
+      </Section> */}
     </main>
   );
 }

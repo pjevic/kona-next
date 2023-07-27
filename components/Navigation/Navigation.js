@@ -1,6 +1,8 @@
 /** @format */
 
-import React from "react";
+"use client";
+
+import React, { useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -14,6 +16,16 @@ const cousine = Cousine({
 });
 
 function Navigation() {
+  const mobileCheckboxRef = useRef(null);
+
+  const handleMobileMenuClick = (event) => {
+    if (event.target.classList.contains(styles["navigation__mobile--link"])) {
+      if (mobileCheckboxRef.current) {
+        mobileCheckboxRef.current.checked = false;
+      }
+    }
+  };
+
   return (
     <header className={styles.container}>
       <nav className={styles.navigation}>
@@ -53,11 +65,15 @@ function Navigation() {
         </ul>
 
         {/* MOBILE  */}
-        <div className={styles.navigation__mobile}>
+        <div
+          className={styles.navigation__mobile}
+          onClick={handleMobileMenuClick}
+        >
           <input
             className={styles["navigation__mobile--checkbox"]}
             type="checkbox"
             id="navigation__mobile"
+            ref={mobileCheckboxRef}
           />
           <label
             className={styles["navigation__mobile--button"]}

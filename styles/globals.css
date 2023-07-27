@@ -18,6 +18,7 @@ body {
   height: 100vh;
   box-sizing: border-box;
   font-size: 1.6rem;
+  max-width: 172.8rem;
   margin: 0 auto;
 }
 
