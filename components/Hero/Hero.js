@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 
-import styles from "./HelloSection.module.scss";
+import styles from "./Hero.module.scss";
 import data from "./data.json";
 
 import { Cousine, DM_Serif_Display } from "next/font/google";
@@ -18,15 +18,15 @@ const cousine = Cousine({
   weight: ["400", "700"],
 });
 
-function HelloSection({ teaser, line1, line2, line3 }) {
+function Hero({ teaser, line1, line2, line3 }) {
   return (
-    <section className={styles.hello}>
-      <div className={styles.hello__textContainer}>
-        <span style={cousine.style} className={styles.hello__teaser}>
+    <section className={styles.hero}>
+      <div className={styles.hero__container}>
+        <span style={cousine.style} className={styles.hero__teaser}>
           {teaser}
         </span>
 
-        <h1 style={dmSerifDisplay.style} className={styles.hello__heading}>
+        <h1 style={dmSerifDisplay.style} className={styles.hero__heading}>
           {line1}
           <br />
           {line2}
@@ -35,16 +35,8 @@ function HelloSection({ teaser, line1, line2, line3 }) {
           <br />
         </h1>
       </div>
-
-      <Image
-        src="assets/imgs/waves/waves-hero-1728px.svg"
-        width={1728}
-        height={1022}
-        alt="waves"
-        priority
-      />
     </section>
   );
 }
 
-export default HelloSection;
+export default Hero;

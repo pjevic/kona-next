@@ -2,29 +2,24 @@
 @import "../../styles//variables.scss";
 
 .container {
+  background: linear-gradient(to right, $primary-color, $secondary-color);
   position: relative;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation {
-  background: linear-gradient(to right, $primary-color, $secondary-color);
+  width: 145rem;
   height: 8rem;
-  padding: 0 18.8rem;
+  padding: 0 8rem;
+  // background-color: antiquewhite;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  @media screen and (max-width: 1500px) {
-    padding: 0 16rem;
-  }
-
-  @media screen and (max-width: 1400px) {
-    padding: 0 13rem;
-  }
-
-  @media screen and (max-width: 1200px) {
-    padding: 0 9rem;
+  @media screen and (max-width: 1300px) {
+    padding: 0 7rem;
   }
 
   @media screen and (max-width: 1100px) {
@@ -32,14 +27,20 @@
   }
 
   @media screen and (max-width: 900px) {
+    padding: 0 5rem;
+  }
+
+  @media screen and (max-width: 700px) {
     padding: 0 4rem;
   }
 
-  @media screen and (max-width: 768px) {
-    padding: 0 3rem;
+  &__logo-container {
+    // background-color: aqua;
   }
 
-  &__logo-container {
+  &__logo {
+    max-height: 3.6rem;
+    width: 100%;
   }
 
   &__desktop {

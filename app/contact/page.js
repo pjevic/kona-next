@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import HelloSection from "@/components/HelloSection/HelloSection";
+import HelloSection from "@/components/Hero/Hero";
 
 function Contact() {
   return (

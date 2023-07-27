@@ -1,0 +1,76 @@
+/** @format */
+
+@import "../../styles//variables.scss";
+
+.hero {
+  background-image: url("/assets/imgs/waves/waves-hero-1728px.svg");
+  background-repeat: no-repeat;
+
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  @media screen and (max-width: 800px) {
+    background-image: url("/assets/imgs/waves/waves-hero-800px.svg");
+
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  &__container {
+    width: 145rem;
+    padding: 16rem 8rem;
+
+    @media screen and (max-width: 1300px) {
+      padding: 14rem 7rem;
+    }
+
+    @media screen and (max-width: 1100px) {
+      padding: 12rem 6rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      padding: 10rem 5rem;
+    }
+
+    @media screen and (max-width: 700px) {
+      padding: 12rem 4rem;
+    }
+  }
+
+  &__teaser {
+    color: #d2accf;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 1100px) {
+      font-size: 2rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__heading {
+    color: $white;
+    font-size: 4.8rem;
+    letter-spacing: 1.5px;
+    margin-top: 2.5rem;
+
+    @media screen and (max-width: 1100px) {
+      font-size: 3.6rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      font-size: 3.2rem;
+    }
+  }
+}

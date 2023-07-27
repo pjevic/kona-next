@@ -33,6 +33,7 @@ function Navigation() {
         <div className={styles["navigation__logo-container"]}>
           <Link href="/">
             <Image
+              className={styles.navigation__logo}
               src="assets/imgs/logo/KONA-logo-whiteFill.svg"
               alt="KO-NA logo"
               width={122}

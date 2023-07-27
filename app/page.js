@@ -2,7 +2,7 @@
 
 "use client";
 
-import HelloSection from "@/components/HelloSection/HelloSection";
+import Hero from "@/components/Hero/Hero";
 import Section from "@/components/Section/Section";
 import Adviser from "@/components/Adviser/Adviser";
 import Cards from "@/components/Cards/Cards";
@@ -17,7 +17,7 @@ import styles from "./page.module.scss";
 export default function Home() {
   return (
     <main>
-      <HelloSection
+      <Hero
         teaser="trideset godina"
         line1="Računovođa"
         line2="Carinski zastupnik"
