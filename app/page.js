@@ -2,9 +2,11 @@
 
 "use client";
 
+import { useState } from "react";
+
 import Hero from "@/components/Hero/Hero";
 import Section from "@/components/Section/Section";
-import Adviser from "@/components/Adviser/Adviser";
+import Advisor from "@/components/Advisor/Advisor";
 import Cards from "@/components/Cards/Cards";
 import Overview from "@/components/Overview/Overview";
 import Partners from "@/components/Partners/Partners";
@@ -24,21 +26,19 @@ export default function Home() {
         line3="Sve na jednom mestu"
       />
 
-      {/* <Section>
-        <Adviser />
-      </Section> */}
+      <Advisor />
 
       {/* <Section>
         <Cards />
-      </Section> */}
+      </Section>
 
-      {/* <Section>
+      <Section>
         <Overview />
-      </Section> */}
+      </Section>
 
-      {/* <Partners /> */}
+      <Partners />
 
-      {/* <Section>
+      <Section>
         <GradientBox>
           <Form />
         </GradientBox>

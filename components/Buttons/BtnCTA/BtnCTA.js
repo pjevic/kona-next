@@ -1,6 +1,8 @@
 /** @format */
 
 import React from "react";
+import Link from "next/link";
+
 import styles from "./BtnCTA.module.scss";
 import { Lato } from "next/font/google";
 
@@ -11,11 +13,13 @@ const lato = Lato({
 
 function BtnCTA() {
   return (
-    <button style={lato.style} className={styles.btn}>
-      <div className={styles.circle1}></div>
-      <div className={styles.circle2}></div>
-      kontakt
-    </button>
+    <Link href="contact">
+      <button style={lato.style} className={styles.btn}>
+        <div className={styles.circle1}></div>
+        <div className={styles.circle2}></div>
+        kontakt
+      </button>
+    </Link>
   );
 }
 

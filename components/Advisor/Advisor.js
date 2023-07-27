@@ -1,13 +1,13 @@
 /** @format */
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import BtnCTA from "../Buttons/BtnCTA/BtnCTA";
 import Btn from "../Buttons/Btn/Btn";
 import Smiljana from "../Smiljana/Smiljana";
 
 import data from "./data-SR.json";
-import styles from "./Adviser.module.scss";
+import styles from "./Advisor.module.scss";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
 
 const dmSans = DM_Sans({
@@ -20,23 +20,35 @@ const dmSerifDispaly = DM_Serif_Display({
   weight: ["400"],
 });
 
-function Adviser() {
+function Advisor() {
   const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    const screenHeight = window.screen.height;
+    if (screenHeight > 1022) {
+      const vhDifference = screenHeight - 1022;
+
+      const advisorElement = document.querySelector(`.${styles.advisor}`);
+      if (advisorElement) {
+        advisorElement.style.transform = `translateY(-${vhDifference}px)`;
+      }
+    }
+  }, []);
 
   function handleActive(i) {
     setActive(i);
   }
 
   return (
-    <div style={dmSans.style} className={styles.adviser}>
+    <div style={dmSans.style} className={styles.advisor}>
       <div
-        className={`${styles.adviser__container} ${styles["adviser__container--left"]}`}
+        className={`${styles.advisor__container} ${styles["advisor__container--left"]}`}
       >
-        <div className={styles.adviser__picker}>
+        <div className={styles.advisor__picker}>
           {data.map((advice, index) => (
             <div
               key={index}
-              className={`${styles.adviser__number} ${
+              className={`${styles.advisor__number} ${
                 active === index ? styles.active : ""
               }`}
               onClick={() => handleActive(index)}
@@ -46,23 +58,23 @@ function Adviser() {
           ))}
         </div>
 
-        <h2 style={dmSerifDispaly.style} className={styles.adviser__heading}>
+        <h2 style={dmSerifDispaly.style} className={styles.advisor__heading}>
           {data[active].heading}
         </h2>
 
         {data[active].text.map((p, i) => (
-          <p key={i} style={dmSans.style} className={styles.adviser__paragraph}>
+          <p key={i} style={dmSans.style} className={styles.advisor__paragraph}>
             {p}
           </p>
         ))}
-        <div className={styles.adviser__btns}>
+        <div className={styles.advisor__btns}>
           <BtnCTA />
-          <Btn>saznaj više</Btn>
+          <Btn href="services">saznaj više</Btn>
         </div>
       </div>
 
       <div
-        className={`${styles.adviser__container} ${styles["adviser__container--right"]}`}
+        className={`${styles.advisor__container} ${styles["advisor__container--right"]}`}
       >
         <Smiljana />
       </div>
@@ -70,4 +82,4 @@ function Adviser() {
   );
 }
 
-export default Adviser;
+export default Advisor;

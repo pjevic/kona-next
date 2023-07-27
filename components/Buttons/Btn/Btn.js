@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import Link from "next/link";
 import styles from "./Btn.module.scss";
 import { Lato } from "next/font/google";
 
@@ -9,11 +10,13 @@ const lato = Lato({
   weight: ["400", "700"],
 });
 
-function Btn({ children }) {
+function Btn({ children, href }) {
   return (
-    <button style={lato.style} className={styles.btn}>
-      {children}&nbsp;&nbsp; &rarr;
-    </button>
+    <Link href={href}>
+      <button style={lato.style} className={styles.btn}>
+        {children}&nbsp;&nbsp; &rarr;
+      </button>
+    </Link>
   );
 }
 

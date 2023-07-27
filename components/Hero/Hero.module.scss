@@ -10,7 +10,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 120vh;
 
   @media screen and (max-width: 800px) {
     background-image: url("/assets/imgs/waves/waves-hero-800px.svg");
@@ -21,12 +21,17 @@
     position: relative;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    // height: 100vh;
   }
 
   &__container {
+    display: block;
     width: 145rem;
     padding: 16rem 8rem;
+
+    // background-color: antiquewhite;
+    border: 3px soild black;
+    height: 1000px;
 
     @media screen and (max-width: 1300px) {
       padding: 14rem 7rem;
