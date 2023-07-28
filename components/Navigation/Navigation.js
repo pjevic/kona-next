@@ -2,7 +2,7 @@
 
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -18,6 +18,23 @@ const cousine = Cousine({
 function Navigation() {
   const mobileCheckboxRef = useRef(null);
 
+  const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const handleMobileMenuClick = (event) => {
     if (event.target.classList.contains(styles["navigation__mobile--link"])) {
       if (mobileCheckboxRef.current) {
@@ -27,12 +44,16 @@ function Navigation() {
   };
 
   return (
-    <header className={styles.container}>
+    <header
+      className={`${styles.container} ${
+        isSticky ? styles.containerSticky : ""
+      }`}
+    >
       <nav className={styles.navigation}>
-        {/* LOGO */}
         <div className={styles["navigation__logo-container"]}>
           <Link href="/">
             <Image
+              className={styles.navigation__logo}
               src="assets/imgs/logo/KONA-logo-whiteFill.svg"
               alt="KO-NA logo"
               width={122}
@@ -42,7 +63,6 @@ function Navigation() {
           </Link>
         </div>
 
-        {/* DESKTOP */}
         <ul className={styles.navigation__desktop}>
           {data.map((link, index) => (
             <li
@@ -64,7 +84,6 @@ function Navigation() {
           ))}
         </ul>
 
-        {/* MOBILE  */}
         <div
           className={styles.navigation__mobile}
           onClick={handleMobileMenuClick}

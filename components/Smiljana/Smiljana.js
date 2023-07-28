@@ -9,6 +9,7 @@ function Smiljana() {
   return (
     <div>
       <Image
+        className={styles.smiljana}
         src={"/assets/imgs/smiljana/smiljanaSimic-2x.png"}
         alt="Smiljana Simic"
         width={597}

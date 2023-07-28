@@ -4,14 +4,31 @@
 .container {
   background: linear-gradient(to right, $primary-color, $secondary-color);
   position: relative;
+  z-index: 100;
   display: flex;
   justify-content: center;
+
+  width: 100%; // Set width to 100% to span the full width of the viewport
+  max-width: 172.8rem; // Set a maximum width to limit the container size
+
+  // Center the container using margin: auto
+  margin-left: auto;
+  margin-right: auto;
+
+  &.containerSticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; // Set right to 0 to stick the container to the right side
+    background: linear-gradient(to right, $primary-color, $secondary-color);
+  }
 }
 
 .navigation {
   width: 145rem;
   height: 8rem;
   padding: 0 8rem;
+  // background-color: antiquewhite;
 
   display: flex;
   justify-content: space-between;
@@ -246,5 +263,15 @@
       top: 0;
       transform: rotate(-135deg);
     }
+  }
+
+  // New styles for sticky navigation
+  &.containerSticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, $primary-color, $secondary-color);
   }
 }

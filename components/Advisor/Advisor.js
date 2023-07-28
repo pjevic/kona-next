@@ -40,45 +40,47 @@ function Advisor() {
   }
 
   return (
-    <div style={dmSans.style} className={styles.advisor}>
-      <div
-        className={`${styles.advisor__container} ${styles["advisor__container--left"]}`}
-      >
-        <div className={styles.advisor__picker}>
-          {data.map((advice, index) => (
-            <div
-              key={index}
-              className={`${styles.advisor__number} ${
-                active === index ? styles.active : ""
-              }`}
-              onClick={() => handleActive(index)}
+    <section style={dmSans.style} className={styles.advisor}>
+      <div className={styles.advisor__container}>
+        <div className={styles["advisor__container--left"]}>
+          <div className={styles.advisor__picker}>
+            {data.map((advice, index) => (
+              <div
+                key={index}
+                className={`${styles.advisor__number} ${
+                  active === index ? styles.active : ""
+                }`}
+                onClick={() => handleActive(index)}
+              >
+                {advice.number}
+              </div>
+            ))}
+          </div>
+
+          <h2 style={dmSerifDispaly.style} className={styles.advisor__heading}>
+            {data[active].heading}
+          </h2>
+
+          {data[active].text.map((p, i) => (
+            <p
+              key={i}
+              style={dmSans.style}
+              className={styles.advisor__paragraph}
             >
-              {advice.number}
-            </div>
+              {p}
+            </p>
           ))}
+
+          <div className={styles.advisor__btns}>
+            <BtnCTA />
+            <Btn href="services">saznaj više</Btn>
+          </div>
         </div>
-
-        <h2 style={dmSerifDispaly.style} className={styles.advisor__heading}>
-          {data[active].heading}
-        </h2>
-
-        {data[active].text.map((p, i) => (
-          <p key={i} style={dmSans.style} className={styles.advisor__paragraph}>
-            {p}
-          </p>
-        ))}
-        <div className={styles.advisor__btns}>
-          <BtnCTA />
-          <Btn href="services">saznaj više</Btn>
+        <div className={styles["advisor__container--right"]}>
+          <Smiljana />
         </div>
       </div>
-
-      <div
-        className={`${styles.advisor__container} ${styles["advisor__container--right"]}`}
-      >
-        <Smiljana />
-      </div>
-    </div>
+    </section>
   );
 }
 
