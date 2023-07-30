@@ -25,8 +25,13 @@
       padding: 0 5rem;
     }
 
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+    }
+
     @media screen and (max-width: 700px) {
       padding: 10 4rem;
+      margin-top: -15rem;
     }
 
     &--left {
@@ -34,6 +39,14 @@
 
       @media screen and (max-width: 1500px) {
         width: 45%;
+      }
+
+      @media screen and (max-width: 800px) {
+        width: 80%;
+      }
+
+      @media screen and (max-width: 700px) {
+        width: 100%;
       }
     }
     &--right {
@@ -49,7 +62,16 @@
       }
 
       @media screen and (max-width: 900px) {
-        transform: translate(-2rem, 0rem);
+        transform: translate(-2rem, 0rem) scale(0.9);
+      }
+
+      @media screen and (max-width: 800px) {
+        width: 80%;
+      }
+
+      @media screen and (max-width: 700px) {
+        width: 100%;
+        transform: translate(-4rem, 0rem) scale(0.85);
       }
     }
   }
@@ -57,6 +79,10 @@
   &__picker {
     display: flex;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: 800px) {
+      margin-bottom: 2rem;
+    }
   }
 
   &__number {
@@ -71,6 +97,14 @@
 
     &:not(:last-child) {
       margin-right: 3rem;
+    }
+
+    @media screen and (max-width: 800px) {
+      padding: 0.6rem 0;
+      border-bottom: 2px solid transparent;
+
+      text-transform: uppercase;
+      font-size: 1.4rem;
     }
 
     &.active::after {
@@ -103,5 +137,8 @@
 
   &__btns {
     margin: 8rem 0;
+
+    @media screen and (max-width: 1000px) {
+    }
   }
 }

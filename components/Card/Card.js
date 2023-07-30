@@ -3,8 +3,9 @@
 // "use client";
 
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 import styles from "./Card.module.scss";
 import { DM_Serif_Display, DM_Sans } from "next/font/google";
@@ -67,6 +68,9 @@ export default function Card({
               </li>
             ))}
           </ul>
+          <button className={styles.card__btn}>
+            <Link href={link}>Saznaj više</Link>
+          </button>
         </div>
       </div>
     </div>

@@ -31,7 +31,7 @@
       "Konsultacije o poslovnim propisima"
     ],
 
-    "linkTo": "link"
+    "linkTo": "services"
   },
   {
     "icon1": {
@@ -58,7 +58,7 @@
       "Izrada finansijskih izveštaja",
       "Poresko savetovanje"
     ],
-    "linkTo": "link"
+    "linkTo": "services"
   },
   {
     "icon1": {
@@ -85,7 +85,7 @@
       "Računovdstvena kontrola i nadzor",
       "Poresko savetovanje"
     ],
-    "linkTo": "link"
+    "linkTo": "services"
   },
   {
     "icon1": {
@@ -111,7 +111,7 @@
       "Priprema dokumentacije za PDV inspekcije",
       "Izrada i podnošenje dokumentacije za pretežnog izvoznika"
     ],
-    "linkTo": "link"
+    "linkTo": "services"
   },
   {
     "icon1": {
@@ -134,10 +134,10 @@
       "Izrada normativnih akata",
       "Obračun, evidencija zarada i obustava",
       "Potvrde (ne)zaposlenim o isplaćenim zaradama i drugim primanjima",
-      "Savetovanje o poreskim olakšicama i benificijama",
+      "Poreske olakšice i beneficije",
       "Komunikacija sa nadležnim organima"
     ],
-    "linkTo": "link"
+    "linkTo": "services"
   },
   {
     "icon1": {
@@ -163,6 +163,6 @@
       "Izrada spoljnotrgovinskih ugovora i specifičnih za Lohn posao",
       "Carinsko savetovanje"
     ],
-    "linkTo": "link"
+    "linkTo": "services"
   }
 ]

@@ -25,20 +25,17 @@ export default function Home() {
         line2="Carinski zastupnik"
         line3="Sve na jednom mestu"
       />
-
       <Advisor />
 
+      <Cards />
+
       {/* <Section>
-        <Cards />
-      </Section>
-
-      <Section>
         <Overview />
-      </Section>
+      </Section> */}
 
-      <Partners />
+      {/* <Partners /> */}
 
-      <Section>
+      {/* <Section>
         <GradientBox>
           <Form />
         </GradientBox>

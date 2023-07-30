@@ -5,24 +5,28 @@
 .btn {
   position: relative;
   display: inline-block;
-  padding: 10px 60px 10px 35px;
-  width: 178px;
-  height: 39.5px;
+  padding: 1rem 6rem 1rem 3.5rem;
+  width: 17.8rem;
+  height: 3.95rem;
 
   background-color: $primary-color;
   color: $white;
   font-weight: 400;
   letter-spacing: 1px;
   border: none;
-  border-radius: 10px;
+  border-radius: 1rem;
   outline: none;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-transform: uppercase;
   cursor: pointer;
   transition: all 1s;
 
   transition: background-color 0.3s;
   overflow: hidden;
+
+  @media screen and (max-width: 1000px) {
+    width: 15.8rem;
+  }
 
   &:hover {
     background-color: $primary-color;
@@ -51,8 +55,8 @@
 
 .circle2 {
   position: absolute;
-  top: 8px;
-  right: -24px;
+  top: 0.8rem;
+  right: -2.4rem;
   transform: translate(80%, -50%);
   width: 120%;
   height: 200%;

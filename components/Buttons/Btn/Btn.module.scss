@@ -8,9 +8,9 @@
   font-weight: 700;
   letter-spacing: 1px;
   color: $primary-color;
-  width: 178px;
-  height: 39.5px;
-  border-radius: 10px;
+  width: 17.8rem;
+  height: 3.95rem;
+  border-radius: 1rem;
   border: 1px solid $primary-color;
   background-color: transparent;
   transition: all 0.4s;
@@ -18,5 +18,9 @@
   &:hover {
     background-color: rgba(233, 204, 238, 0.25);
     border: 1px solid transparent;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 15.8rem;
   }
 }

@@ -45,6 +45,10 @@ body {
   margin: 0 auto;
 }
 
+main {
+  max-width: 172.8rem;
+}
+
 /* h1,
 h2 {
   font-size: inherit;

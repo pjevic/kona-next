@@ -3,6 +3,30 @@
 @import "../../styles/variables.scss";
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 145rem;
+  padding: 12rem 8rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 4rem;
+  row-gap: 4rem;
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 8rem;
+    padding: 12rem 6rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    column-gap: 4rem;
+    padding: 12rem 4rem;
+  }
+
+  @media screen and (max-width: 700px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
 }
