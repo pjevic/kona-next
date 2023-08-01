@@ -33,7 +33,7 @@ export default function Home() {
         <Overview />
       </Section> */}
 
-      {/* <Partners /> */}
+      <Partners />
 
       {/* <Section>
         <GradientBox>

@@ -33,6 +33,13 @@ export default function Partners() {
           <div className={styles["partners__line--1"]}>
             {data.map(renderLogo)}
           </div>
+
+          <div className={styles["partners__line--1"]}>
+            {data.map(renderLogo)}
+          </div>
+          <div className={styles["partners__line--1"]}>
+            {data.map(renderLogo)}
+          </div>
         </div>
 
         <div className={styles.partners__line}>
