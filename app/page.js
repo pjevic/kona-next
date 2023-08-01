@@ -5,7 +5,6 @@
 import { useState } from "react";
 
 import Hero from "@/components/Hero/Hero";
-import Section from "@/components/Section/Section";
 import Advisor from "@/components/Advisor/Advisor";
 import Cards from "@/components/Cards/Cards";
 import Overview from "@/components/Overview/Overview";
@@ -30,13 +29,11 @@ export default function Home() {
       <Cards />
       <Overview />
 
-      <Partners />
+      {/* <Partners /> */}
 
-      {/* <Section>
-        <GradientBox>
-          <Form />
-        </GradientBox>
-      </Section> */}
+      <GradientBox>
+        <Form />
+      </GradientBox>
     </main>
   );
 }
