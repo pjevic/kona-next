@@ -23,18 +23,6 @@ const dmSerifDispaly = DM_Serif_Display({
 function Advisor() {
   const [active, setActive] = useState(0);
 
-  useEffect(() => {
-    const screenHeight = window.screen.height;
-    if (screenHeight > 1022) {
-      const vhDifference = screenHeight - 1022;
-
-      const advisorElement = document.querySelector(`.${styles.advisor}`);
-      if (advisorElement) {
-        advisorElement.style.transform = `translateY(-${vhDifference}px)`;
-      }
-    }
-  }, []);
-
   function handleActive(i) {
     setActive(i);
   }

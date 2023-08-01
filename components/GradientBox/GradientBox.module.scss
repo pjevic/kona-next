@@ -5,7 +5,8 @@
 .gradientBox {
   max-width: 145rem;
 
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+  margin-bottom: 18rem;
 
   @media screen and (max-width: 1500px) {
     margin: 0 5rem;
@@ -13,7 +14,6 @@
 
   @media screen and (max-width: 600px) {
     margin: 0 3rem;
-    margin-bottom: 16rem;
   }
 
   &__title {

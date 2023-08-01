@@ -24,23 +24,23 @@ export default function Home() {
         line2="Carinski zastupnik"
         line3="Sve na jednom mestu"
       />
-      {/* <Advisor />
+      <Advisor />
 
       <Cards />
-      <Overview /> */}
+      <Overview />
 
-      {/* <Partners /> */}
+      <Partners />
 
-      {/* <GradientBox>
+      <GradientBox>
         <Form />
-        <Image
+        {/* <Image
           className={styles.form__img}
           src={"/assets/imgs/form/form.svg"}
           width={517}
           height={776}
           alt="Women looking at form, illustration"
-        />
-      </GradientBox> */}
+        /> */}
+      </GradientBox>
     </main>
   );
 }
