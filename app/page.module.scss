@@ -8,3 +8,16 @@
   padding: 6rem;
   min-height: 100vh;
 }
+
+.form__img {
+  transform: scale(0.8);
+  align-self: self-end;
+
+  @media screen and (max-width: 1100px) {
+    transform: scale(0.7);
+  }
+
+  @media screen and (max-width: 1000px) {
+    transform: scale(0.5);
+  }
+}

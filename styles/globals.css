@@ -48,6 +48,7 @@ body {
 
 main {
   max-width: 172.8rem;
+  position: relative;
 }
 
 /* h1,

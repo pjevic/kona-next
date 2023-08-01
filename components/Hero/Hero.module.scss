@@ -1,58 +1,52 @@
 /** @format */
 
+// /** @format */
+
 @import "../../styles//variables.scss";
 
 .hero {
-  background-image: url("/assets/imgs/waves/waves-hero-1728px.svg");
-  background-repeat: no-repeat;
+  width: 100%;
 
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  height: 120vh;
-
-  @media screen and (max-width: 800px) {
-    background-image: url("/assets/imgs/waves/waves-hero-800px.svg");
-
-    background-repeat: no-repeat;
-
-    overflow: hidden;
-    position: relative;
-    display: flex;
+  &__image {
     width: 100%;
+    height: auto;
 
-    // height: 100vh;
+    @media screen and (max-width: 800px) {
+      content: url("/assets/imgs/waves/waves-hero-800px.svg");
+    }
+
+    @media screen and (max-width: 500px) {
+      content: url("/assets/imgs/waves/waves-hero-500px.svg");
+    }
   }
 
   &__container {
-    display: block;
-    width: 145rem;
-    padding: 16rem 8rem;
-    padding-bottom: 8rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 
-    // background-color: antiquewhite;
+    &--sub {
+      width: 100%;
+      max-width: 145rem;
+      margin: 0 auto;
+      padding: 16rem 8rem;
 
-    // height: 1000px;
+      @media screen and (max-width: 1200px) {
+        padding: 14rem 7rem;
+      }
 
-    @media screen and (max-width: 1450px) {
-      max-width: 100%;
-    }
+      @media screen and (max-width: 900px) {
+        padding: 12rem 6rem;
+      }
 
-    @media screen and (max-width: 1300px) {
-      padding: 14rem 7rem;
-    }
+      @media screen and (max-width: 700px) {
+        padding: 16rem 4rem;
+      }
 
-    @media screen and (max-width: 1100px) {
-      padding: 12rem 6rem;
-    }
-
-    @media screen and (max-width: 900px) {
-      padding: 10rem 5rem;
-    }
-
-    @media screen and (max-width: 700px) {
-      padding: 12rem 4rem;
+      @media screen and (max-width: 600px) {
+        padding: 12rem 4rem;
+      }
     }
   }
 
