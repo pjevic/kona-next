@@ -15,6 +15,14 @@ export default function Partners() {
     />
   );
 
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
   return (
     <div className={styles.partners}>
       <Image
@@ -28,7 +36,7 @@ export default function Partners() {
       <div className={styles.partners__box}>
         <div className={styles.partners__line}>
           <div className={styles["partners__line--1"]}>
-            {data.map(renderLogo)}
+            {shuffleArray(data).map(renderLogo)}
           </div>
           <div className={styles["partners__line--1"]}>
             {data.map(renderLogo)}
@@ -40,6 +48,24 @@ export default function Partners() {
             {data.map(renderLogo)}
           </div>
           <div className={styles["partners__line--2"]}>
+            {data.map(renderLogo)}
+          </div>
+        </div>
+
+        <div className={styles.partners__line}>
+          <div className={styles["partners__line--3"]}>
+            {shuffleArray(data).map(renderLogo)}
+          </div>
+          <div className={styles["partners__line--3"]}>
+            {shuffleArray(data).map(renderLogo)}
+          </div>
+        </div>
+
+        <div className={styles.partners__line}>
+          <div className={styles["partners__line--4"]}>
+            {data.map(renderLogo)}
+          </div>
+          <div className={styles["partners__line--4"]}>
             {data.map(renderLogo)}
           </div>
         </div>
