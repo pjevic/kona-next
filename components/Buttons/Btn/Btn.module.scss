@@ -3,17 +3,18 @@
 @import "../../../styles/variables.scss";
 
 .btn {
-  margin-left: 2rem;
+  // margin-left: 2rem;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.75px;
   color: $primary-color;
-  width: 17.8rem;
+  // width: 17.8rem;
   height: 3.95rem;
   border-radius: 1rem;
   border: 1px solid $primary-color;
   background-color: transparent;
   transition: all 0.4s;
+  padding: 0 2rem;
 
   &:hover {
     background-color: rgba(233, 204, 238, 0.25);
@@ -21,6 +22,6 @@
   }
 
   @media screen and (max-width: 1000px) {
-    width: 15.8rem;
+    // width: 15.8rem;
   }
 }

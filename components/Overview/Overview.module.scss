@@ -3,15 +3,57 @@
 @import "../../styles//variables.scss";
 
 .overview {
+  max-width: 145rem;
+  margin: 0 auto;
+  margin-bottom: 16rem;
+
+  @media screen and (max-width: 1500px) {
+    margin: 0 5rem auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 0 3rem auto;
+  }
+
   &__barline {
     background: $gradient;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 7rem;
     border-radius: 2rem 2rem 0 0;
+
+    @media screen and (max-width: 1200px) {
+      padding-left: 4rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding-left: 2rem;
+    }
+  }
+
+  &__logo {
+    max-height: 3.6rem;
+    transform: translateX(-0.5rem);
+
+    @media screen and (max-width: 600px) {
+      transform: scale(0.9) translateX(-1rem);
+    }
   }
 
   &__body {
-    padding: 6rem;
+    padding: 8rem;
+    padding-top: 6rem;
     background: $gradient-4;
+
+    @media screen and (max-width: 1200px) {
+      padding: 6rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      padding: 4rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      margin-bottom: 12rem;
+    }
   }
 
   &__title {
@@ -19,13 +61,26 @@
     color: #393e92;
     font-size: 3.6rem;
     margin-bottom: 3rem;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 3.2rem;
+      margin-bottom: 2.5rem;
+    }
   }
 
   &__text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr 6rem;
-    grid-column-gap: 6rem;
+    grid-template-rows: auto;
+    grid-column-gap: 8rem;
+
+    @media screen and (max-width: 1200px) {
+      grid-column-gap: 6rem;
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__col1 {
@@ -33,6 +88,13 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+
+    @media screen and (max-width: 800px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
   }
 
   &__col2 {
@@ -40,31 +102,86 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+
+    @media screen and (max-width: 800px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
   }
 
   &__paragraph {
     margin-bottom: 1.8rem;
-    line-height: 1.4;
+    line-height: 1.6;
   }
 
   &__list {
     margin-bottom: 1.8rem;
     padding-left: 3rem;
+    line-height: 1.7;
+    font-weight: 700;
   }
 
   &__img {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 4;
 
-    align-self: end;
+    align-self: start;
     justify-self: center;
+
+    width: 100%;
+    margin-top: 4rem;
+
+    @media screen and (max-width: 800px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+
+      width: 80%;
+      margin-bottom: 4rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: 90%;
+      margin-bottom: 2rem;
+      margin-top: 0rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
   }
 
   &__listItem {
   }
 
   &__btnsContainer {
+    margin-top: 5rem;
+    display: flex;
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 4;
+      grid-row-end: 5;
+
+      margin-top: 5rem;
+      flex-direction: row;
+    }
+
+    @media screen and (max-width: 450px) {
+      flex-direction: column;
+    }
   }
 }

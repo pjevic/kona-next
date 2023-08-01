@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { DM_Serif_Display } from "next/font/google";
+import { DM_Serif_Display, Lato } from "next/font/google";
 import BtnCTA from "../Buttons/BtnCTA/BtnCTA";
 import Btn from "../Buttons/Btn/Btn";
 
@@ -14,6 +14,11 @@ const dmSerifDisplay = DM_Serif_Display({
   weight: ["400"],
 });
 
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
 export default function Overview() {
   return (
     <div className={styles.overview}>
@@ -22,12 +27,12 @@ export default function Overview() {
           className={styles.overview__logo}
           width={129}
           height={33.75}
-          src={" /assets/imgs/logo/KONA-logo-whiteFill.svg"}
+          src={"/assets/imgs/logo/KONA-logo-whiteFill.svg"}
           alt="logo"
         />
       </div>
 
-      <div className={styles.overview__body}>
+      <div style={lato.style} className={styles.overview__body}>
         <h2 style={dmSerifDisplay.style} className={styles.overview__title}>
           {data.title}
         </h2>
@@ -72,8 +77,10 @@ export default function Overview() {
           />
 
           <div className={styles.overview__btnsContainer}>
-            <BtnCTA />
-            <Btn>saznaj više</Btn>
+            <BtnCTA className={styles.overview__btnCTA} />
+            <Btn className={styles.overview__btn} href={"about"}>
+              saznaj više
+            </Btn>
           </div>
         </div>
       </div>

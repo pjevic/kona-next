@@ -36,7 +36,7 @@ export default function Partners() {
       <div className={styles.partners__box}>
         <div className={styles.partners__line}>
           <div className={styles["partners__line--1"]}>
-            {shuffleArray(data).map(renderLogo)}
+            {data.map(renderLogo)}
           </div>
           <div className={styles["partners__line--1"]}>
             {data.map(renderLogo)}
@@ -54,10 +54,10 @@ export default function Partners() {
 
         <div className={styles.partners__line}>
           <div className={styles["partners__line--3"]}>
-            {shuffleArray(data).map(renderLogo)}
+            {data.map(renderLogo)}
           </div>
           <div className={styles["partners__line--3"]}>
-            {shuffleArray(data).map(renderLogo)}
+            {data.map(renderLogo)}
           </div>
         </div>
 

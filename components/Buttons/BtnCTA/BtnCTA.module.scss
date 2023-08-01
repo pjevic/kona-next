@@ -8,6 +8,7 @@
   padding: 1rem 6rem 1rem 3.5rem;
   width: 17.8rem;
   height: 3.95rem;
+  margin-right: 2rem;
 
   background-color: $primary-color;
   color: $white;
@@ -25,7 +26,11 @@
   overflow: hidden;
 
   @media screen and (max-width: 1000px) {
-    width: 15.8rem;
+    // width: 15.8rem;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-right: 1rem;
   }
 
   &:hover {

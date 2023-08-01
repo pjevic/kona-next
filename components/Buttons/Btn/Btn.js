@@ -14,7 +14,7 @@ function Btn({ children, href }) {
   return (
     <Link href={href}>
       <button style={lato.style} className={styles.btn}>
-        {children}&nbsp;&nbsp; &rarr;
+        {children}&nbsp; &rarr;
       </button>
     </Link>
   );

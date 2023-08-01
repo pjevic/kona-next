@@ -28,10 +28,7 @@ export default function Home() {
       <Advisor />
 
       <Cards />
-
-      {/* <Section>
-        <Overview />
-      </Section> */}
+      <Overview />
 
       <Partners />
 
