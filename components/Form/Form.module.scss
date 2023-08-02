@@ -71,6 +71,27 @@
     flex-direction: column;
   }
 
+  &__agreement {
+    &--label {
+      display: inline-block;
+      font-size: 1.4rem;
+      padding-bottom: 0.8rem;
+      margin-left: 1rem;
+    }
+
+    &--span {
+      color: $primary-color;
+      font-weight: 700;
+      transition: all 0.35s;
+      font-size: 1.4rem;
+      cursor: pointer;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+
   &__name,
   &__birth,
   &__email,
@@ -156,7 +177,6 @@
       border: 2px solid #6c63ff;
       border-radius: 50%;
 
-      display: block;
       position: absolute;
       top: 0;
       left: 0;
@@ -205,4 +225,78 @@
   color: red;
   font-size: 1.2rem;
   text-align: left;
+}
+
+.popup {
+  opacity: 0;
+  visibility: hidden;
+
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  overflow-y: auto;
+  z-index: 10000;
+  transition: ease-in-out 0.01s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &Active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @media screen and (max-width: 1000px) {
+    align-items: start;
+  }
+
+  &__container {
+    width: 80%;
+    background-color: $white;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    padding: 4rem;
+    margin: 4rem 0;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    color: $primary-color;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  &__subtitle {
+    color: $tertiary-color;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  &__paragraph {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  &__btn {
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background: $gradient-2;
+    color: $white;
+    align-self: center;
+    cursor: pointer;
+  }
 }

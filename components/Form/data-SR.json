@@ -1,3 +1,65 @@
 {
-  "title": "upoznajmo se"
+  "title": "upoznajmo se",
+  "agreement": {
+    "conditions": {
+      "title": "Uslovi korišćenja",
+      "description": "Korišćenjem ovog websajta, prihvatate sledeće uslove. Molimo vas da ih pažljivo pročitate pre nego što nastavite sa korišćenjem sajta.",
+      "condition": [
+        {
+          "title": "Prihvatljivo korišćenje",
+          "text": "Pristajete da ovaj websajt koristite isključivo u skladu sa zakonima i propisima. Obavezujete se da nećete koristiti ovaj sajt na način koji može ometati, oštetiti ili onesposobiti sajt ili njegovu funkcionalnost."
+        },
+        {
+          "title": "Prikupljanje ličnih podataka",
+          "text": "Kada koristite našu kontakt formu, prihvatate da pružite tačne i pouzdane informacije o sebi ili vašoj kompaniji. Prihvatate da vaši lični podaci budu obrađeni u skladu sa našom Politikom privatnosti."
+        },
+        {
+          "title": "Odgovornost korisnika",
+          "text": "Odgovorni ste za sadržaj i tačnost informacija koje pružate na ovom sajtu. Obavezujete se da nećete koristiti ovaj sajt u svrhu širenja neželjenih poruka (spam) ili bilo koje druge vrste zlonamernih aktivnosti."
+        },
+        {
+          "title": "Intelektualna svojina",
+          "text": "Svi sadržaji na ovom sajtu, uključujući tekstove, grafike, logotipe, ikone i ostali materijal, su vlasništvo KO-NA doo. Nije dozvoljeno kopiranje, reprodukcija, distribucija ili modifikacija sadržaja ovog sajta bez prethodnog pisanog odobrenja vlasnika."
+        },
+        {
+          "title": "Prekid pružanja usluge",
+          "text": "KO-NA DOO zadržava pravo da u bilo kom trenutku obustavi ili suspenduje pružanje usluge na ovom sajtu, iz bilo kog razloga, bez prethodne najave ili obaveštenja."
+        },
+        {
+          "title": "Izmena uslova korišćenja",
+          "text": "Ovi uslovi korišćenja mogu biti izmenjeni u bilo kom trenutku, i svaka promena će stupiti na snagu odmah po objavljivanju na ovom sajtu."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Politika privatnosti",
+      "description": "Naša Politika privatnosti opisuje kako prikupljamo, koristimo, otkrivamo i štitimo vaše lične podatke kada koristite ovaj websajt. Molimo vas da pažljivo pročitate ovu politiku kako biste bolje razumeli naše postupke u vezi sa vašim podacima.",
+      "content": [
+        {
+          "title": "Prikupljanje ličnih podataka",
+          "text": "Prilikom korišćenja naše kontakt forme, možemo prikupiti lične podatke kao što su vaše ime, prezime, email adresa, telefon, ime firme, matični broj i/ili PIB. Ove informacije prikupljamo isključivo u svrhu pružanja usluga knjigovodstvene agencije i odgovaranju na vaše upite."
+        },
+        {
+          "title": "Korišćenje ličnih podataka",
+          "text": "Vaše lične podatke koristimo kako bismo vam pružili tražene usluge, odgovorili na vaše upite i obezbedili relevantne informacije o našim uslugama. Vaši podaci se obrađuju u skladu sa važećim zakonima i koristimo ih samo u meri u kojoj je to neophodno za pružanje naših usluga."
+        },
+        {
+          "title": "Otkrivanje ličnih podataka",
+          "text": "Vaše lične podatke nećemo deliti, prodavati, ili prenositi trećim licima, osim u slučajevima kada je to neophodno za pružanje usluga koje ste zatražili ili kada smo zakonski obavezani da to učinimo."
+        },
+        {
+          "title": "Zaštita ličnih podataka",
+          "text": "Važno nam je da zaštitimo vaše lične podatke i preduzimamo odgovarajuće tehničke i organizacione mere kako bismo osigurali bezbednost vaših podataka od neovlašćenog pristupa, gubitka ili krađe."
+        },
+        {
+          "title": "Prava korisnika",
+          "text": "Imate pravo da pristupite, ispravite, ili obrišete svoje lične podatke koje smo prikupili, kao i da ograničite način na koji koristimo vaše podatke. Takođe, imate pravo da uložite prigovor na naš način obrade vaših podataka. Za ostvarivanje ovih prava, molimo vas da nas kontaktirate putem naših kontakt informacija."
+        },
+        {
+          "title": "Izmene Politike privatnosti",
+          "text": "Naša Politika privatnosti može biti povremeno izmenjena i svaka promena će biti objavljena na ovom sajtu. Molimo vas da redovno proveravate ovu politiku kako biste bili obavešteni o eventualnim izmenama."
+        }
+      ]
+    }
+  }
 }

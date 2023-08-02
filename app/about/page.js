@@ -2,12 +2,12 @@
 
 import React from "react";
 
-import HelloSection from "@/components/Hero/Hero";
+import Hero from "@/components/Hero/Hero";
 
 function About() {
   return (
     <div>
-      <HelloSection
+      <Hero
         teaser="stručnost koja deluje"
         line1="Vaša sigurna ruka"
         line2="za poslovne izazove"

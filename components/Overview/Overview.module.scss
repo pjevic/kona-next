@@ -32,6 +32,8 @@
   &__logo {
     max-height: 3.6rem;
     transform: translateX(-0.5rem);
+    height: auto;
+    width: auto;
 
     @media screen and (max-width: 600px) {
       transform: scale(0.9) translateX(-1rem);
@@ -133,6 +135,7 @@
     justify-self: center;
 
     width: 100%;
+    height: auto;
     margin-top: 4rem;
 
     @media screen and (max-width: 800px) {

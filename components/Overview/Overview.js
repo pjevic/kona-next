@@ -29,6 +29,7 @@ export default function Overview() {
           height={33.75}
           src={"/assets/imgs/logo/KONA-logo-whiteFill.svg"}
           alt="logo"
+          priority
         />
       </div>
 

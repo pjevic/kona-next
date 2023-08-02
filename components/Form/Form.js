@@ -3,10 +3,12 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { Cousine, Lato } from "next/font/google";
 import { DevTool } from "@hookform/devtools";
 import PhoneInput from "react-phone-input-2";
+import data from "./data-SR.json";
 
 import styles from "./Form.module.scss";
 import "react-phone-input-2/lib/style.css";
@@ -38,14 +40,16 @@ function Form() {
         id: "",
         taxID: "",
       },
+      agreement: "",
     },
     mode: "onTouched",
   });
 
   const [phoneNumber, setPhoneNumber] = useState("");
+  const [toggleAgreement, setToggleAgreement] = useState(false);
+  const [togglePrivacy, setTogglePrivacy] = useState(false);
 
   const { register, control, handleSubmit, formState, reset, watch } = form;
-
   const { errors, isDirty, isSubmitSuccessful } = formState;
 
   const onSubmit = (data) => {
@@ -53,10 +57,6 @@ function Form() {
     console.log("Form submmited", data);
 
     // here I can use "data" to post it on an API endpoint
-  };
-
-  const handlePhoneNumber = (value) => {
-    setPhoneNumber(value);
   };
 
   const isCompany = watch("company.isCompany") === "no";
@@ -69,6 +69,18 @@ function Form() {
       height: "3rem",
       border: "1px solid rgba(0, 0, 0, 0.3)",
     },
+  };
+
+  const handlePhoneNumber = (value) => {
+    setPhoneNumber(value);
+  };
+
+  const handleToggleAgreement = () => {
+    setToggleAgreement(!toggleAgreement);
+  };
+
+  const handleTogglePrivacy = () => {
+    setTogglePrivacy(!togglePrivacy);
   };
 
   useEffect(() => {
@@ -378,10 +390,97 @@ function Form() {
           <p className={styles.error}>{errors.company?.taxID?.message}</p>
         </div>
 
+        <div className={styles.form__agreement}>
+          <input
+            className={styles["form__agreement--input"]}
+            type="checkbox"
+            id="agreement"
+            {...register("agreement", {
+              required: {
+                value: true,
+                message:
+                  "Da biste nastavili, morate se složiti sa uslovima korišćenja i politikom privatnosti.",
+              },
+            })}
+          />
+          <label
+            className={styles["form__agreement--label"]}
+            htmlFor="agreement"
+          >
+            Da, slažem se sa &nbsp;
+          </label>
+          <span
+            className={styles["form__agreement--span"]}
+            onClick={handleToggleAgreement}
+          >
+            uslovima korišćenja
+          </span>{" "}
+          <span
+            className={styles["form__agreement--span"]}
+            onClick={handleTogglePrivacy}
+          >
+            i politikom privatnosti.
+          </span>
+          <p className={styles.error}>{errors.agreement?.message}</p>
+        </div>
+
         <button className={styles.button} disabled={!isDirty}>
           POSALJI
         </button>
       </form>
+
+      <div
+        className={`${styles.popup} ${
+          toggleAgreement ? styles.popupActive : ""
+        }`}
+      >
+        <div className={styles.popup__container}>
+          <h4 className={styles.popup__title}>
+            {data.agreement.conditions.title}
+          </h4>
+
+          <div className={styles.popup__paragraph}>
+            {data.agreement.conditions.description}
+          </div>
+
+          {data.agreement.conditions.condition.map((c, i) => (
+            <div key={i} className={styles.popup__box}>
+              <h5 className={styles.popup__subtitle}>{c.title}</h5>
+              <p className={styles.popup__paragraph}>{c.text}</p>
+            </div>
+          ))}
+
+          <button className={styles.popup__btn} onClick={handleToggleAgreement}>
+            zatvori
+          </button>
+        </div>
+      </div>
+
+      <div
+        className={`${styles.popup} ${togglePrivacy ? styles.popupActive : ""}`}
+      >
+        <div className={styles.popup__container}>
+          <h4 className={styles.popup__title}>
+            {data.agreement.privacy.title}
+          </h4>
+
+          <div className={styles.popup__paragraph}>
+            {data.agreement.privacy.description}
+          </div>
+
+          {data.agreement.privacy.content.map((c, i) => (
+            <div key={i} className={styles.popup__box}>
+              <h5 className={styles.popup__subtitle}>{c.title}</h5>
+              <p className={styles.popup__paragraph}>{c.text}</p>
+            </div>
+          ))}
+
+          <button className={styles.popup__btn} onClick={handleTogglePrivacy}>
+            zatvori
+          </button>
+        </div>
+      </div>
+
       <DevTool control={control} />
     </div>
   );
