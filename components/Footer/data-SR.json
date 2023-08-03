@@ -1,1 +1,54 @@
-{}
+{
+  "name": "KO-NA DOO",
+
+  "description": "Društvo za špediciju, računovodstveno-knjigovdstvene usluge, poslovne usluge i trgovinu KO-NA DOO Kikinda",
+
+  "MB": "08505322",
+
+  "PIB": "100509320",
+
+  "social": {
+    "linkedIn": {
+      "title": "LinkedIn",
+      "link": "/"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "link": "/"
+    }
+  },
+
+  "department": {
+    "dep1": {
+      "name": "Špedicija",
+      "address": "Oslobođenja 9",
+      "city": "23300 Kikinda",
+      "phone": "+381",
+      "phoneIcon": "/assets/imgs/icons/phone.svg",
+      "email": "spedicija@kona.rs",
+      "emailIcon": "/assets/imgs/icons/email.svg"
+    },
+
+    "dep2": {
+      "name": "Računovodstvo",
+      "address": "Trg srpskih dobrovoljaca 51/1",
+      "city": "23300 Kikinda",
+      "phone": "+381",
+      "phoneIcon": "/assets/imgs/icons/phone.svg",
+      "email": "računovodstvo@kona.rs",
+      "emailIcon": "/assets/imgs/icons/email.svg"
+    }
+  },
+
+  "services": {
+    "title": "Usluge",
+    "services": [
+      { "name": "Carinsko zastupanje", "link": "/" },
+      { "name": "Računovodstvene usluge", "link": "/" },
+      { "name": "Knjigovodstvene usluge", "link": "/" },
+      { "name": "Osnivanje firme", "link": "/" },
+      { "name": "Obračun PDV-a", "link": "/" },
+      { "name": "Obračun zarada", "link": "/" }
+    ]
+  }
+}

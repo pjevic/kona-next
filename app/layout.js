@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.style}>
         <Navigation />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
