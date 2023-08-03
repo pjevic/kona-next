@@ -4,7 +4,12 @@
 
 .about {
   &__section {
+    max-width: 145rem;
+    margin: 0 auto;
+    padding: 8rem;
   }
 
-
+  &__article-box {
+    width: 45%;
+  }
 }

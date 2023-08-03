@@ -1,8 +1,6 @@
 /** @format */
 
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 
 import Hero from "@/components/Hero/Hero";
 import Article from "@/components/Article/Article";
@@ -23,7 +21,17 @@ function About() {
         line3="i mogućnosti"
       />
       <section className={styles.about__section}>
-        <Article content={text1} />
+        <div className={styles["about__article-box"]}>
+          <Article content={text1} />
+        </div>
+
+        <div className={styles.about__imgs}></div>
+      </section>
+
+      <section className={styles.about__section}>
+        <div className={styles["about__article-box"]}>
+          <Article content={text2} />
+        </div>
 
         <div className={styles.about__imgs}></div>
       </section>

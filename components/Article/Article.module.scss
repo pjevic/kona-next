@@ -3,9 +3,6 @@
 @import "../../styles/variables.scss";
 
 .article {
-  margin-left: 8rem;
-  width: 50rem;
-
   &__teaser {
     color: $color-4;
     font-weight: 700;
@@ -34,6 +31,6 @@
   }
 
   &__btns {
-    margin-top: 5rem;
+    margin-top: 6rem;
   }
 }
