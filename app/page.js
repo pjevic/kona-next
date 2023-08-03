@@ -33,13 +33,13 @@ export default function Home() {
 
       <GradientBox>
         <Form />
-        {/* <Image
+        <Image
           className={styles.form__img}
           src={"/assets/imgs/form/form.svg"}
           width={517}
           height={776}
           alt="Women looking at form, illustration"
-        /> */}
+        />
       </GradientBox>
     </main>
   );

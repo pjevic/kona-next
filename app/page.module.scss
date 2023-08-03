@@ -1,23 +1,22 @@
 /** @format */
 
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
+// .main {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: 6rem;
+//   min-height: 100vh;
+// }
 
 .form__img {
   transform: scale(0.8);
   align-self: self-end;
+  justify-self: center;
+  width: 100%;
+  height: auto;
 
-  @media screen and (max-width: 1100px) {
-    transform: scale(0.7);
-  }
-
-  @media screen and (max-width: 1000px) {
-    transform: scale(0.5);
+  @media screen and (max-width: 900px) {
+    display: none;
   }
 }

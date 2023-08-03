@@ -5,9 +5,17 @@
 .form {
   background-color: $white;
   width: 100%;
-  // max-width: 604px;
+  max-width: 604px;
   padding: 6rem 6rem;
   border-radius: 2.5rem;
+
+  @media screen and (max-width: 600px) {
+    padding: 6rem 4rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    padding: 4rem 3rem;
+  }
 
   &__title {
     color: $tertiary-color;
@@ -19,6 +27,11 @@
   &__name {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 500px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
   }
 
   &__firstName,
@@ -27,12 +40,23 @@
     flex-direction: column;
 
     width: 46%;
+
+    @media screen and (max-width: 500px) {
+      flex-direction: column;
+      width: 100%;
+    }
   }
 
   &__birth {
     display: flex;
     gap: 8%;
     align-items: flex-end;
+
+    @media screen and (max-width: 500px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+    }
   }
 
   &__date {
@@ -40,7 +64,12 @@
     flex-direction: column;
     align-items: space-between;
     width: 46%;
+
+    @media screen and (max-width: 500px) {
+      flex-direction: flex;
+    }
   }
+
   &__gender {
     padding-bottom: 1rem;
   }
@@ -49,16 +78,27 @@
     display: flex;
     flex-direction: column;
     width: 70%;
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+    }
   }
 
   &__company {
     display: flex;
     gap: 8%;
+
+    @media screen and (max-width: 500px) {
+    }
   }
 
   &__companyName {
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+    }
   }
 
   &__companyID {
@@ -114,19 +154,30 @@
     padding: 0.6rem;
 
     &--dob {
-      width: 100%;
     }
 
     &--companyName {
       width: 70%;
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
     }
 
     &--companyID {
       width: 70%;
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
     }
 
     &--companyTAX {
       width: 70%;
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
     }
   }
 
@@ -239,7 +290,7 @@
   background-color: rgba(0, 0, 0, 0.85);
   overflow-y: auto;
   z-index: 10000;
-  transition: ease-in-out 0.01s;
+  transition: ease-in-out 0s;
 
   display: flex;
   align-items: center;

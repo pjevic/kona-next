@@ -48,6 +48,15 @@ function Form() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [toggleAgreement, setToggleAgreement] = useState(false);
   const [togglePrivacy, setTogglePrivacy] = useState(false);
+  const [phoneStyle, setPhoneStyle] = useState({
+    container: {},
+    input: {
+      fontSize: "1.4rem",
+      width: "70%",
+      height: "3.5rem",
+      border: "1px solid rgba(0, 0, 0, 0.3)",
+    },
+  });
 
   const { register, control, handleSubmit, formState, reset, watch } = form;
   const { errors, isDirty, isSubmitSuccessful } = formState;
@@ -61,18 +70,28 @@ function Form() {
 
   const isCompany = watch("company.isCompany") === "no";
 
-  const phoneInputStyle = {
-    container: {},
-    input: {
-      fontSize: "1.4rem",
-      width: "70%",
-      height: "3rem",
-      border: "1px solid rgba(0, 0, 0, 0.3)",
-    },
-  };
-
   const handlePhoneNumber = (value) => {
     setPhoneNumber(value);
+  };
+
+  const handleScreenChange = () => {
+    if (window.innerWidth < 500) {
+      setPhoneStyle((prevStyle) => ({
+        ...prevStyle,
+        input: {
+          ...prevStyle.input,
+          width: "100%",
+        },
+      }));
+    } else {
+      setPhoneStyle((prevStyle) => ({
+        ...prevStyle,
+        input: {
+          ...prevStyle.input,
+          width: "70%", // Restore the original width property (70%)
+        },
+      }));
+    }
   };
 
   const handleToggleAgreement = () => {
@@ -89,6 +108,16 @@ function Form() {
       setPhoneNumber("381");
     }
   }, [isSubmitSuccessful, reset]);
+
+  useEffect(() => {
+    handleScreenChange();
+
+    window.addEventListener("resize", handleScreenChange);
+
+    return () => {
+      window.removeEventListener("resize", handleScreenChange);
+    };
+  }, []);
 
   return (
     <div style={lato.style}>
@@ -269,8 +298,8 @@ function Form() {
             Vaš telefon
           </label>
           <PhoneInput
-            containerStyle={phoneInputStyle.container}
-            inputStyle={phoneInputStyle.input}
+            containerStyle={phoneStyle.container}
+            inputStyle={phoneStyle.input}
             id="phone"
             country="rs"
             type="tel"

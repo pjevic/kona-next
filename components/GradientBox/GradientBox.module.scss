@@ -6,7 +6,8 @@
   max-width: 145rem;
 
   margin: 0 auto;
-  margin-bottom: 18rem;
+
+  overflow: hidden;
 
   @media screen and (max-width: 1500px) {
     margin: 0 5rem;
@@ -46,11 +47,15 @@
       rgba(199, 26, 123, 0.66)
     );
     border-radius: 0 0 2.5rem 2.5rem;
-
+    margin-bottom: 18rem;
     padding: 6rem 8rem;
 
     display: grid;
     grid-template-columns: 50% 40%;
+
+    @media screen and (max-width: 1400px) {
+      grid-template-columns: 55% 40%;
+    }
 
     @media screen and (max-width: 1200px) {
       padding: 5rem 6rem;
@@ -60,10 +65,20 @@
     }
 
     @media screen and (max-width: 1000px) {
+      grid-template-columns: 65% 35%;
+    }
+
+    @media screen and (max-width: 900px) {
+      grid-template-columns: 1fr;
+    }
+
+    @media screen and (max-width: 600px) {
+      padding: 3rem 4rem;
+      padding-bottom: 6rem;
     }
 
     @media screen and (max-width: 500px) {
-      padding: 3rem 4rem;
+      padding: 4rem 3rem;
     }
   }
 }
