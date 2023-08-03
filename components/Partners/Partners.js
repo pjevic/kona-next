@@ -1,5 +1,7 @@
 /** @format */
 
+// "use client";
+
 import Image from "next/image";
 import data from "./data-SR.json";
 import styles from "./Partners.module.scss";
@@ -54,19 +56,19 @@ export default function Partners() {
 
         <div className={styles.partners__line}>
           <div className={styles["partners__line--3"]}>
-            {data.map(renderLogo)}
+            {shuffleArray(data).map(renderLogo)}
           </div>
           <div className={styles["partners__line--3"]}>
-            {data.map(renderLogo)}
+            {shuffleArray(data).map(renderLogo)}
           </div>
         </div>
 
         <div className={styles.partners__line}>
           <div className={styles["partners__line--4"]}>
-            {data.map(renderLogo)}
+            {shuffleArray(data).map(renderLogo)}
           </div>
           <div className={styles["partners__line--4"]}>
-            {data.map(renderLogo)}
+            {shuffleArray(data).map(renderLogo)}
           </div>
         </div>
       </div>
