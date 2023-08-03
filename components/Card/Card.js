@@ -57,7 +57,7 @@ export default function Card({
           ))}
         </div>
 
-        <div className={styles.card__back}>
+        <div style={dmSans.style} className={styles.card__back}>
           <CardLabel gradinet={gradient} icon1={icon1} title={title} />
 
           <ul className={styles.card__bullets}>
@@ -69,7 +69,9 @@ export default function Card({
             ))}
           </ul>
           <button className={styles.card__btn}>
-            <Link href={link}>Saznaj više</Link>
+            <Link className={styles.card__link} href={link}>
+              Saznaj više
+            </Link>
           </button>
         </div>
       </div>

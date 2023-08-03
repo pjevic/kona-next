@@ -15,4 +15,19 @@
     max-height: 62.37rem;
     max-width: 48.357rem;
   }
+
+  &__name {
+    color: $primary-color;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
+  &__title {
+    color: rgba(0, 0, 0, 0.33);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
