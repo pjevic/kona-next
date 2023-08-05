@@ -105,6 +105,15 @@ function Navigation() {
 
           <nav className={styles["navigation__mobile--nav"]}>
             <ul className={styles["navigation__mobile--list"]}>
+              <li className={styles["navigation__mobile--item"]}>
+                <Link
+                  href={"/"}
+                  style={cousine.style}
+                  className={styles["navigation__mobile--link"]}
+                >
+                  početna
+                </Link>
+              </li>
               {data.map((link, index) => (
                 <li key={index} className={styles["navigation__mobile--item"]}>
                   <Link

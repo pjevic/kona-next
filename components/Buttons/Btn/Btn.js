@@ -10,7 +10,7 @@ const lato = Lato({
   weight: ["400", "700"],
 });
 
-function Btn({ children, href }) {
+function Btn({ children, href, customStyle }) {
   return (
     <Link href={href}>
       <button style={lato.style} className={styles.btn}>
