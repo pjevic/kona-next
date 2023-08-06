@@ -11,13 +11,13 @@ const lato = Lato({
   weight: ["400", "700"],
 });
 
-function BtnCTA() {
+function BtnCTA({ href = "contact", text = "kontakt" }) {
   return (
-    <Link href="contact">
+    <Link href={href}>
       <button style={lato.style} className={styles.btn}>
         <div className={styles.circle1}></div>
         <div className={styles.circle2}></div>
-        kontakt
+        {text}
       </button>
     </Link>
   );

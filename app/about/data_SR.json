@@ -30,5 +30,38 @@
       "text": "partneri",
       "link": "partners"
     }
+  },
+
+  "blog": {
+    "barline": "prošrite svoje znanje uz naše informativne blogove",
+    "intro": {
+      "teaser": "informativno i relevantno",
+      "title": "Blogovi koji razotkrivaju stručnost i inspirišu poslvoni uspeh",
+      "text": "Dobrodošli u naš inspirativni svet poslovnog znanja i ideja. Naš blog je mesto gde se susreću stručnost i inovacija, pružajući vam dublji uvid u ključne poslovne teme. Sa pažljivo istraženim i stručno napisanim člancima, nudimo vam korisne savete, analize industrije i perspektive koje će vam pomoći da se suočite sa izazovima, otkrijete nove mogućnosti i unapredite svoje poslovanje. ",
+      "btn": {
+        "text": "naš blog",
+        "link": "blog"
+      }
+    },
+    "preview": [
+      {
+        "teaser": "carinske preferencijalne tarife",
+        "title": "Kako iskoristiti povlastice pri međunarodnoj trgovini",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris nec purus condimentum semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla eu purus vitae tortor dictum faucibus. Curabitur pellentesque odio a metus posuere tempus. Aliquam erat volutpat. Cras et magna eu ante rutrum finibus. Nullam euismod neque ac enim ultrices, non posuere erat malesuada.",
+        "button": {
+          "text": "saznaj više",
+          "link": "blog"
+        }
+      },
+      {
+        "teaser": "elektronske fakture u praksi",
+        "title": "Praktičan vodič za elektronske fakture",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mauris nec purus condimentum semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla eu purus vitae tortor dictum faucibus. Curabitur pellentesque odio a metus posuere tempus. Aliquam erat volutpat. Cras et magna eu ante rutrum finibus. Nullam euismod neque ac enim ultrices, non posuere erat malesuad.",
+        "button": {
+          "text": "saznaj više",
+          "link": "blog"
+        }
+      }
+    ]
   }
 }
