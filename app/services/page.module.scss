@@ -1,0 +1,37 @@
+/** @format */
+@import "../../styles//variables.scss";
+
+.services {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 130rem;
+  margin: 6rem auto;
+
+  // background-color: violet;
+
+  &__container {
+    &--accordion {
+      width: 34rem;
+    }
+    &--article {
+    }
+    &--feature {
+    }
+  }
+
+  &__article {
+    &--teaser {
+    }
+    &--heading {
+    }
+    &--text {
+    }
+  }
+
+  &__article-img {
+  }
+
+  &__feature {
+  }
+}

@@ -1,0 +1,1094 @@
+{
+  "title": "usluge",
+  "services": [
+    {
+      "service": "Osnivanje firme",
+      "imgPath": "./imgPath",
+      "subService": [
+        {
+          "name": "Izrada biznis plana",
+          "teaser": "Osnivanje firme",
+          "title": "Izrada biznis plana",
+          "text": [
+            "Da li ste spremni da svoju poslovnu ideju podignete na viši nivo? Bez obzira da li planirate aplicirati za subvencije, poslovni kredit ili želite da uložite svoja sopstvena sredstva, izrada biznis plana je ključni korak koji ne smete preskočiti.",
+
+            "Razumemo koliko je važno imati dobro strukturiran i detaljan biznis plan kako biste obezbedili uspeh svog preduzeća. Evo nekoliko razloga zašto je izrada biznis plana od vitalnog značaja:",
+            [
+              {
+                "bold": "Jasnoća i fokus:",
+                "regular": "Izrada biznis plana vam pomaže da definišete svoje ciljeve, strategije i korake koje treba preduzeti kako biste ih ostvarili. On vam omogućava da jasno sagledate šta je to što želite da postignete i kako ćete to postići."
+              },
+              {
+                "bold": "Finansijska projekcija:",
+                "regular": "Biznis plan vam omogućava da napravite detaljnu finansijsku projekciju koja pokazuje kako će se vaše preduzeće razvijati tokom vremena. Ovo uključuje projekciju prihoda, rashoda, profita, kao i procenu investicija i povrata uloženih sredstava."
+              },
+              {
+                "bold": "Uveravanje investitora i finansijskih institucija:",
+                "regular": "Ako planirate aplicirati za subvencije, poslovni kredit ili privući investitore, dobro pripremljen biznis plan će vam biti od izuzetne važnosti. On će vam omogućiti da ubedljivo prezentujete svoju ideju i dokažete svoju sposobnost da ostvarite finansijski uspeh."
+              },
+              {
+                "bold": "Identifikacija potencijalnih rizika:",
+                "regular": "Izrada biznis plana vam omogućava da identifikujete potencijalne rizike i izazove koji mogu uticati na vaše poslovanje. Na taj način, možete unapred razviti strategije za njihovo rešavanje i minimizirati njihov uticaj na vaše preduzeće."
+              },
+              {
+                "bold": "Povećanje samopouzdanja:",
+                "regular": "Imajući sveobuhvatan biznis plan, osećaćete se sigurnije i samouverenije u vođenju svog preduzeća. To će vam pružiti jasnu viziju, ciljeve i strategije, čime ćete povećati šanse za uspeh."
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Priprema dokumentacije",
+          "teaser": "Osnivanje firme",
+          "title": "Priprema dokumentacije",
+          "text": [
+            "Priprema dokumentacije za osnivanje firme uključuje nekoliko koraka i specifičnih dokumenata koje je potrebno prikupiti i popuniti. Evo pregleda osnovnih koraka u procesu osnivanja firme u Srbiji:",
+            [
+              {
+                "bold": "Odabir pravne forme:",
+                "regular": "Prvi korak je odabir pravne forme vaše firme. Možete osnovati preduzetničku radnju, društvo sa ograničenom odgovornošću (DOO) ili akcionarsko društvo (AD). Ova odluka zavisi od vaših poslovnih potreba, kapitala i drugih faktora."
+              },
+              {
+                "bold": "Odabir imena firme:",
+                "regular": "Trebate odabrati ime za svoju firmu koje nije već registrovano i koje ispunjava pravne zahteve. Ime firme mora biti jedinstveno i ne sme biti uvredljivo ili zbunjujuće."
+              },
+              {
+                "bold": "Priprema osnivačkog akta:",
+                "regular": "Osnivački akt je osnovni dokument koji definiše strukturu i ciljeve vaše firme. Ukoliko osnivate DOO, osnivački akt je ugovor o osnivanju DOO. Ovaj dokument mora sadržati informacije o osnivačima, sedištu firme, delatnostima, osnovnom kapitalu i drugim relevantnim detaljima."
+              },
+              {
+                "bold": "Priprema statuta:",
+                "regular": "Statut je interni dokument koji definiše pravila funkcionisanja firme. U njemu se navode podaci o organima upravljanja, donošenju odluka, pravima i obavezama osnivača, itd. Statut mora biti usklađen sa zakonima Srbije.",
+                "bullets": [
+                  "Identifikacioni dokumenti osnivača (lična karta ili pasoš).",
+                  "Dokaz o prebivalištu osnivača.",
+                  "Potvrda o nekažnjavanju za osnivače.",
+                  "Dokaz o uplati osnovnog kapitala na poseban račun.",
+                  "Dokaz o vlasništvu nad poslovnim prostorom"
+                ]
+              },
+              {
+                "bold": "Prikupljanje potrebne dokumentacije:",
+                "regular": "Da biste osnovali firmu, morate prikupiti sledeću dokumentaciju:"
+              },
+              {
+                "bold": "Registracija firme:",
+                "regular": "Kada prikupite svu potrebnu dokumentaciju, trebate se obratiti Agenciji za privredne registre (APR) radi registracije vaše firme. Podnosite zahtev za registraciju, zajedno sa svim potrebnim dokumentima. Nakon pregleda vašeg zahteva, APR će izdati rešenje o registraciji firme."
+              },
+              {
+                "bold": "Naknadne registracije:",
+                "regular": "Nakon registracije firme, morate izvršiti određene naknadne registracije, kao što je prijava za porezni identifikacioni broj (PIB) i prijava zaposlenih."
+              }
+            ],
+            "Važno je napomenuti da su ovi koraci opšti smernice, i mogu se razlikovati u zavisnosti od specifičnih uslova i vrste poslovanja. Preporučuje se da se konsultujete sa pravnicima ili knjigovođama koji su upoznati sa zakonodavstvom i procedurama u Srbiji kako biste dobili tačne informacije i pravnu podršku prilikom osnivanja firme"
+          ]
+        },
+        {
+          "name": "Pravna forma",
+          "teaser": "osnivanje firme",
+          "title": "Savetovanje o pravnoj formi preduzeća",
+          "text": [
+            "Kada započinjete svoje poslovanje, jedno od važnih pitanja je odabir odgovarajuće pravne forme preduzeća. U Srbiji, najčešće opcije su preduzetnik i društvo sa ograničenom odgovornošću (DOO). Važno je da pravilno procenite svoje potrebe i ciljeve kako biste doneli informisane odluke.",
+            "Preduzetnik je fizičko lice koji posluje pod sopstvenim imenom i odgovara neograničeno za obaveze preduzeća svom svojom imovinom. Ova opcija je jednostavna za pokretanje i ima manje administrativnih obaveza. Međutim, važno je imati na umu da preduzetnik i njegovo preduzeće nisu pravno odvojeni entiteti, što znači da preduzetnik lično odgovara za dugove preduzeća.",
+            [
+              {
+                "bold": "",
+                "regular": "Preduzetnik paušalac"
+              },
+              {
+                "bold": "",
+                "regular": "Preduzenik sa samooporezivanjem stvarnog prihoda"
+              },
+              {
+                "bold": "",
+                "regular": "Preduzetnik sa isplatom zarade"
+              }
+            ],
+            [
+              {
+                "bold": "",
+                "regular": "Freelancer"
+              },
+              {
+                "bold": "",
+                "regular": "Poljoprivredni preduzetnik"
+              },
+              {
+                "bold": "",
+                "regular": "Samostalni umetnik"
+              }
+            ],
+            "Društvo sa ograničenom odgovornošću (DOO) je pravno odvojen entitet od vlasnika. Vlasnici DOO-a, koji se nazivaju članovi, imaju ograničenu odgovornost prema obavezama preduzeća, što znači da su njihova lična imovina i poslovni kapital odvojeni. Ova opcija pruža veću sigurnost vlasnicima, ali takođe zahteva određene administrativne i zakonske obaveze.",
+            "Prilikom donošenja odluke, važno je razmotriti faktore kao što su vaša očekivana veličina preduzeća, vrsta poslovanja, potencijalni rizici, poreske implikacije i fleksibilnost u upravljanju. Takođe, trebali biste se konsultovati sa stručnim pravnim savetnikom ili računovođom kako biste dobili detaljnije informacije i prilagođene savete.",
+            "Uz pravno savetovanje, možete doneti informisanu odluku o pravnoj formi preduzeća koja najbolje odgovara vašim potrebama. Bez obzira da li se odlučite za preduzetnika ili DOO, važno je biti upoznat sa zakonskim zahtevima i redovno vršiti administrativne obaveze kako biste održavali legalnost i uspešnost vašeg poslovanja."
+          ]
+        },
+        {
+          "name": "Registracija preduzeća",
+          "teaser": "osnivanje firme",
+          "title": "Podrška pri registraciji preduzeća",
+          "text": [
+            "Registracija preduzeća u Srbiji je ključni korak ka uspešnom poslovanju. Naša agencija je tu da vam pruži stručnu podršku i olakša ceo proces.",
+            "Naš tim iskusnih knjigovođa će vam pomoći da odaberete najpogodniju pravnu formu za vaše preduzeće. Bez obzira da li se odlučite za preduzetnika ili društvo sa ograničenom odgovornošću (DOO), mi ćemo vam pružiti sve potrebne informacije i savete kako biste doneli najbolju odluku za vaše poslovanje.",
+            "Registracija preduzeća zahteva pažljivo pripremljenu dokumentaciju. Naš stručni tim će vam pomoći da pripremite sve potrebne dokumente, uključujući osnivački akt, statut, ugovore i potvrde o uplati osnovnog kapitala. Mi znamo koliko je važno da sve bude pravilno i precizno popunjeno, kako biste izbegli nepotrebne probleme i zadržali se na pravom putu.",
+            "Poreska registracija je još jedan važan korak u procesu. Naši stručnjaci će vas uputiti kroz sve porezne obaveze i procedure registracije kod Poreske uprave. Bilo da je u pitanju prijava PDV-a, porez na dobit ili porez na zarade, mi ćemo se pobrinuti da sve bude u skladu sa zakonom i da izbegnete moguće probleme.",
+            "U saradnji sa Agencijom za privredne registre, pratimo proces registracije vašeg preduzeća. Sedište, ime preduzeća, vlasnici - sve ove informacije moraju biti tačno i pravilno upisane. Naša agencija će se pobrinuti da sve bude u skladu sa propisima i da vaše preduzeće bude pravno zaštićeno.",
+            "Pored toga, pružamo podršku i u vezi sa socijalnim osiguranjem. Informisaćemo vas o svim obavezama u vezi sa prijavom radnika i uplatom doprinosa za socijalno osiguranje. Naš cilj je da vam olakšamo administrativne obaveze i da se fokusirate na vaše poslovanje.",
+            "U \"KO-NA\" agenciji, pratimo sve zakonske promene i obaveze kako biste vi bili uvek u skladu sa propisima. Naš tim redovno prati promene u zakonodavstvu i pruža vam sve potrebne informacije kako biste se pravovremeno prilagodili."
+          ]
+        },
+        {
+          "name": "Porezi i doprinosi",
+          "teaser": "osnivanje firme",
+          "title": "Porezi i doprinosi",
+          "text": [
+            "KO-NA kao pruža sveobuhvatne usluge u vezi sa poreskim obavezama i doprinosima u Srbiji.",
+            "Porezi i doprinosi igraju ključnu ulogu i predstavljaju neizostavni deo vašeg poslovnog okruženja. Razumemo kompleksnost ovih pitanja i pružamo stručno vođenje kako biste bili usklađeni sa svim poreskim propisima.",
+            "Naša agencija je specijalizovana za vođenje poreskih evidencija, izračunavanje poreske osnovice i pripremu poreskih prijava. Pružamo detaljna uputstva u vezi sa ključnim porezima i doprinosima koji su relevantni za vaše poslovanje.",
+            "Jedan od najvažnijih poreza je porez na dobit koji se odnosi na prihode ostvarene od vaših poslovnih aktivnosti. Naši stručnjaci će vam pružiti stručno vođenje u vezi sa propisima i uputstva kako biste ispunili sve obaveze vezane za porez na dobit.",
+            "Pored toga, PDV (Porez na dodatu vrednost) je takođe bitan aspekt poslovanja koji zahteva posebnu pažnju. Naš tim će vam pružiti stručno savetovanje o PDV propisima, registraciji, prijavljivanju PDV-a, obračunu poreza i ispunjavanju PDV prijava.",
+            "Takođe, u KO-NA agenciji smo stručno obučeni za sve aspekte poreza na zarade. Pružamo podršku u vezi sa obračunom zarada, obračunom poreza na zarade, prijavljivanjem zaposlenih i uplatom poreza.",
+            "Uz to, pružamo i sveobuhvatno vođenje u vezi sa doprinosima za socijalno osiguranje, kao što su doprinosi za penzijsko i invalidsko osiguranje, zdravstveno osiguranje i osiguranje od nezaposlenosti. Naši stručnjaci će vam pružiti precizne informacije i smernice u vezi sa prijavom radnika i ispunjavanjem obaveza vezanih za doprinose.",
+            "U KO-NA agenciji verujemo u pružanje visokokvalitetnih usluga i tačnost u poreskim obavezama i doprinosima. Naš tim stručnjaka je obučen i upoznat sa svim relevantnim propisima i pravilima."
+          ]
+        },
+        {
+          "name": "Poslovni račun",
+          "teaser": "osnivanje firme",
+          "title": "Otvaranje poslovnog računa",
+          "text": [
+            "Poslovni račun ima izuzetnu važnost jer omogućava efikasno poslovanje, olakšava finansijske transakcije i pruža fleksibilnost u upravljanju finansijama.",
+            "Poslovni račun u dinarima omogućava vam da vodite transakcije u lokalnoj valuti i olakšava saradnju sa domaćim partnerima. Kroz ovaj račun, možete primati uplate od kupaca, izvršavati plaćanja dobavljačima i redovno pratiti tokove novca u vašem poslovanju. Takođe, otvaranje poslovnog računa u dinarima je neophodno za ispunjavanje poreskih i zakonskih obaveza u Srbiji.",
+            "Sa druge strane, poslovni račun u devizama je ključan za međunarodno poslovanje. Kroz ovaj račun, možete vršiti transakcije u stranoj valuti, primati uplate od inostranih klijenata i obavljati plaćanja prema inostranim dobavljačima. Ovo je posebno važno ukoliko se vaše preduzeće bavi izvozom ili ima međunarodne poslovne partnere.",
+            "Prilikom odabira banke za otvaranje poslovnog računa, važno je uzeti u obzir nekoliko faktora. Prvo, trebali biste proveriti reputaciju banke i njen položaj na tržištu. Banke sa dobrim ugledom i stabilnim finansijskim statusom pružaju veću sigurnost i pouzdanost u upravljanju vašim finansijama.",
+            "Takođe, obratite pažnju na usluge koje banke pružaju uz poslovni račun. Proverite da li banke nude elektronsko bankarstvo, mobilno bankarstvo i druge praktične opcije koje će vam olakšati upravljanje računom. Takođe, proverite provizije i naknade koje banke naplaćuju za transakcije i druge usluge kako biste izabrali najekonomičniju opciju za vaše poslovanje.",
+            "KO-NA pruža sveobuhvatno savetovanje u vezi sa otvaranjem poslovnog računa. Naši tim će vam pomoći da razumete proces otvaranja računa, pružiti vam informacije o relevantnim dokumentima i zahtevima, kao i pružiti smernice pri odabiru banke. Naša stručnost i iskustvo u ovom području će vam omogućiti da donesete informisane odluke i otvorite poslovni račun koji najbolje odgovara potrebama vašeg preduzeća."
+          ]
+        },
+        {
+          "name": "Poslovni propisi",
+          "teaser": "osnivanje firme",
+          "title": "Konsultacije o poslovnim propisima",
+          "text": [
+            "U okviru naše knjigovodstvene agencije KO-NA, nudimo vam izuzetno vrednu uslugu konsultacija o poslovnim propisima u Srbiji. Poslovni propisi igraju ključnu ulogu u regulisanju načina poslovanja i pružaju osnovu za transparentnost, odgovornost i usklađenost sa zakonskim zahtevima.",
+            "Naš stručni tim ima duboko razumevanje poslovnog okruženja i bogato iskustvo u tumačenju i primeni poslovnih propisa. Kroz naše konsultacije, pružamo vam sveobuhvatno razjašnjenje ključnih propisa koji su relevantni za vašu industriju i vrstu poslovanja.",
+            "Razumemo da je praćenje i razumevanje poslovnih propisa zahtevan zadatak koji zahteva detaljno istraživanje i analizu. Naš tim vam pruža stručne smernice i praktične savete kako biste se pridržavali zakona i regulativa. Bez obzira da li se radi o poreskim obavezama, radnom pravu, zaštiti potrošača ili drugim aspektima poslovanja, mi smo tu da vam pomognemo da razumete i primenite propise na najefikasniji način.",
+            "Konsultacije o poslovnim propisima su od suštinske važnosti za vašu organizaciju. Pravilno poštovanje propisa može vam pomoći da izbegnete finansijske rizike, kazne i reputacione probleme. Naša uloga je da vam pružimo stručnost i znanje kako biste mogli da upravljate poslovnim rizicima i osigurate usklađenost sa svim relevantnim propisima.",
+            "Pored pružanja konsultacija o poslovnim propisima, naš tim vam takođe može pomoći pri odabiru pravne forme preduzeća, izradi poslovnih ugovora i drugim pravnim pitanjima koja se odnose na vaše poslovanje. Naše savetovanje je prilagođeno vašim specifičnim potrebama i ciljevima, s ciljem da vam pružimo sveobuhvatnu podršku i unapredimo vaše poslovanje.",
+            "U KO-NA knjigovodstvenoj agenciji smo posvećeni vašem uspehu i radimo sa vama kao dugoročnim partnerom. Kontaktirajte nas danas i saznajte kako naše konsultacije o poslovnim propisima mogu pomoći u unapređenju vaše poslovne prakse i osigurati da vaše poslovanje bude u skladu sa svim relevantnim zakonima i regulativama."
+          ]
+        }
+      ]
+    },
+    {
+      "service": "Knjigovodstvo",
+      "imgPath": "./imgPath",
+      "subService": [
+        {
+          "name": "Finansijsko knjigovodstvo",
+          "teaser": "knjigovodstvo",
+          "title": "Finansijsko knjigovodstvo",
+          "text": [
+            "Pružamo pouzdanu podršku u vođenju vaših poslovnih knjiga.",
+            "U okviru naše knjigovodstvene agencije KO-NA, nudimo vam visokokvalitetnu uslugu finansijskog knjigovodstva. Kroz našu stručnost i posvećenost detaljima, obezbeđujemo tačnu, transparentnu i zakonito usaglašenu evidenciju vaših finansijskih podataka.",
+            "Glavna knjiga je osnova finansijskog knjigovodstva i sastoji se od dva odvojena dela - bilansne i vanbilansne evidencije. U skladu sa zakonskim regulativama, prilagođavamo glavnu knjigu vašim specifičnim potrebama. Ona sadrži račune utvrđene kontnim okvirom i omogućava sistematsko praćenje stanja i promena na imovini, obavezama, kapitalu, prihodima i rashodima. Na osnovu ovih podataka, sastavljamo finansijske izveštaje za bilansnu i vanbilansnu evidenciju.",
+            "Naša usluga finansijskog knjigovodstva takođe obuhvata analitičke evidencije. To podrazumeva precizno vođenje evidencije: ",
+            [
+              {
+                "bold": "finansijska sredstva:",
+                "regular": "dinarska i devizna novčana sredstva, potraživanja od kupaca, potraživanje po datim menicama i drugim hartijama od vrednosti, kreditima, itd."
+              },
+              {
+                "bold": "finansijske obaveze",
+                "regular": "obaveze za poreze i druge dadžbine po različitim kriterijumima"
+              },
+              {
+                "bold": "instrumenti kapitala ",
+                "regular": "udeli u kapitalu i drugi instrumenti kapitala, nerealizovani ili neisplaćeni dobici i nepkriveni gubivi, akcije, revalorizacione rezerve, itd."
+              }
+            ],
+            "Kroz sistematično praćenje ovih podataka, pružamo vam jasnu sliku o vašem finansijskom stanju i omogućavamo vam donošenje informisanih poslovnih odluka.",
+            "Pružamo podršku u knjiženju ulaznih i izlaznih faktura kako biste efikasno pratili svoje finansijske tokove. ",
+            "Takođe, vodimo pomoćne knjige subanalitičke evidencije koje prate vašu nematerijalnu i materijalnu imovinu, kao i obračun amortizacije osnovnih sredstava i kalkulativnog otpisa.",
+            "Naš tim stručnjaka sa dugogodišnjim iskustvom u oblasti finansijskog knjigovodstva obezbeđuje preciznost, tačnost i usaglašenost sa propisima prilikom vođenja vaših finansijskih evidencija. Kroz našu uslugu, osiguravamo da imate pravovremene i pouzdane informacije o finansijskom stanju vašeg preduzeća.",
+            "U KO-NA knjigovodstvenoj agenciji smo posvećeni vašem uspehu. Naše finansijsko knjigovodstvo pruža vam mir i sigurnost znajući da su vaše finansijske evidencije u stručnim rukama. Kontaktirajte nas danas i otkrijte kako naša usluga finansijskog knjigovodstva može unaprediti vaše poslovanje i obezbediti preciznost i zakonitu usaglašenost vaših finansijskih podataka."
+          ]
+        },
+        {
+          "name": "Knjigovodstv troškova i učinaka",
+          "teaser": "knjigovodstvo",
+          "title": "Knjigovodstvo troškova i učinaka",
+          "text": [
+            "Knjigovodstvo troškova i učinaka bilansnih i vanbilansnih predstavlja temeljnu i neizostavnu funkciju u svakom poslovanju. Upravljanje finansijskim aspektima vašeg preduzeća zahteva preciznu evidenciju, analizu i interpretaciju finansijskih podataka kako biste donosili informisane odluke i ostvarili uspeh u konkurentnom poslovnom okruženju.",
+            "U skladu s tim, naša knjigovodstvena agencija KO-NA pruža vrhunsku uslugu konsultacija u oblasti knjigovodstva troškova i učinaka. Naša stručnost, iskustvo i posvećenost omogućavaju nam da vam pružimo sveobuhvatnu podršku u upravljanju finansijskim aspektima vašeg poslovanja, osiguravajući vam pouzdane informacije i relevantne analize za donošenje ključnih odluka.",
+            "Naš tim visoko kvalifikovanih knjigovođa i finansijskih stručnjaka pažljivo će analizirati vaše poslovne transakcije, voditi preciznu evidenciju troškova i učinaka, te pružiti sveobuhvatne informacije o finansijskom stanju vašeg preduzeća. Kroz redovno ažuriranje i praćenje finansijskih podataka, omogućavamo vam da steknete jasan uvid u troškove poslovanja, identifikujete efikasne strategije smanjenja troškova, optimizujete resurse i povećate profitabilnost.",
+            "Naša usluga obuhvata vođenje glavne knjige, koja se sastoji od bilansne i vanbilansne evidencije, u skladu sa vašim specifičnim potrebama i zakonskim regulativama. Precizno knjiženje ulaznih i izlaznih faktura, praćenje finansijskih sredstava i obaveza, kao i obrada i praćenje plaćanja i naplata potraživanja, deo su našeg sveobuhvatnog pristupa finansijskom knjigovodstvu.",
+            "Dodatno, naša agencija pruža i usluge vođenja analitičkih evidencija, koje obuhvataju praćenje finansijskih sredstava, finansijskih obaveza i instrumenata kapitala. Ove analitičke evidencije omogućavaju vam dublji uvid u vaše poslovanje, identifikaciju ključnih faktora koji utiču na finansijski rezultat i omogućavaju vam donošenje informisanih odluka u vezi s vašom imovinom, obavezama i kapitalom",
+            "Uz našu podršku, možete biti sigurni da ćete imati precizne finansijske izveštaje, koji vam pružaju jasnu sliku o vašem poslovanju i omogućavaju vam da pratite svoje ciljeve, identifikujete trendove i prepoznate prilike za unapređenje. Naša stručnost u knjigovodstvu troškova i učinaka omogućava nam da vam pružimo dragocen uvid i strateške smernice za optimizaciju vašeg poslovanja i postizanje finansijske efikasnosti.",
+            "Kao knjigovodstvena agencija KO-NA, posvećeni smo pružanju vrhunske usluge i kvalitetnog savetovanja u oblasti finansijskog knjigovodstva. Naš tim stručnjaka će vas pažljivo saslušati, razumeti specifične zahteve vašeg poslovanja i pružiti vam personalizovana rešenja koja odgovaraju vašim potrebama.",
+            "Uz nas kao vašeg partnera za knjigovodstvo troškova i učinaka, možete biti sigurni da ćete imati pouzdane informacije, stručno vođenje finansijskih podataka i pravovremene analize. Kontaktirajte nas danas i dozvolite nam da vam pomognemo u ostvarivanju vaših finansijskih ciljeva i uspeha u poslovanju."
+          ]
+        },
+        {
+          "name": "Obračun PDV-a",
+          "teaser": "knjigovodstvo",
+          "title": "Obračun PDV-a",
+          "text": [
+            "Obračun PDV-a ili poreza na dodatu vrednost u Srbiji je jedan od važnih procesa u finansijskom knjigovodstvu koji zahteva pažnju i tačnost. PDV predstavlja poresku obavezu koju preduzeća moraju obračunavati i plaćati na svoje prodajne transakcije.",
+            "Uzimajući u obzir kompleksnost poreskih propisa i promene koje se dešavaju, obračunavanje PDV-a može biti izazovno za mnoge preduzetnike. U takvim situacijama, angažovanje stručne knjigovodstvene agencije poput naše može biti od ključne važnosti.",
+            "Naš tim iskusnih knjigovođa poseduje znanje i ekspertizu u oblasti PDV-a i pratećih propisa. Spremni smo da vam pružimo sveobuhvatnu podršku u obračunu PDV-a, kako biste mogli da se usredsredite na svoje osnovno poslovanje bez brige o poreskim obavezama.",
+            "Naš pristup obračunu PDV-a je pažljiv i sistematičan. Analiziramo vaše transakcije, pregledavamo ulazne i izlazne fakture, i osiguravamo da se PDV pravilno izračunava i evidentira. Takođe smo upućeni u važeće stope PDV-a za različite vrste proizvoda i usluga, čime se obezbeđuje tačnost vašeg obračuna.",
+            "Naš cilj je da vam pružimo profesionalnu podršku u svakom koraku obračuna PDV-a. Pomažemo vam u pripremi i podnošenju poreskih prijava, kao i u komunikaciji sa poreskim organima ukoliko se pojave pitanja ili zahtevi za dodatne informacije.",
+            "Verujemo da je kvalitetan obračun PDV-a ključan za finansijsku stabilnost vašeg preduzeća. Sa našim stručnim znanjem, možete biti sigurni da će vaš obračun PDV-a biti precizan, tačan i u skladu sa poreskim propisima."
+          ]
+        },
+        {
+          "name": "Obračun zarada",
+          "teaser": "knjigovodstvo",
+          "title": "Obračun zrada",
+          "text": [
+            "U efikasnom poslovanju svakog preduzeća, obračun zarada igra važnu ulogu kao jedan od vitalnih procesa. U skladu sa složenim poreskim propisima i zakonskim regulativama Republike Srbije, obračun zarada zahteva pažnju, preciznost i stručnost. U našoj knjigovodstvenoj agenciji KO-NA, posvećeni smo pružanju visokokvalitetnih usluga u oblasti obračuna zarada, uzimajući u obzir specifičnosti vašeg preduzeća i prateći najnovije zakonodavne promene.",
+            "Naš tim stručnjaka sa bogatim iskustvom u oblasti obračuna zarada pruža vam sveobuhvatnu podršku, vodeći računa o svim aspektima obračuna zarada, uključujući:",
+            [
+              {
+                "bold": "",
+                "regular": "Pravilan obračun bruto i neto zarada, uzimajući u obzir poreze, doprinose i ostale zakonske obaveze"
+              },
+              {
+                "bold": "",
+                "regular": "Evidenciju radnog vremena, godišnjeg odmora, bolovanja i drugih odsustava zaposlenih"
+              },
+              {
+                "bold": "",
+                "regular": "Pravovremeno podnošenje prijava i izveštaja nadležnim institucijama"
+              },
+              {
+                "bold": "",
+                "regular": "Praćenje i primena zakonskih promena u oblasti zarada"
+              },
+              {
+                "bold": "",
+                "regular": "Konsultacije i savetovanje u vezi sa zakonskim propisima i pravilima obračuna zarada."
+              }
+            ],
+            "Vaša prednost u saradnji sa nama je naša stručnost i up-to-date znanje o poreskim propisima i regulativama, što obezbeđuje pravilnost i tačnost obračuna zarada u skladu sa zakonskim zahtevima. Takođe, vodimo računa o zaštiti vaših podataka i pridržavamo se najviših standarda u oblasti poverljivosti.",
+            "Uvereni smo da će naša usluga obračuna zarada pružiti dodatnu sigurnost i olakšati vam poslovanje, omogućavajući vam da se fokusirate na ključne aspekte vašeg preduzeća. Slobodno nas kontaktirajte kako bismo razgovarali o vašim specifičnim potrebama i pružili vam personalizovanu uslugu prilagođenu vašem preduzeću.",
+            "Za pouzdan i stručan obračun zarada, uz podršku iskusnog tima, pouzdajte se u našu knjigovodstvenu agenciju KO-NA."
+          ]
+        },
+        {
+          "name": "Naplate i plaćanje preko računa",
+          "teaser": "knjigovodstvo",
+          "title": "Napalte i plaćanje preko računa",
+          "text": [
+            "Naplata i plaćanje predstavljaju vitalne aspekte svakog poslovanja, a efikasna uprava finansijskih tokova od ključne je važnosti za uspeh vašeg preduzeća. U knjigovodstvenoj agenciji KO-NA shvatamo važnost pravilne naplate i sigurnih plaćanja, posebno kada je reč o dinarskim i deviznim računima. Naša stručnost u ovim oblastima omogućava nam da vam pružimo kvalitetnu podršku i efikasno rešenje za vaše potrebe.",
+            "Kada je reč o naplati, naš stručni tim će vam pomoći u uspostavljanju efikasnog sistema naplate koji će obezbediti redovne i tačne prihode za vaše preduzeće. Uzimajući u obzir vaše specifične potrebe, pružamo savete o odabiru odgovarajućeg elektronskog sistema plaćanja koji će olakšati proces naplate i omogućiti vam da brzo i sigurno prihvatate plaćanja od vaših klijenata. Elektronsko plaćanje pruža brojne prednosti, uključujući brzinu, sigurnost i transparentnost, čime se smanjuje rizik od grešaka i gubitka podataka.",
+            "Kada je reč o plaćanjima preko dinarskih i deviznih računa, naša agencija pruža vam stručno vođenje i podršku. Naš tim će vam pomoći u odabiru odgovarajuće banke za otvaranje računa, uzimajući u obzir vaše specifične potrebe i zahteve. Obezbeđujemo da sva plaćanja budu obavljena u skladu sa zakonskim propisima i regulativama, pružajući vam sigurnost i transparentnost u finansijskim transakcijama.",
+            "Uz naše savetovanje i podršku, možete biti sigurni da ćete imati efikasan sistem naplate i pouzdane mehanizme za plaćanje. Pored toga, naša agencija vam pruža i stručne savete o optimizaciji troškova transakcija i smanjenju rizika.",
+            "U današnjem digitalnom dobu, elektronsko plaćanje postaje sve više dominantno i predstavlja brz, siguran i efikasan način poslovanja. Uz našu stručnost, možete iskoristiti sve prednosti elektronskog plaćanja i unaprediti svoje poslovanje.",
+            "Ukoliko želite pouzdanu i stručnu podršku u oblasti naplate i plaćanja preko dinarskih i deviznih računa, kao i implementaciju elektronskog plaćanja, obratite se knjigovodstvenoj agenciji KO-NA. Naš tim je tu da vam pomogne da ostvarite efikasno upravljanje finansijskim tokovima i postignete uspeh u poslovanju."
+          ]
+        },
+        {
+          "name": "Izrada finansijskih izveštaja",
+          "teaser": "knjigovodstvo",
+          "title": "Izrada finansijskih izveštaja",
+          "text": [
+            "Izrada finansijskih izveštaja je jedan od ključnih koraka u vođenju poslovnih knjiga i pruža vam sveobuhvatan uvid u finansijsko stanje i performanse vašeg preduzeća. U knjigovodstvenoj agenciji KO-NA, posvećeni smo pružanju visokokvalitetne usluge izrade finansijskih izveštaja, koja vam pomaže u donošenju informisanih odluka i postizanju vaših poslovnih ciljeva.",
+            "Naš stručni tim poseduje bogato iskustvo u izradi finansijskih izveštaja za različite vrste preduzeća, bez obzira na njihovu veličinu ili delatnost. Pružamo vam podršku u svim fazama ovog procesa, počevši od pripremnih radnji koje obuhvataju pažljivo usklađivanje analitičkih i subanalitičkih evidencija. Na taj način, osiguravamo tačnost i doslednost podataka koji će biti prikazani u finansijskim izveštajima.",
+            "Naš tim vodi računa o svakom detalju kako bi finansijski izveštaji bili kompletni i pouzdani. To uključuje donošenje odluke o popisu svih pozicija u bilansu stanja klijenta, gde se pridaje posebna pažnja imovini, zalihama, potraživanjima, obavezama i plasmanima. Pored toga, sprovodimo Izveštaj o popisu sa Odlukom o knjiženju popisnih razlika, što dodatno doprinosi integritetu finansijskih izveštaja.",
+            "Naša usluga izrade finansijskih izveštaja obuhvata i usaglašavanje s partnerima, kao što su kupci, dobavljači, banke i ostali relevantni subjekti. Održavanje dobrih poslovnih odnosa i saradnje s tim partnerima ključno je za osiguravanje tačnosti finansijskih informacija i pravilno izrađenih izveštaja. Naš tim stručnjaka vodi računa o svim relevantnim pravilnicima i propisima koji se odnose na računovodstvo i računovodstvene politike vašeg preduzeća, kako bismo obezbedili da se svi finansijski izveštaji pripremaju u skladu s njima.",
+            "Napredni softver i tehnološka rešenja koje koristimo omogućavaju nam efikasnu obradu podataka i pripremu finansijskih izveštaja u skladu sa vašim zahtevima i zakonskim propisima. Uz to, pružamo vam i periodične izveštaje koji su korisni za informisanje o finansijskom stanju vašeg preduzeća, kako za interne potrebe tako i za poslovne banke s kojima sarađujete.",
+            "Obrazci finansijskog izveštavanja koje koristimo prilagođeni su prema Zakonu o računovodstvu i zavise od veličine vašeg preduzeća i njegovog razvrstavanja. Naš tim vam pruža jasno i razumljivo tumačenje finansijskih izveštaja, kako biste mogli da donesete informisane odluke i postignete svoje poslovne ciljeve.",
+            "Usluga izrade finansijskih izveštaja u knjigovodstvenoj agenciji KO-NA pruža vam profesionalnost, preciznost i tačnost u procesu finansijskog izveštavanja. Neka naša stručnost i posvećenost pomognu vašem preduzeću da ostvari uspeh i izgradi stabilnu finansijsku poziciju."
+          ]
+        },
+        {
+          "name": "Poresko savetovanje",
+          "teaser": "knjigovodstvo",
+          "title": "Poresko savetovanje",
+          "text": [
+            "Poresko zakonodavstvo je kompleksno i podložno stalnim promenama, što može predstavljati izazov za vaše preduzeće. U knjigovodstvenoj agenciji KO-NA razumemo važnost pravilnog poreznog upravljanja i pružamo vam stručno poresko savetovanje kako biste ostvarili poresku usaglašenost, smanjili rizike i iskoristili potencijalne poreske pogodnosti.",
+            "Naš tim stručnjaka sa dubokim znanjem i iskustvom u poreskom zakonodavstvu pruža vam sveobuhvatnu podršku i savete u vezi sa poreznim pitanjima. Pomoći ćemo vam da razumete poreske propise koji se odnose na vaše poslovanje i pravilno primenjujete poreske odredbe kako biste izbegli potencijalne kazne i probleme sa poreskim organima.",
+            "Naša usluga poreskog savetovanja obuhvata analizu vašeg poslovanja i identifikaciju poreskih obaveza i pogodnosti. Na osnovu detaljne analize, pružićemo vam personalizovane savete o optimizaciji vašeg poreskog položaja. Ovo može uključivati identifikaciju poreskih olakšica, iskoristavanje poreskih podsticaja i preporuke za efikasno strukturiranje vaših poslovnih aktivnosti kako biste smanjili poreski teret.",
+            "Naš stručni tim će vam pružiti jasno i razumljivo objašnjenje poreskih zakona i njihovih implikacija na vaše poslovanje. Pružićemo vam smernice u vezi sa pravilnom pripremom poreskih prijava i izveštaja, kao i savete o vođenju poreskih evidencija i dokumentacije kako biste bili usklađeni sa poreskim zahtevima.",
+            "Poresko savetovanje koje pružamo takođe uključuje praćenje novih poreskih propisa i obaveštavanje o njihovim promenama. Redovno ćemo vas obaveštavati o novim propisima i njihovim uticajima na vaše poslovanje, kako biste bili unapred informisani i mogli pravovremeno reagovati.",
+            "Uz naše poresko savetovanje, možete imati mirnu savest da se vaše poslovanje odvija u skladu sa poreskim propisima i da ste maksimalno iskoristili poreske beneficije koje su vam na raspolaganju. Naš cilj je da vam pomognemo da ostvarite poresku efikasnost, minimizirate rizike i optimizujete vaše poslovanje.",
+            "Poverenje naših klijenata je od velike važnosti za nas, stoga smo posvećeni pružanju visokokvalitetnog poreskog savetovanja i ostvarivanju vaših poreskih ciljeva. Izaberite našu uslugu poreskog savetovanja i oslonite se na našu stručnost i iskustvo kako biste ostvarili poresku usaglašenost i unapredili svoje poslovanje."
+          ]
+        }
+      ]
+    },
+    {
+      "service": "Računovodstvo",
+      "imgPath": "./imgPath",
+      "subService": [
+        {
+          "name": "Planiranje",
+          "teaser": "računovodstvo",
+          "title": "Računovodstveno planiranje",
+          "text": [
+            "Računovodstveno planiranje ima značajnu ulogu u efikasnom upravljanju finansijama preduzeća. Ova važna aktivnost omogućava preduzeću da unapredi svoje finansijske performanse, identifikuje potencijalne rizike i prilike, te donosi informisane odluke za postizanje dugoročnog uspeha.",
+            "Glavni cilj računovodstvenog planiranja je predvideti finansijske rezultate preduzeća na osnovu analize prethodnih podataka i projekcija za budući period. Kroz pažljivu analizu prihoda, rashoda, troškova i ulaganja, preduzeće može identifikovati ključne oblasti za unapređenje, kao i potencijalne izvore uštede i povećanja prihoda.",
+            "Tokom procesa računovodstvenog planiranja, preduzeće se fokusira na postavljanje realnih i ostvarljivih finansijskih ciljeva, kao i na određivanje strategija za njihovo postizanje. Ovo uključuje izradu budžeta, koji predstavlja detaljan plan prihoda i rashoda za određeni period. Budžet omogućava preduzeću da prati svoje finansijske performanse, identifikuje odstupanja od plana i preduzme korektivne mere ukoliko je to potrebno.",
+            "Računovodstveno planiranje takođe uključuje praćenje ključnih finansijskih pokazatelja, poput profita, likvidnosti, zaduženosti i efikasnosti. Ovi pokazatelji pružaju uvid u finansijsko zdravlje preduzeća i omogućavaju menadžmentu da donese informisane odluke o poslovnim strategijama.",
+            "Pored toga, računovodstveno planiranje uključuje i izradu finansijskih izveštaja, kao što su bilans stanja, bilans uspeha i izveštaj o tokovima gotovine. Ovi izveštaji pružaju pregled finansijske situacije preduzeća i omogućavaju analizu performansi u odnosu na prethodne periode.",
+            "U okviru računovodstvenog planiranja, naš tim stručnjaka može vam pružiti sledeće usluge:",
+            [
+              {
+                "bold": "Analiza finansijskih podataka:",
+                "regular": "Detaljna analiza finansijskih podataka preduzeća kako bi se identifikovali ključni trendovi, performanse i oblasti za unapređenje."
+              },
+              {
+                "bold": "Izrada budžeta:",
+                "regular": "Kreiranje detaljnog budžeta koji obuhvata projekcije prihoda i rashoda za određeni period. Budžet omogućava praćenje ostvarenih rezultata i upravljanje troškovima i prihodima."
+              },
+              {
+                "bold": "Prognoze finansijskih rezultata:",
+                "regular": "Kroz analizu istorijskih podataka i relevantnih faktora, pružamo prognoze finansijskih rezultata kako biste mogli da planirate buduće aktivnosti i odluke."
+              },
+              {
+                "bold": "Identifikacija ključnih performansi:",
+                "regular": "Praćenje i analiza ključnih finansijskih pokazatelja poput profita, likvidnosti, zaduženosti i efikasnosti radi evaluacije performansi i upravljanja rizicima."
+              },
+              {
+                "bold": "Optimizacija troškova:",
+                "regular": "Analiza troškova i identifikacija potencijalnih ušteda i efikasnijih načina upravljanja troškovima u cilju povećanja profitabilnosti preduzeća."
+              },
+              {
+                "bold": "Finansijska analiza konkurencije:",
+                "regular": "Upoređivanje finansijskih performansi preduzeća sa konkurencijom kako biste stekli uvid u svoj položaj na tržištu i identifikovali prednosti i slabosti."
+              },
+              {
+                "bold": "Izrada finansijskih izveštaja:",
+                "regular": "Priprema tačnih i pouzdanih finansijskih izveštaja poput bilansa stanja, bilansa uspeha i izveštaja o tokovima gotovine kako biste imali celovit uvid u finansijsku situaciju preduzeća."
+              },
+              {
+                "bold": "Savetovanje za poslovne odluke:",
+                "regular": "Pružanje stručnog savetovanja i podrške pri donošenju ključnih poslovnih odluka zasnovanih na analizi finansijskih podataka i projekcijama."
+              }
+            ],
+            "Važno je istaći da je računovodstveno planiranje dinamičan proces koji zahteva redovno praćenje i ažuriranje u skladu sa promenama u poslovnom okruženju. To omogućava preduzeću da se prilagodi novim uslovima i efikasno reaguje na promene u tržištu i industriji.",
+            "Uzimajući u obzir sve ove faktore, može se zaključiti da računovodstveno planiranje ima ključnu ulogu u pružanju smernica za efikasno upravljanje finansijama preduzeća. Ova aktivnost omogućava preduzeću da ostvari svoje finansijske ciljeve, optimizuje troškove, poveća prihode i obezbedi dugoročnu održivost i uspeh.",
+            "Naša usluga računovodstvenog planiranja prilagođava se specifičnim potrebama vašeg preduzeća, pružajući vam sveobuhvatan uvid u finansijsko stanje i pomažući vam da ostvarite ciljeve i dugoročnu održivost."
+          ]
+        },
+        {
+          "name": "Organizovanje",
+          "teaser": "knjigovodstvo",
+          "title": "Organizovanje računovodstva",
+          "text": [
+            "Organizovanje računovodstva predstavlja ključni element u efikasnom poslovanju svakog preduzeća. Ova važna funkcija uključuje planiranje, organizaciju, vođenje i kontrolu finansijskih transakcija i informacija kako bi se obezbedila tačnost, pouzdanost i pravovremenost finansijskih izveštaja. Organizacija računovodstva igra ključnu ulogu u podržavanju odlučivanja na svim nivoima preduzeća i omogućava upravljanje finansijskim resursima na najbolji mogući način.",
+            "U okviru organizovanja računovodstva, naš stručni tim pruža sledeće usluge:",
+            [
+              {
+                "bold": "Definisanje sistema računovodstva:",
+                "regular": "Sastavni deo organizovanja računovodstva je definisanje sistema računovodstva koji odgovara specifičnim potrebama preduzeća. Ovo podrazumeva odabir odgovarajućih računovodstvenih principa, metoda i procedura kako bi se osigurala doslednost i usaglašenost u evidenciji finansijskih podataka."
+              },
+              {
+                "bold": "Strukturiranje računovodstvenog tima:",
+                "regular": "Organizacija računovodstva uključuje i strukturiranje računovodstvenog tima, određivanje nadležnosti i odgovornosti članova tima, kao i uspostavljanje efikasnog sistema komunikacije unutar tima i sa ostalim delovima preduzeća."
+              },
+              {
+                "bold": "Razvoj računovodstvenih politika:",
+                "regular": "Definisanje računovodstvenih politika je ključno za obezbeđivanje doslednosti i pravilnosti finansijskog izveštavanja. Naš tim pomaže u razvoju pravilnika o računovodstvu i računovodstvenim politikama koji su u skladu sa relevantnim standardima i propisima."
+              },
+              {
+                "bold": "Implementacija softverskih rešenja:",
+                "regular": "Efikasna organizacija računovodstva podrazumeva i korišćenje odgovarajućeg softverskog rešenja za vođenje računovodstvenih evidencija. Naš tim vam pomaže u odabiru i implementaciji adekvatnog softvera koji odgovara vašim specifičnim potrebama i olakšava procese računovodstva."
+              },
+              {
+                "bold": "Unutrašnje kontrole:",
+                "regular": " Organizovanje računovodstva uključuje i uspostavljanje odgovarajućih unutrašnjih kontrola kako bi se obezbedila tačnost, integritet i pouzdanost finansijskih podataka. Naš tim vam pomaže u identifikaciji ključnih kontrolnih tačaka i implementaciji sistema unutrašnjih kontrola."
+              }
+            ],
+            "U okviru naših usluga organizovanja računovodstva, nudimo i sledeće specifične usluge, odnosno izradu:",
+            [
+              {
+                "bold": "Pravilnik o računovodstvu i računovodstvenim politikama:",
+                "regular": "predstavlja temeljni dokument koji definiše pravila i procedure za vođenje računovodstva u vašem preduzeću. Naš tim stručnjaka će vam pomoći u izradi ovog pravilnika, uzimajući u obzir vaše specifične potrebe i usaglašenost sa relevantnim standardima."
+              },
+              {
+                "bold": "Pravilnika o popisu potraživanja i obaveza: ",
+                "regular": "popis potraživanja i obaveza je važan deo finansijskih izveštaja i ima značajan uticaj na tačnost bilansa stanja. Naš tim će vam pomoći u izradi Pravilnika o popisu potraživanja i obaveza, definišući postupke i rokove za sprovođenje popisa i usklađivanje knjigovodstvenog stanja sa stvarnim stanjem."
+              },
+              {
+                "bold": "Pravilnika o popisu i rokovima vršenja popisa",
+                "regular": "ključan dokument koji reguliše procese popisa imovine, zaliha, potraživanja, obaveza i drugih finansijskih pozicija. Naš tim će vam pomoći u izradi ovog pravilnika, prilagođavajući ga specifičnostima vašeg poslovanja i pravilima koja važe za vašu delatnost."
+              }
+            ],
+            "Organizacija računovodstva predstavlja temelj za kvalitetno finansijsko izveštavanje, adekvatno upravljanje finansijskim resursima i donošenje informisanih poslovnih odluka. Naša stručnost i iskustvo omogućavaju nam da pružimo sveobuhvatne usluge organizovanja računovodstva prilagođene potrebama vašeg preduzeća."
+          ]
+        },
+        {
+          "name": "Analiza",
+          "teaser": "računovodstvo",
+          "title": "Analiza poslovnih kretanja i uzroka promena u poslovanju",
+          "text": [
+            "Naš tim stručnjaka poseduje znanje i iskustvo u oblasti računovodstvene analize poslovnih kretanja i uzroka promena. Pružamo vam podršku u prikupljanju, analizi i interpretaciji finansijskih podataka, kako biste dobili celovitu sliku o stanju vašeg poslovanja. Naš cilj je da vam obezbedimo dragocene uvide i preporuke koje će vam pomoći u optimizaciji poslovanja i postizanju dugoročnog uspeha.",
+            "Analiza poslovnih kretanja i uzroka promena u poslovanju predstavlja važan deo računovodstvene analize koja pruža dublji uvid u finansijske rezultate i performanse preduzeća. Ova analiza ima za cilj identifikaciju ključnih faktora koji utiču na poslovanje i omogućava donošenje informisanih odluka.",
+            "Tokom analize poslovnih kretanja, vrši se detaljna procena finansijskih informacija preduzeća, uključujući prihode, troškove, profitabilnost, likvidnost, zaduženost i druge relevantne pokazatelje. Ova analiza obuhvata poređenje finansijskih podataka iz perioda u period, kao i upoređivanje sa konkurentima ili industrijskim standardima.",
+            "U okviru analize poslovnih kretanja, identifikuju se i proučavaju uzroci promena u poslovanju. To podrazumeva identifikaciju faktora koji su doprineli promenama u prihodima, troškovima, profitu ili drugim aspektima poslovanja. Uzroci mogu biti različiti, uključujući promene u tržišnom okruženju, strategiji preduzeća, operativnim procesima, zakonskim propisima ili drugim spoljnim i unutrašnjim faktorima.",
+            "U okviru naše usluge analize poslovnih kretanja i uzroka promena, nudimo sledeće:",
+            [
+              {
+                "bold": "Prikupljanje i obrada finansijskih podataka:",
+                "regular": "Naš tim stručnjaka će vam pomoći u prikupljanju relevantnih finansijskih podataka iz internih izvora, kao i u njihovoj obradi i organizaciji radi dalje analize. Ovo uključuje podatke o prihodima, troškovima, profitu, bilansu stanja, toku gotovine i drugim finansijskim pokazateljima."
+              },
+              {
+                "bold": "Analiza trendova:",
+                "regular": " Analiziramo finansijske podatke iz perioda u period kako bismo identifikovali ključne trendove u poslovanju. Ova analiza obuhvata poređenje prihoda, troškova, profitabilnosti i drugih pokazatelja iz prethodnih godina kako bismo identifikovali rastuće ili opadajuće trendove i njihove uzroke."
+              },
+              {
+                "bold": "Identifikacija ključnih faktora:",
+                "regular": " Analizom poslovnih kretanja identifikujemo ključne faktore koji su doprineli promenama u poslovanju. To može obuhvatiti analizu tržišnog okruženja, konkurencije, internih operativnih procesa, promena u zakonskim propisima ili drugim faktorima koji su uticali na finansijske rezultate."
+              },
+              {
+                "bold": "Izrada izveštaja i prezentacija rezultata:",
+                "regular": "Nakon analize, pripremamo detaljne izveštaje sa rezultatima i prezentujemo ih vama i vašem timu. Ovi izveštaji će vam pružiti jasnu sliku o finansijskim trendovima, identifikovanim uzrocima promena i preporukama za dalje akcije."
+              },
+              {
+                "bold": "Savetovanje i strategijsko planiranje:",
+                "regular": "Naš tim će vam pružiti stručno savetovanje i podršku u donošenju informisanih odluka za dalji razvoj vašeg poslovanja. Na osnovu rezultata analize, zajedno ćemo razmotriti moguće strategije, investicije, unapređenje operativnih procesa ili smanjenje troškova kako bismo ostvarili bolje finansijske rezultate."
+              },
+              {
+                "bold": "Praćenje i evaluacija:",
+                "regular": " Pomažemo vam u praćenju implementacije preporučenih mera i evaluaciji njihovih efekata na poslovanje. Redovno pratimo ključne pokazatelje performansi kako bismo osigurali da se postižu željeni rezultati i pravovremeno reagovali na eventualne promene."
+              }
+            ],
+            "Naša usluga analize poslovnih kretanja i uzroka promena pruža vam dragocene uvide u finansijsko stanje vašeg preduzeća i omogućava vam da donesete informisane odluke za dalje poslovanje. Naš stručni tim će vam pružiti podršku tokom celog procesa i obezbediti kvalitetne analitičke izveštaje i preporuke.",
+            "Računovodstvena analiza poslovnih kretanja i uzroka promena pruža dublji uvid u finansijske rezultate i omogućava prepoznavanje ključnih trendova, slabosti i mogućnosti za unapređenje poslovanja. Na osnovu ove analize, menadžment može prepoznati oblasti u kojima je potrebno preduzeti korake za poboljšanje performansi, kao i doneti informisane odluke o strategiji, investicijama, smanjenju troškova ili unapređenju operativnih procesa."
+          ]
+        },
+        {
+          "name": "Informisanje",
+          "teaser": "računovodstvo",
+          "title": "Računovodstveno informisanje",
+          "text": [
+            "Računovodstveno informisanje ima značajnu ulogu u praćenju finansijskog stanja i performansi preduzeća. Ono predstavlja proces prikupljanja, obrade i prezentacije finansijskih informacija koje omogućavaju donošenje odluka.",
+            "U okviru računovodstvenog informisanja, pružamo niz usluga koje obuhvataju:",
+            [
+              {
+                "bold": "Pripremu finansijskih izveštaja:",
+                "regular": "Izrađujemo bilans stanja, bilans uspeha, izveštaj o tokovima gotovine i druge finansijske izveštaje koji pružaju sveobuhvatan pregled finansijskog stanja preduzeća"
+              },
+              {
+                "bold": "Analizu finansijskih podataka:",
+                "regular": "Vršimo detaljnu analizu finansijskih informacija kako bismo identifikovali trendove, prepoznali rizike i pružili relevantne informacije menadžmentu i drugim zainteresovanim stranama."
+              },
+              {
+                "bold": "Budžetiranje i planiranje:",
+                "regular": "Pomažemo u izradi finansijskih planova i budžeta koji su usklađeni sa ciljevima preduzeća. Ovo omogućava praćenje ostvarenja ciljeva i pravovremeno prepoznavanje odstupanja."
+              },
+              {
+                "bold": "Poresko savetovanje:",
+                "regular": "Pružamo stručno savetovanje o poreskim aspektima poslovanja kako bismo osigurali da preduzeće deluje u skladu sa poreskim propisima i iskoristilo dostupne poreske olakšice."
+              },
+              {
+                "bold": "Izveštavanje za interne i eksterne potrebe:",
+                "regular": "Pripremamo izveštaje i informacije za interne potrebe menadžmenta i upravnog odbora, kao i za eksterne potrebe investitora, kreditora i regulatornih tela."
+              }
+            ],
+            "Kroz naše usluge računovodstvenog informisanja, obezbeđujemo tačne, pouzdane i relevantne finansijske informacije koje su ključne za donošenje informisanih poslovnih odluka i upravljanje preduzećem."
+          ]
+        },
+        {
+          "name": "Knjigovodstvo",
+          "teaser": "računovodstvo",
+          "title": "Knjigovodstvene usluge",
+          "text": [
+            "Računovodstvo je esencijalna disciplina koja pruža ključne informacije o finansijskom stanju i performansama poslovanja. Knjigovodstvo, kao važan deo računovodstva, se bavi tačnim vođenjem finansijskih zapisa i pruža relevantne informacije za donošenje informisanih odluka. U okviru naših knjigovodstvenih usluga, nudimo sledeće:",
+            [
+              {
+                "bold": "Finansijsko knjigovodstvo:",
+                "regular": "Precizno vođenje finansijskih evidencija, uključujući bilanse stanja, bilanse uspeha i novčane tokove. Pružamo tačne i pouzdane informacije o finansijskom položaju preduzeća kako biste mogli da pratite njegovu finansijsku stabilnost i rast."
+              },
+              {
+                "bold": "Knjigovodstvo troškova i učinaka:",
+                "regular": "Analiziranje i praćenje svih poslovnih troškova i učinaka radi efikasnog upravljanja finansijama. Pružamo detaljne informacije o troškovima preduzeća kako biste mogli da identifikujete oblasti za optimizaciju i poboljšanje poslovanja."
+              },
+              {
+                "bold": "Obračun PDV-a:",
+                "regular": "Precizan obračun i priprema poreskih prijava za PDV. Naš tim stručnjaka se brine o tačnom evidentiranju PDV transakcija i pridržavanju poreskih propisa, kako biste izbegli probleme i osigurali usklađenost sa zakonskim zahtevima."
+              },
+              {
+                "bold": "Obračun zarada: ",
+                "regular": "Efikasan obračun zarada za vaše zaposlene. Pružamo usluge obračuna zarada, uključujući evidenciju radnih sati, obračunavanje poreza i doprinosa, kao i izradu platnih listića, kako biste osigurali tačan i pravovremen isplatu zarada."
+              },
+              {
+                "bold": "Naplate i plaćanje preko dinarskih i deviznih računa:",
+                "regular": "Pružamo podršku u efikasnoj naplati potraživanja i upravljanju plaćanjima putem dinarskih i deviznih računa. Obezbeđujemo praćenje i evidentiranje transakcija kako biste imali jasan pregled svih prihoda i rashoda."
+              },
+              {
+                "bold": "Izrada finansijskih izveštaja:",
+                "regular": "Priprema detaljnih finansijskih izveštaja, kao što su bilans stanja, bilans uspeha i izveštaj o novčanim tokovima. Pružamo sveobuhvatne informacije o finansijskom stanju preduzeća i njegovim performansama kako biste mogli doneti informisane odluke."
+              },
+              {
+                "bold": "Poresko savetovanje:",
+                "regular": "Stručno savetovanje u vezi sa poreskim pitanjima i optimizacijom poreskihobaveza. Naš tim pruža informacije i smernice o poreskim propisima kako biste mogli da iskoristite sve dostupne poreske olakšice i smanjite poreske rizike."
+              }
+            ],
+            "Nudimo sveobuhvatne knjigovodstvene usluge koje će vam pomoći da održavate tačnost i pouzdanost finansijskih informacija, obezbedite usklađenost sa zakonskim zahtevima i donosite informisane odluke za uspešno poslovanje."
+          ]
+        },
+        {
+          "name": "Finansijski izveštaji",
+          "teaser": "računovodstvo",
+          "title": "Finansijski izveštaji",
+          "text": [
+            "Izrada finansijskih izveštaja je jedan od ključnih koraka u vođenju poslovnih knjiga i pruža vam sveobuhvatan uvid u finansijsko stanje i performanse vašeg preduzeća. U knjigovodstvenoj agenciji KO-NA, posvećeni smo pružanju visokokvalitetne usluge izrade finansijskih izveštaja, koja vam pomaže u donošenju informisanih odluka i postizanju vaših poslovnih ciljeva.",
+            "Naš stručni tim poseduje bogato iskustvo u izradi finansijskih izveštaja za različite vrste preduzeća, bez obzira na njihovu veličinu ili delatnost. Pružamo vam podršku u svim fazama ovog procesa, počevši od pripremnih radnji koje obuhvataju pažljivo usklađivanje analitičkih i subanalitičkih evidencija. Na taj način, osiguravamo tačnost i doslednost podataka koji će biti prikazani u finansijskim izveštajima.",
+            "Naš tim vodi računa o svakom detalju kako bi finansijski izveštaji bili kompletni i pouzdani. To uključuje donošenje odluke o popisu svih pozicija u bilansu stanja klijenta, gde se pridaje posebna pažnja imovini, zalihama, potraživanjima, obavezama i plasmanima. Pored toga, sprovodimo Izveštaj o popisu sa Odlukom o knjiženju popisnih razlika, što dodatno doprinosi integritetu finansijskih izveštaja.",
+            "Naša usluga izrade finansijskih izveštaja obuhvata i usaglašavanje s partnerima, kao što su kupci, dobavljači, banke i ostali relevantni subjekti. Održavanje dobrih poslovnih odnosa i saradnje s tim partnerima ključno je za osiguravanje tačnosti finansijskih informacija i pravilno izrađenih izveštaja. Naš tim stručnjaka vodi računa o svim relevantnim pravilnicima i propisima koji se odnose na računovodstvo i računovodstvene politike vašeg preduzeća, kako bismo obezbedili da se svi finansijski izveštaji pripremaju u skladu s njima.",
+            "Napredni softver i tehnološka rešenja koje koristimo omogućavaju nam efikasnu obradu podataka i pripremu finansijskih izveštaja u skladu sa vašim zahtevima i zakonskim propisima. Uz to, pružamo vam i periodične izveštaje koji su korisni za informisanje o finansijskom stanju vašeg preduzeća, kako za interne potrebe tako i za poslovne banke s kojima sarađujete.",
+            "Obrazci finansijskog izveštavanja koje koristimo prilagođeni su prema Zakonu o računovodstvu i zavise od veličine vašeg preduzeća i njegovog razvrstavanja. Naš tim vam pruža jasno i razumljivo tumačenje finansijskih izveštaja, kako biste mogli da donesete informisane odluke i postignete svoje poslovne ciljeve.",
+            "Usluga izrade finansijskih izveštaja u knjigovodstvenoj agenciji KO-NA pruža vam profesionalnost, preciznost i tačnost u procesu finansijskog izveštavanja. Neka naša stručnost i posvećenost pomognu vašem preduzeću da ostvari uspeh i izgradi stabilnu finansijsku poziciju.",
+            ""
+          ]
+        },
+        {
+          "name": "Kontrola i nadzor",
+          "teaser": "računovodstvo",
+          "title": "Računovodstvena kontrola i nadzor",
+          "text": [
+            "Računovodstvena kontrola i nadzor su vitalni elementi u obezbeđivanju tačnosti i pouzdanosti finansijskih informacija u preduzećima. Ove aktivnosti imaju za cilj obezbeđivanje pravilne primene računovodstvenih politika i procedura, sprečavanje grešaka i nepravilnosti, kao i identifikaciju potencijalnih rizika i slabosti u finansijskom izveštavanju.",
+            "U okviru naše usluge računovodstvene kontrole i nadzora, pružamo sledeće:",
+            [
+              {
+                "bold": "Procena internih kontrola:",
+                "regular": "Analiziramo i procenjujemo efikasnost sistema internih kontrola kako bismo osigurali da su postavljene odgovarajuće procedure za sprečavanje grešaka, zloupotreba i nepravilnosti u računovodstvenim procesima. Naš cilj je identifikacija potencijalnih slabosti i preporučivanje poboljšanja kako bi se osigurala integritet računovodstvenih sistema."
+              },
+              {
+                "bold": "Nadzor nad poslovnim transakcijama:",
+                "regular": "Pratimo poslovne transakcije i transakcione tokove kako bismo identifikovali nepravilnosti, neregularnosti ili moguće prevare. Naš tim stručnjaka analizira finansijske podatke i transakcione zapise kako bi pružio celovit uvid u poslovanje i identifikovao potencijalne rizike."
+              },
+              {
+                "bold": "Savetovanje o unapređenju računovodstvenih procesa:",
+                "regular": "Pružamo stručno savetovanje o unapređenju računovodstvenih procesa, procedura i politika. Naš cilj je da identifikujemo efikasnije načine vođenja računovodstva, optimizujemo procese, poboljšamo tačnost finansijskih podataka i obezbedimo usaglašenost sa relevantnim propisima."
+              },
+              {
+                "bold": "Implementacija internih kontrola:",
+                "regular": "Pomažemo preduzećima u implementaciji i uspostavljanju adekvatnih internih kontrola. Kroz analizu poslovnih procesa, identifikujemo ključne rizike i pružamo preporuke za unapređenje internih kontrola, što doprinosi smanjenju potencijalnih grešaka i zloupotreba."
+              }
+            ],
+            "Naša usluga računovodstvene kontrole i nadzora pruža vam sigurnost i poverenje u tačnost i integritet vaših finansijskih informacija. Naš tim stručnjaka sa bogatim iskustvom u oblasti računovodstva obezbeđuje da vaše poslovanje bude usklađeno sa najvišim standardima i da se identifikuju i rešavaju potencijalni problemi ili rizici u računovodstvenom procesu."
+          ]
+        },
+        {
+          "name": "Savetovanje",
+          "teaser": "računovodstvo",
+          "title": "Računovodstveno savetovanje",
+          "text": [
+            "Računovodstveno savetovanje je važna usluga koju pružamo našim klijentima kako bismo im pružili stručnu podršku i smernice u oblasti računovodstva i finansija. Jedan od ključnih aspekata ovog savetovanja je poresko savetovanje, koje ima veliki značaj za uspešno poslovanje naših klijenata. Fokusiramo se na pružanje kvalitetnih usluga poreskog savetovanja kako bismo im pomogli da ostvare sledeće prednosti:",
+            [
+              {
+                "bold": "Optimizacija poreskog opterećenja:",
+                "regular": "Naši stručnjaci za poresko savetovanje pružaju klijentima smernice i strategije koje im pomažu da smanje poresko opterećenje i iskoriste dostupne poreske olakšice i beneficije. Analiziramo njihovu poslovnu strukturu, transakcije i operacije kako bismo identifikovali mogućnosti za smanjenje poreza i povećanje profita."
+              },
+              {
+                "bold": "Poresko planiranje:",
+                "regular": "Kroz detaljnu analizu finansijskih podataka i poslovnih aktivnosti, pružamo klijentima poresko planiranje koje im omogućava da unapred predvide svoje poreske obaveze. Na osnovu tih informacija, možemo da preporučimo strategije i akcije koje će im pomoći da efikasno upravljaju svojim poreskim obavezama i izbegnu potencijalne probleme."
+              },
+              {
+                "bold": "Usklađenost sa poreskim propisima:",
+                "regular": "Kako se poreski propisi često menjaju i postaju sve složeniji, mi smo tu da pružimo klijentima ažurirane informacije i smernice u vezi sa poreskim propisima. Pomažemo im da razumeju svoje obaveze, pripreme i podnesu tačne poreske prijave, kao i da se pridržavaju svih poreskih regulativa."
+              },
+              {
+                "bold": "Rešavanje poreskih problema:",
+                "regular": "Kada se pojave poreski problemi ili sporovi sa poreskim organima, pružamo klijentima podršku i stručno vođenje u rešavanju tih situacija. Analiziramo problem, pružamo pravne savete i pomažemo klijentima da se zaštite od nepravilnosti i postignu najbolje moguće rezultate."
+              }
+            ],
+            "Naš tim stručnjaka za računovodstvo i poresko savetovanje ima bogato iskustvo u ovoj oblasti i pruža klijentima pouzdane i prilagođene usluge. Verujemo da je kvalitetno poresko savetovanje ključno za uspeh naših klijenata, jer im omogućava da donose informisane odluke, optimizuju svoje poslovanje i ostvare konkurentske prednosti."
+          ]
+        }
+      ]
+    },
+    {
+      "service": "Obračun PDV-a",
+      "imgPath": "./imgPath",
+      "subService": [
+        {
+          "name": "Poresko savetovanje",
+          "teaser": "obračun PDV-a",
+          "title": "Poresko savetovanje u okviru PDV-a",
+          "text": [
+            "Poresko savetovanje u vezi sa PDV-om je ključna usluga koju pružamo našim klijentima kako bismo im pomogli da se efikasno suoče sa složenim poreskim propisima i postignu ispravno obračunavanje, prijavljivanje i plaćanje PDV-a. Fokusiramo se na pružanje stručnih smernica i rešenja koja će našim klijentima omogućiti da ostvare sledeće beneficije:",
+            [
+              {
+                "bold": "Obračunavanje i prijavljivanje PDV-a:",
+                "regular": "Naši stručnjaci za poresko savetovanje pružaju klijentima pouzdane informacije o pravilnom obračunavanju PDV-a u skladu sa poreskim propisima. Pomažemo im da razumeju kompleksnost poreskih stopa, odredbi o izuzecima i specifičnih pravila za određene vrste transakcija. Takođe, obezbeđujemo podršku u pripremi i podnošenju tačnih i blagovremenih PDV prijava."
+              },
+              {
+                "bold": "Analiza poslovnih aktivnosti:",
+                "regular": "Kroz detaljnu analizu poslovnih aktivnosti naših klijenata, pružamo im stručne savete o optimizaciji PDV-a. Identifikujemo mogućnosti za iskorišćavanje poreskih olakšica, odbitaka i povraćaja PDV-a kako bi se smanjilo poresko opterećenje. Takođe, pomažemo im da uspostave sisteme evidencije koji će obezbediti tačne i verodostojne podatke za PDV prijave."
+              },
+              {
+                "bold": "Poreska usaglašenost i kontrola:",
+                "regular": "Naša uloga je da klijentima pružimo podršku u postizanju usaglašenosti sa poreskim propisima u vezi sa PDV-om. Pomažemo im da razumeju poreske regulative, rokove za podnošenje prijava i plaćanje PDV-a, kao i da se pridržavaju propisanih obaveza. Takođe, vršimo kontrolu njihovih internih procesa kako bismo identifikovali i rešili eventualne nedostatke ili rizike u vezi sa PDV-om."
+              },
+              {
+                "bold": "Rešavanje poreskih sporova i inspekcijskih postupaka:",
+                "regular": "Ukoliko se pojave sporovi sa poreskim organima ili inspekcijski postupci u vezi sa PDV-om, pružamo klijentima stručno vođenje i podršku. Analiziramo situaciju, pružamo pravne savete i zastupamo ih pred poreskim organima. Naš cilj je da zaštitimo interese naših klijenata i postignemo najbolje moguće rezultate u rešavanju poreskih sporova."
+              }
+            ],
+            "Naš tim stručnjaka za poresko savetovanje u vezi sa PDV-om ima bogato iskustvo u radu sa različitim industrijama i pružanju prilagođenih rešenja za specifične potrebe klijenata. Nudimo pouzdane i efikasne usluge koje će našim klijentima omogućiti da postignu poresku usaglašenost, optimizuju PDV i smanje rizike od poreskih problema."
+          ]
+        },
+        {
+          "name": "PDV prijave",
+          "teaser": "obračun PDV-a",
+          "title": "Izrada i podnošenje PDV priajva",
+          "text": [
+            "Izrada i podnošenje PDV prijava je jedna od bitnih usluga koje pružamo u okviru poreskog savetovanja. Naš stručni tim posvećuje pažnju detaljima i pažljivo analizira finansijske podatke i transakcije kako bi pripremio precizne PDV prijave za naše klijente.",
+            "Naša usluga obuhvata sledeće korake:",
+            [
+              {
+                "bold": "Evidencija PDV transakcija:",
+                "regular": "Sakupljamo sve relevantne informacije o transakcijama koje su podložne PDV-u. To uključuje dokumentaciju o kupovini i prodaji dobara i usluga, kao i informacije o uvozu i izvozu."
+              },
+              {
+                "bold": "Validacija i korekcija podataka:",
+                "regular": "Proveravamo tačnost i ispravnost prikupljenih podataka kako bismo osigurali da PDV prijava bude tačna i potpuna. U slučaju bilo kakvih grešaka ili nedoslednosti, vršimo korekcije i ažuriranja."
+              },
+              {
+                "bold": "Obračun PDV-a:",
+                "regular": "Na osnovu prikupljenih podataka, vršimo obračun PDV-a u skladu sa važećim poreskim propisima. Primenjujemo odgovarajuće stope PDV-a i primenjujemo relevantne poreske olakšice ili izuzeća."
+              },
+              {
+                "bold": "Priprema i podnošenje prijave:",
+                "regular": "Naš tim priprema PDV prijavu u propisanom formatu i elektronski je podnosi nadležnim poreskim organima. Vodimo računa o svim rokovima i zakonskim zahtevima kako bismo osigurali pravovremeno podnošenje prijave."
+              },
+              {
+                "bold": "Poresko savetovanje:",
+                "regular": "Pored same pripreme i podnošenja PDV prijave, pružamo i sveobuhvatno poresko savetovanje u vezi sa PDV-om. Odgovaramo na pitanja klijenata, pružamo smernice o primeni poreskih propisa i olakšica, kao i informacije o eventualnim izmenama ili novinama u vezi sa PDV-om."
+              }
+            ],
+            "Naš cilj je da našim klijentima pružimo profesionalno i pouzdano poresko savetovanje u vezi sa PDV-om, kako bi mogli da se usredsrede na svoje osnovne poslovne aktivnosti, a mi se brinemo o njihovim poreskim obavezama. Naš stručni tim je upoznat sa najnovijim poreskim propisima i praksom, što nam omogućava da pružimo kvalitetne usluge i pomognemo našim klijentima da ostvare poresku usaglašenost."
+          ]
+        },
+        {
+          "name": "PDV Analiza",
+          "teaser": "obračun PDV-a ",
+          "title": "Izrada PDV analiza",
+          "text": [
+            "PDV  ili porez na dodatu vrednost je značajan porezni segment za mnoge privredne subjekte, i stoga je važno da se pravilno upravlja PDV transakcijama radi održavanja zakonitosti, smanjenja rizika i optimizacije poreskih obaveza.",
+            "PDV analize našim klijentima pružaju dublji uvid u njihove PDV transakcije i omogućavaju identifikaciju ključnih aspekata za unapređenje njihovog PDV sistema. Naš pristup izradi PDV analiza obuhvata sledeće korake:",
+            [
+              {
+                "bold": "Prikupljanje podataka:",
+                "regular": "Sprovodimo detaljno prikupljanje svih relevantnih podataka o PDV transakcijama klijenta. To uključuje informacije o prodaji dobara i usluga, uvozu i izvozu, poreskim identifikacionim brojevima, dokumentaciji o PDV-u, kao i druge važne informacije koje su potrebne za analizu."
+              },
+              {
+                "bold": "Analiza dokumentacije:",
+                "regular": "Pažljivo pregledamo i analiziramo svu prateću dokumentaciju vezanu za PDV transakcije. Ovde se uključuju računi, fakture, ugovori, izvodi iz banaka i ostali relevantni dokumenti. Ova analiza omogućava nam da proverimo ispravnost obračuna PDV-a, identifikujemo eventualne nedostatke u dokumentaciji i utvrdimo potencijalne greške ili rizike."
+              },
+              {
+                "bold": "Provera usaglašenosti:",
+                "regular": "Vršimo detaljnu proveru usaglašenosti PDV transakcija sa propisima i poreskim regulativama. Ovo uključuje proveru pravilne primene poreskih stopa, ispravnu evidenciju i prijavljivanje PDV-a, poštovanje rokova za podnošenje prijava i druge važne aspekte koji su ključni za usklađenost sa zakonskim zahtevima."
+              },
+              {
+                "bold": "Identifikacija potencijalnih problema i rizika:",
+                "regular": "Na osnovu detaljne analize, identifikujemo potencijalne probleme, neslaganja ili rizike koji mogu uticati na PDV transakcije klijenta. To može uključivati neusklađenosti sa propisima, nedostatak dokumentacije, eventualne greške u obračunu PDV-a ili druge potencijalne probleme koji zahtevaju pažnju i korektivne mere."
+              },
+              {
+                "bold": "Preporuke i optimizacija:",
+                "regular": "Na osnovu rezultata analize, pružamo klijentima konkretnu podršku i preporuke za optimizaciju njihovog PDV sistema. To može obuhvatati predloge za unapređenje evidencije, poboljšanje internih kontrola, identifikaciju potencijalnih poreskih ušteda i savete o strategijama za smanjenje rizika i ispunjavanje poreskih obaveza."
+              }
+            ],
+            "Imamo bogato iskustvo u izradi PDV analiza za različite vrste klijenata iz različitih industrija. Razumemo kompleksnost PDV sistema i konstantno pratimo promene u poreskom zakonodavstvu kako bismo našim klijentima pružili relevantne i ažurirane informacije.",
+            "Kroz našu uslugu izrade PDV analiza, pružamo klijentima pouzdane informacije i stručno savetovanje koje im pomaže da upravljaju svojim PDV transakcijama na efikasan i usklađen način. Naš cilj je da pomognemo klijentima da ostvare optimalne rezultate u vezi sa PDV-om, smanje poreske rizike i obezbede da se pridržavaju svih poreskih propisa i obaveza."
+          ]
+        },
+        {
+          "name": "Revizija evidencije",
+          "teaser": "obračun PDV-a",
+          "title": "Revizija PDV evidencije",
+          "text": [
+            "Revizija PDV evidencije se fokusira na proveru tačnosti i ispravnosti evidentiranja PDV transakcija u poslovnim knjigama i evidencijama.",
+            "Glavni cilj revizije PDV evidencije je obezbediti da preduzeće pravilno primenjuje zakonske propise i regulative u vezi sa PDV-om i da pravilno evidentira PDV transakcije. Revizija PDV evidencije obuhvata sledeće aktivnosti:",
+            [
+              {
+                "bold": "Provera ispravnosti PDV evidencije:",
+                "regular": "Revizori će pregledati knjigovodstvene zapise i dokumentaciju vezanu za PDV transakcije kako bi se uverili da su ispravno evidentirani. To uključuje proveru tačnosti iznosa PDV-a, pravilno klasifikovanje transakcija, pridržavanje rokova za podnošenje PDV prijava i drugih relevantnih zakonskih zahteva."
+              },
+              {
+                "bold": "Analiza PDV obračuna:",
+                "regular": "Revizija će obuhvatiti detaljnu analizu PDV obračuna kako bi se utvrdilo da li su pravilno primenjeni poreski propisi. Revizori će proveriti da li su obračunate stope PDV-a ispravne, da li su odgovarajuće poreske oslobađanja primenjena i da li su svi relevantni podaci ispravno uneti u PDV prijave."
+              },
+              {
+                "bold": "Provera dokumentacije:",
+                "regular": "Revizori će proveriti da li postoji odgovarajuća dokumentacija koja podržava PDV transakcije. To uključuje fakture, ugovore, prijemnice, izvode iz banke i druge relevantne dokumente. Revizori će se uveriti da su svi potrebni podaci prisutni i da su dokumenti adekvatno arhivirani."
+              }
+            ],
+            "Identifikacija potencijalnih rizika i grešaka: Revizija PDV evidencije ima za cilj identifikaciju potencijalnih rizika i grešaka u vezi sa PDV-om. Revizori će analizirati procese i kontrole koji se odnose na PDV transakcije kako bi identifikovali moguće slabosti i preporučili unapređenja radi smanjenja rizika od grešaka i nepravilnosti.",
+            "Revizija PDV evidencije obezbežuje tačnost finansijskih izveštaja, usklađenosti sa zakonskim propisima i sprečavanje potencijalnih problema sa poreskim organima."
+          ]
+        },
+        {
+          "name": "PDV inspekcije",
+          "teaser": "obračun PDV-a",
+          "title": "Priprema dokumentacije za PDV inspekcije",
+          "text": [
+            "Priprema dokumentacije za PDV inspekcije je važan deo procesa poslovanja preduzeća kako bi se osiguralo da su svi relevantni dokumenti i evidencije u skladu sa poreskim propisima i spremni za pregled od strane nadležnih poreskih organa.",
+            "Ovaj proces uključuje sledeće korake i aktivnosti:",
+            [
+              {
+                "bold": "Provera i ažuriranje PDV evidencije:",
+                "regular": "Preduzeće treba da pregleda i ažurira svoju PDV evidenciju kako bi se uverilo da su svi podaci tačni i kompletni. To uključuje proveru da li su sve PDV transakcije pravilno evidentirane, da li su ispravno obračunate stope PDV-a i da li su svi relevantni podaci pravilno uneti u PDV evidenciju."
+              },
+              {
+                "bold": "Priprema PDV prijava:",
+                "regular": "Preduzeće treba da pripremi PDV prijave za odgovarajuće poreske periode u skladu sa zakonskim propisima. Ovo podrazumeva popunjavanje svih relevantnih informacija o PDV transakcijama, obračunavanje PDV-a i pripremu odgovarajućih izveštaja i priloga koji su potrebni uz PDV prijavu."
+              },
+              {
+                "bold": "Pregled dokumentacije:",
+                "regular": "Preduzeće treba da pregleda sve relevantne dokumente koji podržavaju PDV transakcije, kao što su fakture, ugovori, prijemnice, izvodi iz banke i drugi relevantni dokumenti. Ovi dokumenti treba da budu organizovani i arhivirani na odgovarajući način kako bi se omogućila brza i efikasna provera prilikom PDV inspekcije."
+              },
+              {
+                "bold": "Prikupljanje dodatnih dokaza:",
+                "regular": "U nekim slučajevima, PDV inspekcija može zahtevati dodatne dokaze ili informacije o određenim PDV transakcijama. Preduzeće treba da bude spremno da prikupi i obezbedi ove dodatne dokaze ako je potrebno."
+              },
+              {
+                "bold": "Interna revizija:",
+                "regular": "Preduzeće treba da sprovede internu reviziju PDV evidencije i dokumentacije kako bi se utvrdilo da su sve procedure i kontrole u skladu sa internim pravilima i poreskim propisima. Ova interna revizija pomaže u identifikaciji potencijalnih slabosti ili grešaka i omogućava preduzeću da ih ispravi pre nego što dođe do PDV inspekcije"
+              }
+            ],
+            "Priprema dokumentacije za PDV inspekcije zahteva pažljivu i temeljnu analizu PDV evidencije i dokumentacije. Pravilna priprema i organizacija dokumenata omogućava efikasnu PDV inspekciju i smanjuje rizik od potencijalnih problema sa poreskim organima. Osim toga, redovna interna revizija PDV evidencije pomaže u otkrivanju i ispravljanju eventualnih grešaka i nepravilnosti, čime se osigurava usklađenost sa poreskim propisima i smanjuje rizik od kazni i sankcija."
+          ]
+        },
+        {
+          "name": "Pretežni izvoznik",
+          "teaser": "računovodstvo",
+          "title": "Izrada i podnošenje dokumentacije za pretežnog izvoznika",
+          "text": [
+            "Izrada i podnošenje dokumentacije za pretežnog izvoznika predstavlja važan deo procesa poslovanja za kompanije koje se bave izvozom svojih proizvoda ili usluga. Kao pretežni izvoznik, kompanija može ostvariti određene privilegije i olakšice u vezi sa carinskim i poreskim procedurama, ali je neophodno da pravilno pripremi i podnese odgovarajuću dokumentaciju.",
+            "Ovaj proces uključuje sledeće korake i aktivnosti:",
+            [
+              {
+                "bold": "Identifikacija pretežnog izvoznika:",
+                "regular": "Kompanija treba da ispuni određene uslove kako bi se kvalifikovala kao pretežni izvoznik. To uključuje ispunjavanje određenih kriterijuma kao što su iznos izvoza, učešće izvoza u ukupnom prometu, kategorija proizvoda ili usluga koje se izvoze i slično. Kada kompanija ispuni ove uslove, može se smatrati pretežnim izvoznikom i ostvariti određene privilegije."
+              },
+              {
+                "bold": "Priprema potrebne dokumentacije:",
+                "regular": "Kompanija treba da pripremi odgovarajuću dokumentaciju koja potvrđuje njen status kao pretežnog izvoznika. Ovo može uključivati izveštaje o izvozu, potvrde o registraciji kao pretežnog izvoznika, ugovore o izvozu, potvrde o poreklu robe i druge relevantne dokumente."
+              },
+              {
+                "bold": "Provera i verifikacija dokumentacije:",
+                "regular": "Pretežni izvoznik treba da proveri i verifikuje sve pripremljene dokumente kako bi se osigurala njihova tačnost i usklađenost sa važećim propisima. Ovo uključuje proveru da li su svi potrebni podaci uneti ispravno, da li su dokumenti potpisani i overeni gde je to potrebno, kao i da li su svi prilozi pravilno priloženi."
+              },
+              {
+                "bold": "Podnošenje dokumentacije nadležnim organima:",
+                "regular": "Kompanija treba da podnese pripremljenu dokumentaciju nadležnim organima koji su zaduženi za izvoznu proceduru. Ovo može uključivati carinske organe, poreske organe ili druge relevantne institucije. Dokumentacija se podnosi u skladu sa propisanim rokovima i postupcima"
+              },
+              {
+                "bold": "Praćenje i održavanje statusa pretežnog izvoznika:",
+                "regular": "Nakon podnošenja dokumentacije, kompanija treba redovno da prati svoj status kao pretežni izvoznik i da održava ispunjenost uslova koji su propisani. To može uključivati redovno ažuriranje izveštaja o izvozu, praćenje promena u propisima i regulativama vezanim za pretežne izvoznike, kao i pravovremeno obaveštavanje nadležnih organa o eventualnim promenama."
+              }
+            ],
+            "Izrada i podnošenje dokumentacije za pretežnog izvoznika zahteva pažnju, preciznost i pravovremeno delovanje kako bi se ispoštovali propisani postupci i osiguralo ostvarivanje privilegija i olakšica koje su dostupne pretežnim izvoznicima. Konsultacija sa stručnjacima za međunarodnu trgovinu i carinske procedure može biti od velike pomoći u ovom procesu kako bi se postigla potpuna usklađenost sa propisima i maksimizirale prednosti statusa pretežnog izvoznika."
+          ]
+        }
+      ]
+    },
+    {
+      "service": "Obračun zarada",
+      "imgPath": "./imgPath",
+      "subService": [
+        {
+          "name": "Noramtivni akti",
+          "teaser": "obračun zarada",
+          "title": "Izrada normativnih akata",
+          "text": [
+            "U okviru obračuna zarada, nudimo i uslugu izrade normativnih akata koji su važni za pravilno vođenje radnog odnosa i obračunavanje naknada i primanja zaposlenih. Ovi normativni akti obezbeđuju jasna pravila i procedure za sve zaposlene u preduzeću i osiguravaju usaglašenost sa zakonskim propisima i kolektivnim ugovorima. Evo nekih od normativnih akata koje možemo izraditi:",
+            [
+              {
+                "bold": "Pravilnik o radu:",
+                "regular": "ovaj dokument definiše osnovna pravila koja regulišu radni odnos između zaposlenih i preduzeća. On obuhvata obaveze zaposlenih, radno vreme, odmor i godišnji odmor, prava i obaveze zaposlenih, postupak rešavanja sporova, disciplinske mere i druge relevantne informacije."
+              },
+              {
+                "bold": "Pravilnik o sistematizaciji radnih mesta:",
+                "regular": "opisuje organizaciju i strukturu radnih mesta u preduzeću. On definiše zadatke, odgovornosti i kvalifikacije potrebne za svako radno mesto, kao i hijerarhijsku strukturu i odnose između različitih pozicija"
+              },
+              {
+                "bold": "Pravilnik o obračunu naknada i ličnih primanja zaposlenih:",
+                "regular": "definiše način obračuna naknada i ličnih primanja zaposlenih, uključujući osnovnu zaradu, dodatke, bonus plaćanja, naknade za putne troškove i druge beneficije. Takođe, pravilnik može sadržati odredbe o obračunu i isplati regresa, godišnjih nagrada i drugih oblika dodatnih primanja."
+              },
+              {
+                "bold": "Izrada ugovora o radu i srodnih ugovora:",
+                "regular": "pružamo uslugu izrade ugovora o radu koji definišu prava i obaveze između poslodavca i zaposlenog. Takođe, možemo izraditi ugovore o delu, ugovore o dopunskom radu i ugovore o privremenim i povremenim poslovima u skladu sa specifičnim potrebama preduzeća."
+              }
+            ],
+            "Naš tim stručnjaka će se pobrinuti da ovi dokumenti budu u skladu sa važećim zakonodavstvom i prilagođeni specifičnim potrebama vašeg preduzeća."
+          ]
+        },
+        {
+          "name": "Obračun, evidencija i obustave",
+          "teaser": "obračun zarada",
+          "title": "Obračun, evidencija zarada i obustava",
+          "text": [
+            "U okviru našeg oblasti obračuna i evidencije zarada i obustava, pružamo sveobuhvatne usluge koje vam omogućavaju efikasno upravljanje platnim listama i ispunjavanje zakonskih obaveza. Naš tim stručnjaka, s bogatim iskustvom u računovodstvu i obračunu zarada, stoji vam na raspolaganju kako biste osigurali pravilno vođenje evidencije zarada i obustava u skladu sa propisima.",
+            "Evo detaljnijeg pregleda naših ključnih usluga u oblasti obračuna i evidencije zarada i obustava:",
+            [
+              {
+                "bold": "Izrada obračuna zarada: ",
+                "regular": "Naš tim stručnjaka će pažljivo izvršiti obračun zarada za vaše zaposlene, uzimajući u obzir sve relevantne faktore kao što su radno vreme, prekovremeni rad, dodaci, beneficije itd. Obezbeđujemo precizne obračune koji odražavaju tačan iznos zarade koji treba isplatiti zaposlenima."
+              },
+              {
+                "bold": "Evidencija zarada i obustava: ",
+                "regular": "Pružamo podršku u vođenju detaljne evidencije zarada i obustava za svakog zaposlenog. To uključuje praćenje isplaćenih plata, poreza, doprinosa, naknada za bolovanje, deo plate za penziono i zdravstveno osiguranje i druge relevantne stavke. Ova evidencija omogućava vam transparentnost i lakoću praćenja svih finansijskih aspekata koji se odnose na zarade vaših zaposlenih."
+              },
+              {
+                "bold": "Obračun poreza i doprinosa: ",
+                "regular": "Izračunavanje i pravilan obračun poreza i doprinosa predstavlja ključni deo naših usluga. Naš tim će se pobrinuti da porezi i doprinosi budu tačno obračunati i isplaćeni nadležnim institucijama u skladu s važećim propisima. Na taj način osiguravamo da ispunjavate sve zakonske obaveze i izbegavate potencijalne kazne ili sankcije."
+              },
+              {
+                "bold": "Priprema i dostavljanje zakonskih obrazaca: ",
+                "regular": "Kao deo naših usluga, vršimo pripremu i dostavljanje svih zakonskih obrazaca koji su potrebni za obračun i evidenciju zarada i obustava. To uključuje obrasce poreza na dohodak, prijave doprinosa za penziono i zdravstveno osiguranje, prijave poreza na dobit itd. Naš tim se brine o svim administrativnim detaljima kako biste bili sigurni da je svaki obrazac pravilno popunjen i blagovremeno dostavljen nadležnim organima."
+              },
+              {
+                "bold": "Konsultacije i savetovanje: ",
+                "regular": "Pored pružanja konkretnih usluga obračuna zarada i obustava, nudimo i stručne konsultacije i savetovanje u vezi s ovom oblašću. Naši stručnjaci će vam pružiti neophodne informacije i smernice o aktuelnim propisima, poreskim olakšicama, beneficijama za zaposlene i drugim pitanjima koja se tiču obračuna zarada i obustava."
+              }
+            ],
+            "Uz naše usluge obračuna i evidencije zarada i obustava, možete biti sigurni da su finansijski aspekti vašeg poslovanja u skladu s propisima i da se brinemo o pravilnom vođenju svih evidencija i isplata. Naš tim stručnjaka je tu da vam pruži podršku i olakša proces obračuna zarada i obustava, tako da vi možete fokusirati na ostale ključne aspekte svog poslovanja."
+          ]
+        },
+        {
+          "name": "Potvrde",
+          "teaser": "obračun zarada",
+          "title": "Potvrde zaposlenim i nezaposlenima o isplaćenim zaradama i drugim primanjima",
+          "text": [
+            "Kroz ovu uslugu, obezbeđujemo sledeće:",
+            [
+              {
+                "bold": "Potvrde o isplaćenim zaradama i primanjima:",
+                "regular": "Naš tim stručnjaka će pažljivo voditi evidenciju svih isplata zaposlenim i nezaposlenim licima tokom kalendarske godine. Ove potvrde pružaju jasan i tačan prikaz ukupnih primanja lica za potrebe poreznog i socijalnog osiguranja. Na taj način obezbeđujemo transparentnost i pravovremenu dokumentaciju koja je neophodna za pojedince."
+              },
+              {
+                "bold": "Evidencija isplata: ",
+                "regular": "Sistematski beležimo sve isplate koje su vršene zaposlenim i nezaposlenim licima tokom godine. Ova evidencija omogućava tačno praćenje svih finansijskih transakcija i isplata kako biste imali jasnu sliku o ukupnim primanjima pojedinaca. Pružamo preciznost i pouzdanost u vođenju ove evidencije kako bismo osigurali da su sve informacije tačne i ažurirane."
+              },
+              {
+                "bold": "Izrada potvrda o plaćenom porezu i socijalnim doprinosima: ",
+                "regular": "Kao deo naše usluge, izrađujemo potvrde o visini plaćenog poreza i socijalnih doprinosa za sve vrste naknada i zarada, kako za zaposlene tako i za nezaposlena lica u tekućoj godini. Ove potvrde, koje se izdaju na osnovu obrasca PPP, pružaju detaljan pregled svih plaćenih poreza i doprinosa, pružajući jasnu sliku o finansijskom stanju pojedinaca."
+              }
+            ],
+            "Kroz našu uslugu izrade potvrda zaposlenim i nezaposlenim licima o isplaćenim zaradama i drugim primanjima, vodimo računa o preciznosti, ažuriranosti i tačnosti finansijskih informacija. Pobrinućemo se da potvrde budu pravilno popunjene i blagovremeno dostavljene, tako da pojedinci imaju pristup svim relevantnim informacijama koje su im potrebne za porezne i druge administrativne svrhe."
+          ]
+        },
+        {
+          "name": "Olakšice i benificije",
+          "teaser": "obračun zarada",
+          "title": "Savetovanje o poreskim olakicama i benificijama",
+          "text": [
+            "Naše usluge savetovanja o poreskim olakšicama i beneficijama u oblasti obračuna zarada u Republici Srbiji pružaju vam stručno vođstvo i podršku u optimizaciji vašeg poreskog položaja i iskorišćavanju svih relevantnih poreskih olakšica i beneficija. Naš tim stručnjaka će vas voditi kroz složeni poreski sistem i pružiti vam sveobuhvatne informacije i savete kako biste maksimalno iskoristili dostupne povlastice. Evo kako naše usluge mogu koristiti vašem poslovanju:",
+            [
+              {
+                "bold": "Identifikacija poreskih olakšica: ",
+                "regular": "Naši stručnjaci će detaljno pregledati vašu poslovnu strukturu i obračun zarada kako bi identifikovali relevantne poreske olakšice i beneficije koje možete iskoristiti. To može uključivati ​​olakšice za zapošljavanje, stimulativne mere za određene industrije ili regione, olakšice za obrazovanje ili druge specifične kategorije."
+              },
+              {
+                "bold": "Analiza poreskog položaja: ",
+                "regular": "Prilikom savetovanja o obračunu zarada, vršimo temeljitu analizu vašeg trenutnog poreskog položaja. To uključuje pregled svih relevantnih propisa, zakona i pravila koji se odnose na obračun zarada i pripadajuće poreske obaveze. Na osnovu ove analize, pružamo vam jasne smernice i preporuke kako biste iskoristili sve dostupne poreske beneficije i smanjili vašu poresku obavezu."
+              },
+              {
+                "bold": "Optimizacija obračuna zarada: ",
+                "regular": "Naš cilj je da vam pomognemo da optimizujete obračun zarada kako biste iskoristili sve potencijalne poreske olakšice i beneficije. To može uključivati ​​pravilno klasifikovanje prihoda i troškova, identifikaciju specifičnih poreskih tretmana za određene vrste primanja, kao i pružanje smernica o efikasnom upravljanju porezima u skladu sa propisima."
+              },
+              {
+                "bold": "Aktualizacija poreskih propisa: ",
+                "regular": "Poreski propisi i zakoni često se menjaju i ažuriraju. Kroz naše savetovanje, pružamo vam redovne informacije o svim relevantnim poreskim promenama i njihovom uticaju na obračun zarada. Ovo vam omogućava da budete u toku sa najnovijim propisima i da pravovremeno preduzmete odgovarajuće mere kako biste iskoristili sve beneficije koje vam stoje na raspolaganju."
+              }
+            ],
+            "Naše usluge savetovanja o poreskim olakšicama i beneficijama u oblasti obračuna zarada pružaju vam stručnost i znanje koje vam je potrebno za optimizaciju vašeg poreskog položaja. Obezbeđujemo vam jasne smernice, pravovremene informacije i personalizovane savete kako biste iskoristili sve prednosti poreskog sistema u Republici Srbiji."
+          ]
+        },
+        {
+          "name": "Nadležni organi",
+          "teaser": "obračun zarada",
+          "title": "Komunikacija sa nadležnim organima",
+          "text": [
+            "U okviru naših usluga u oblasti obračuna zarada, pružamo vam podršku i komunikaciju sa nadležnim organima u vezi sa poreskim pitanjima. Razumemo da komunikacija sa poreskim organima može biti složena i zahtevna, stoga vam nudimo sledeće:",
+            [
+              {
+                "bold": "Predstavljanje i zastupanje:",
+                "regular": "Naš tim stručnjaka će vam pomoći u komunikaciji sa poreskim organima kao vašim zastupnikom. Obezbeđujemo profesionalno i efikasno predstavljanje vaših interesa tokom razgovora, pregovora ili inspekcijskih poseta. Naš cilj je da zaštitimo vaše interese i obezbedimo da se sva pitanja i nedoumice rešavaju na pravilan način."
+              },
+              {
+                "bold": "Priprema i podnošenje poreskih prijava:",
+                "regular": "Kao deo naših usluga, vršimo pripremu i podnošenje svih relevantnih poreskih prijava u vezi sa obračunom zarada. Obezbeđujemo tačnost, pravovremenost i usaglašenost sa poreskim propisima prilikom podnošenja prijava, čime se smanjuje rizik od grešaka i potencijalnih sankcija."
+              },
+              {
+                "bold": "Odgovaranje na poreske zahteve i inspekcije:",
+                "regular": "Ukoliko dobijete poreske zahteve ili budete podvrgnuti poreskoj inspekciji, pružamo vam podršku u pripremi odgovora i pravilnom dokumentovanju vaših poreskih obaveza. Naš tim će vam pružiti stručne savete i smernice kako biste adekvatno odgovorili na zahteve poreskih organa i zaštitili svoje interese."
+              },
+              {
+                "bold": "Rešavanje poreskih sporova: ",
+                "regular": "Ukoliko se suočite sa poreskim sporom ili neslaganjem sa poreskim organima, pružamo vam stručnu pomoć u rešavanju sporova i zaštiti vaših prava. Naš tim će vas savetovati o najboljoj strategiji za rešavanje sporova i pružiti podršku tokom celog procesa, uključujući pregovore, medijaciju ili eventualno sudsko rešavanje."
+              }
+            ],
+            "Kroz našu komunikaciju sa nadležnim organima, obezbeđujemo da vaša komunikacija bude efikasna, transparentna i u skladu sa poreskim propisima. Vaše interese smatramo prioritetom i posvećujemo se pružanju stručne podrške u svim aspektima komunikacije sa poreskim organima."
+          ]
+        },
+        {
+          "name": "Porez na dohodak",
+          "teaser": "obračun zarada",
+          "title": "Prijava poreaza na dohodak građana",
+          "text": [
+            "U sklopu naših usluga u oblasti obračuna zarada, nudimo podršku u pripremi i podnošenju poreske prijave poreza na dohodak građana. Prijava poreza na dohodak građana je važan korak u ispunjavanju poreskih obaveza i osiguravanju usaglašenosti sa poreskim propisima. Evo kako možemo pomoći:",
+            [
+              {
+                "bold": "Priprema poreske prijave: ",
+                "regular": "Naš tim stručnjaka će vam pomoći u pripremi tačne i kompletna poreske prijave poreza na dohodak građana. Analiziramo sve relevantne informacije i dokumentaciju, uključujući podatke o zaradama, poreznim olakšicama i drugim relevantnim faktorima koji utiču na obračun poreza na dohodak."
+              },
+              {
+                "bold": "Izračunavanje poreza: ",
+                "regular": "Vršimo precizno izračunavanje poreza na dohodak građana na osnovu važećih poreskih stopa, propisanih olakšica i drugih faktora koji utiču na obračun poreza. Naš cilj je da obezbedimo tačan izračun i da iskoristimo sve dostupne poreske beneficije kako bismo smanjili vašu poresku obavezu."
+              },
+              {
+                "bold": "Prikupljanje i organizacija relevantne dokumentacije:",
+                "regular": "Pomognemo vam u prikupljanju i organizaciji svih potrebnih dokumenata koji se odnose na zarade i druge prihode koje treba prijaviti. Ovo uključuje izvode iz plate, obračune naknada, ugovore o radu i druge relevantne dokumente."
+              },
+              {
+                "bold": "Podnošenje poreske prijave:",
+                "regular": "Kada je priprema poreske prijave završena, podnosimo je nadležnom poreskom organu u skladu sa propisanim rokovima. Pratimo proces podnošenja i potvrđujemo da je prijava uspešno dostavljena."
+              },
+              {
+                "bold": "Poresko savetovanje:",
+                "regular": "Pored pripreme i podnošenja poreske prijave, pružamo vam i poresko savetovanje u vezi sa porezom na dohodak građana. Odgovaramo na vaša pitanja, pružamo stručne savete i informacije o vašim poreskim obavezama i mogućim poreskim olakšicama."
+              }
+            ],
+            "Naš cilj je da vam olakšamo proces prijave poreza na dohodak građana i da vam pružimo stručnu podršku u svim aspektima obračuna i evidentiranja zarada. Svojim znanjem i iskustvom u oblasti poreskog zakonodavstva, obezbeđujemo da vaša poreska prijava bude tačna, pravovremena i usaglašena sa propisima."
+          ]
+        }
+      ]
+    },
+    {
+      "service": "Carinsko zastupanje",
+      "imgPath": "./imgPath",
+      "subService": [
+        {
+          "name": "Zastupanje",
+          "teaser": "Carinsko zastupanje",
+          "title": "Carinsko zastupanje",
+          "text": [
+            "Naša firma se ponosi svojom uslugom carinskog zastupanja, koja je osmišljena da olakša i unapredi procese uvoza i izvoza za naše klijente. Sa dubokim poznavanjem carinskih propisa i postupaka, naš tim stručnjaka pruža neophodnu podršku i obezbeđuje da vaša roba bude brzo i efikasno carinjena.",
+            "Posredovanje - zastupanje pred carinskim organima, naša je glavna odgovornost da vam pomognemo u pripremi, izradi i podnošenju svih potrebnih dokumenata za carinjenje robe. Bez obzira na to da li se radi o uvozu ili izvozu, mi ćemo se pobrinuti za sve administrativne zadatke, kao što su priprema carinskih deklaracija, obračun carinskih dažbina i koordinacija sa carinskim organima. Naš cilj je da vam obezbedimo brzu i tačnu obradu vaše robe kako biste izbegli nepotrebna kašnjenja i troškove.",
+            "Naše zastupanje može biti neposredno kada mi kao carinski zastupnik postupamo u ime i za račun drugog lica, ili posredno kada postupamo u svoje ime, a za račun drugog lica.",
+            "Jedna od glavnih prednosti angažovanja naše usluge carinskog zastupanja je naša stručnost i iskustvo u oblasti carinskog prava. Naš tim redovno prati promene u zakonodavstvu i carinskim propisima kako bismo bili u toku sa svim novinama i mogli da vam pružimo najaktuelnije informacije. To vam omogućava da se uspešno prilagodite promenama i da izbegnete moguće sankcije ili nepotrebne troškove koji mogu proizaći iz neusklađenosti sa carinskim propisima.",
+            "Pored toga, naši stručnjaci su veoma upućeni u različite vrste robe i specifičnosti industrija u kojima naši klijenti posluju. To nam omogućava da pružimo personalizovane usluge i savete koji su prilagođeni vašim specifičnim potrebama. Bilo da se bavite prehrambenom industrijom, automobilskom industrijom ili nekom drugom granom privrede, mi ćemo se pobrinuti da razumemo vaše poslovanje i pružimo vam rešenja koja odgovaraju vašim zahtevima.",
+            "Kada angažujete našu uslugu carinskog zastupanja, oslobađate se tereta administrativnih poslova i možete se fokusirati na svoju osnovnu delatnost. Naš tim će se pobrinuti za sve detalje vezane za carinske postupke, tako da možete biti sigurni da je sve u skladu sa propisima i da će vaša roba biti pravovremeno isporučena.",
+            "Takođe, naša firma ima dobar odnos sa carinskim organima i redovno komunicira sa njima. To nam omogućava da rešavamo eventualne probleme ili nejasnoće brzo i efikasno. Ukoliko se pojave bilo kakvi izazovi u vezi sa carinjenjem, naš tim će se angažovati kako bi ih rešio u najkraćem mogućem roku, čime ćemo vam uštedeti vreme, novac i nepotrebne brige.",
+            "Usluga carinskog zastupanja koju nudimo pruža vam sigurnost, pouzdanost i stručnost u carinskim procedurama. Bez obzira na veličinu vašeg preduzeća ili vrstu robe koju uvozite ili izvozite, možete se osloniti na naš tim da vam pruži sveobuhvatnu podršku. Obezbeđujemo transparentnost u svakom koraku procesa carinjenja i sarađujemo sa vama kako bismo pronašli najbolja rešenja za vaše poslovanje.",
+            "Ukoliko želite da olakšate proces uvoza i izvoza, smanjite rizike i poboljšate efikasnost, naša usluga carinskog zastupanja je pravi izbor za vas. Kontaktirajte nas danas i dozvolite nam da vam pokažemo kako možemo unaprediti vaše carinske procedure i pružiti vam profesionalnu podršku koja vam je potrebna. Vaš uspeh je naša misija, i radujemo se saradnji s vama."
+          ]
+        },
+        {
+          "name": "Carinske isprave",
+          "teaser": "Carinsko zastupanje",
+          "title": "Izrada jedinstvenih carinskih isprava",
+          "text": [
+            "Naša firma je specijalizovana za pružanje usluga izrade i podnošenja JCI - jedinstvenih carinskih isprava, kao deo našeg sveobuhvatnog carinskog zastupanja.",
+            "Kao posrednici i zastupnici pred carinskim organima, obezbeđujemo da se vaša roba ispravno stavi u slobodan promet, uz poštovanje svih relevantnih zakonskih propisa.",
+            "Naša usluga obuhvata sve postupke predviđene zakonom, pružajući podršku privrednim subjektima u njihovim carinskim aktivnostima. Bez obzira da li se radi o pravnom ili fizičkom licu koje je uključeno u delatnosti koje podležu carinskim propisima, mi smo tu da posredujemo i zastupamo vaše interese pred carinskim organima.",
+            "Jedan od ključnih aspekata naše usluge je izrada i podnošenje jedinstvenih carinskih isprava. Ove isprave su od suštinskog značaja za sprovođenje carinskih postupaka i omogućavaju regulisanje kretanja robe u skladu sa carinskim propisima. Naš stručni tim će se pobrinuti da vaše carinske isprave budu pravilno popunjene, da sadrže sve relevantne informacije i da se podnesu u skladu sa propisanim rokovima.",
+            "Posedujemo duboko znanje o posebnim postupcima koji su deo naše usluge carinskog zastupanja. To uključuje postupke tranzita, koji obuhvataju spoljni i unutrašnji tranzit robe. Takođe se bavimo postupcima smeštaja, koji se odnose na carinska skladišta i slobodne zone.",
+            "Uz izvoz kao deo naše usluge, obezbeđujemo stručno vođenje izvoznih postupaka, kao što su izvoz, ponovni izvoz i privremeni izvoz. Naš tim će vam pomoći u pripremi svih neophodnih carinskih isprava za izvoznu proceduru, kao i u ispunjavanju svih zakonskih obaveza koje proističu iz izvoznih postupaka.",
+            "Koristeći naše usluge izrade i podnošenja jedinstvenih carinskih isprava, možete biti sigurni da će vaši carinski postupci biti sprovedeni u skladu sa zakonskim propisima. Naš tim stručnjaka pruža vam podršku i savetovanje tokom celog procesa, kako biste bili sigurni da su vaše carinske isprave ispravne i da se postupci odvijaju bez ikakvih poteškoća.",
+            "Naša firma pruža širok spektar usluga u oblasti carinskog zastupanja, uključujući i zastupanje u svim uvoznim postupcima. Bez obzira na vrstu uvoza, mi smo tu da posredujemo i zastupamo vaše interese pred carinskim organima.",
+            "Kao deo naše sveobuhvatne usluge, obezbeđujemo profesionalno zastupanje prilikom stavljanja robe u slobodan promet. Bez obzira da li uvozite kao pravno ili fizičko lice, naš stručni tim će vam pružiti podršku tokom celog procesa, od pripreme carinskih isprava do njihovog podnošenja i sprovođenja carinskih postupaka.",
+            "Kada je reč o standardnom uvozu, naš tim će vam pomoći u pripremi svih neophodnih carinskih isprava, kao što su faktura, pakirni list, ugovor o kupovini ili druge relevantne dokumentacije. Takođe ćemo se pobrinuti da svi potrebni podaci budu tačno navedeni u carinskim ispravama i da se postupci odvijaju u skladu sa važećim propisima.",
+            "U slučaju privremenog uvoza, naša usluga carinskog zastupanja će vam omogućiti da privremeno uvezete robu bez plaćanja carinskih dažbina i poreza. Naš stručni tim će vam pomoći u pripremi svih potrebnih dokumenata, kao što su garancijska pisma ili bankarske garancije, kako biste ispunili sve uslove za privremeni uvoz robe.",
+            "Naša usluga obuhvata i postupke posebne upotrebe, koji se odnose na privremeni uvoz i upotrebu u posebne svrhe. Osim toga, nudimo i podršku u postupcima oplemenjivanja, koji uključuju aktivno i pasivno oplemenjivanje robe.",
+            "Takođe nudimo podršku i zastupanje u postupcima vezanim za carinska skladišta. Naš tim će se pobrinuti da vaša roba bude pravilno smeštena i skladištena u skladu sa propisima, i da se svi carinski postupci obave na odgovarajući način. Bez obzira na vrstu robe koju skladištite, mi ćemo vam pružiti stručne savete i usluge koje će vam omogućiti efikasno i sigurno upravljanje skladištem.",
+            "Pored toga, nudimo i zastupanje u postupcima oplemenjivanja, koji obuhvataju aktivno i pasivno oplemenjivanje. Naš stručni tim će vam pružiti podršku u vezi sa svim zahtevima i procedurama vezanim za oplemenjivanje robe, kako biste mogli da iskoristite sve prednosti ovog postupka",
+            "Uz našu uslugu izrade i podnošenja jedinstvenih carinskih isprava, olakšavamo vaše carinske procedure i pružamo vam pouzdanost i sigurnost u svakom koraku.",
+            "Bez obzira na vrstu uvoza ili carinskog postupka, tu smo da vam pružimo podršku i zastupamo vas pred carinskim organima. Kontaktirajte nas danas i dozvolite nam da vam pružimo profesionalnu podršku koja vam je potrebna za uspešno poslovanje"
+          ]
+        },
+        {
+          "name": "Tarifiranje robe",
+          "teaser": "Carinsko zastupanje",
+          "title": "Tarifiranje robe po carinskoj nomenklaturi",
+          "text": [
+            "Pravilna tarifna klasifikacija robe u skladu s carinskom nomenklaturom ima izuzetno veliku važnost u svetu međunarodne trgovine. Tačno određivanje tarifne klase omogućava pravilnu primenu carinskih stopa, poreza i regulativa, što može značajno uticati na troškove uvoza i izvoza robe.",
+            "Tarifiranje robe je proces kategorizacije i određivanja tačne tarifne klase prema carinskoj nomenklaturi. Carinska nomenklatura, zasnovana na harmonizovanom sistemu (HS), predstavlja međunarodno priznatu klasifikaciju koja omogućava jedinstveno identifikovanje i kategorizaciju robe širom sveta. Svaka tarifna stavka u nomenklaturi ima svoju jedinstvenu šifru i detaljan opis koji precizno određuju prirodu i karakteristike robe.",
+            "Zašto je pravilna tarifna klasifikacija tako važna? Pa, postoji nekoliko ključnih razloga. Prvo, pravilna klasifikacija robe omogućava vam da izbegnete probleme i kašnjenja prilikom carinskih postupaka. Kada se roba pravilno klasifikuje, proces carinske obrade postaje brži i efikasniji, čime se smanjuje vreme zadržavanja robe na granici. Ovo je od izuzetnog značaja za sve uvoznike i izvoznike koji žele da osiguraju nesmetan protok robe i održe visok nivo efikasnosti u lancu snabdevanja.",
+            "Drugo, ispravna tarifna klasifikacija je od suštinske važnosti za određivanje tačnih carinskih stopa i davanja. Svaka tarifna stavka ima svoju specifičnu stopu carine koja se primenjuje prilikom uvoza ili izvoza robe. Ako se roba netačno klasifikuje, može doći do preplaćivanja ili nedovoljnog plaćanja carinskih davanja, što direktno utiče na finansijski rezultat vašeg poslovanja. Pravilna tarifna klasifikacija omogućava vam da optimizujete svoje troškove uvoza i izvoza, identifikujete moguće preferencijalne tarifne stopu ili carinske olakšice koje mogu biti dostupne za određene tarifne stavke.",
+            "Treće, ispravna tarifna klasifikacija pruža vam transparentnost i sigurnost u poslovanju. Kada tačno znate pod koju tarifnu klasu vaša roba spada, možete donositi informisane odluke u vezi s trgovinskim partnerima, cenama i logistikom. Takođe, ispravna klasifikacija robe omogućava vam da se pridržavate svih relevantnih propisa i standarda, što je od suštinske važnosti u oblastima poput bezbednosti hrane, zaštite životne sredine ili zaštite intelektualne svojine.",
+            "Upravo zbog ovih razloga, angažovanje stručnih carinskih zastupnika koji su upoznati s carinskim propisima i poseduju duboko razumevanje carinske nomenklature može biti ključni faktor uspeha u međunarodnom poslovanju. Naš tim stručnjaka u carinskom zastupanju ima bogato iskustvo u pravilnom tarifiranju robe. Spremni smo da vam pružimo podršku i vodstvo u procesu tarifiranja, osiguravajući da vaša roba bude tačno i precizno klasifikovana u skladu s carinskom nomenklaturom.",
+            "Ne prepuštajte tarifiranje robe slučajnosti. Obezbedite da vaša roba bude pravilno tarifirana uz naše trodecenijsko iskustvo kako biste smanjili rizik od nepotrebnih troškova, izbegli kašnjenja u carinskim postupcima i održali visok nivo efikasnosti u svom poslovanju. Naša usluga tarifiranja robe pruža vam stručnost, pouzdanost i sigurnost u procesu carinskog zastupanja. Kontaktirajte nas danas i otkrijte kako vam možemo pomoći u postizanju uspešnih carinskih postupaka i olakšavanju vašeg međunarodnog poslovanja."
+          ]
+        },
+        {
+          "name": "Izrada ugovora",
+          "teaser": "Carinsko zastupanje",
+          "title": "Spoljnotrgovinski ugovori i specifični za Lohn poslove",
+          "text": [
+            "            Spoljnotrgovinski ugovori su ključni instrumenti koji regulišu poslovne aktivnosti između kompanijama u različitim zemljama. Oni omogućavaju kompanijama da ostvaruju međunarodnu trgovinu, uspostavljaju saradnju i realizuju poslovne transakcije na međunarodnom nivou. Jedan od specifičnih spoljnotrgovinskih ugovora koji se često koristi u industriji je ugovor o Lohn poslovima.",
+            "Lohn poslovi, poznati i kao ugovori o proizvodnji po tuđem nalogu, predstavljaju poseban oblik saradnje u kojem jedna kompanija (naručilac) prenosi drugoj kompaniji (izvršilac) deo ili celokupan proizvodni proces. U ovom slučaju, izvršilac obavlja proizvodnju robe prema specifikacijama i zahtevima naručioca. Ovaj oblik saradnje često se koristi u industriji, gde kompanije angažuju specijalizovane proizvođače da obave određene proizvodne operacije ili izrade gotove proizvode.",
+            "Ključna prednost Lohn poslova je mogućnost optimizacije proizvodnih procesa i smanjenje troškova. Kompanije koje žele da iskoriste Lohn poslove često se oslanjaju na specijalizovane proizvođače koji imaju odgovarajuće resurse, znanje i tehnologiju za obavljanje određenih proizvodnih aktivnosti. Na taj način, naručilac može da se fokusira na svoje osnovne delatnosti, dok izvršilac preuzima odgovornost za proizvodnju robe.",
+            "U kontekstu spoljnotrgovinskih ugovora, ugovori o Lohn poslovima imaju poseban značaj. Oni omogućavaju kompanijama da prošire svoje tržište i pristupe novim poslovnim mogućnostima. Uvođenje Lohn poslova omogućava kompanijama da prilagode proizvodnju prema specifičnim potrebama ciljnih tržišta, pružajući im fleksibilnost i konkurentske prednosti.",
+            "Pri zaključivanju ugovora o Lohn poslovima, važno je definisati sve ključne elemente saradnje, uključujući obim proizvodnje, kvalitet, rokove isporuke, intelektualnu svojinu, poverljivost informacija, kao i mehanizme za rešavanje sporova. Jasno definisanje ovih elemenata obezbeđuje transparentnost i smanjuje rizik od nesporazuma ili neslaganja tokom saradnje.",
+            "Takođe, tarifiranje robe igra ključnu ulogu u ugovorima o Lohn poslovima. Pravilno tarifiranje robe u skladu sa carinskom nomenklaturom omogućava precizno određivanje carinskih obaveza i poreza koji se primenjuju prilikom privremnog uvoza i ponovnog izvoza robe. To je od izuzetne važnosti jer nepravilno tarifirana roba može dovesti do nepredviđenih troškova, kašnjenja u isporuci ili čak pravnih problema.",
+            "Kao stručni carinski zastupnici, naša kompanija pruža sveobuhvatnu uslugu izrade i podnošenja jedinstvenih carinskih isprava, uključujući i specifične za Lohn poslove. Naš tim stručnjaka ima bogato iskustvo u oblasti spoljne trgovine i carinskog zastupanja, što nam omogućava da efikasno i precizno izvršimo tarifiranje robe i ispunimo sve potrebne carinske formalnosti iz posebnih postupaka aktivnog ili pasivnog oplemenjivanja robe.",
+            "Kroz našu uslugu carinskog zastupanja pružamo podršku kompanijama koje se bave Lohn poslovima u svim fazama trgovinskog procesa. Naš tim pažljivo analizira specifikacije proizvoda, identifikuje odgovarajuću carinsku tarifu i pravilno klasifikuje robu u skladu sa carinskom nomenklaturom. Takođe, sarađujemo sa carinskim organima i obezbeđujemo sve potrebne dokumente i informacije kako bismo olakšali carinski postupak.",
+            "Pravilno tarifirana roba ne samo da omogućava nesmetan protok robe preko granica, već i pruža kompanijama konkurentske prednosti naročito uz naše iskustvo i kapacitet da vam vodimo i carinsku i računovodstvenu evidenciju, tako da uz tačno određivanje carinskih obaveza omogućavamo kompanijama da planiraju svoje poslovne aktivnosti, optimizuju troškove i poboljšaju efikasnost svojih lanaca snabdevanja.",
+            "Spoljnotrgovinski ugovori, posebno ugovori o Lohn poslovima, igraju ključnu ulogu u međunarodnoj trgovini. Oni omogućavaju kompanijama da ostvaruju saradnju, proširuju tržište i ostvaruju konkurentske prednosti. Pravilno tarifirana roba u skladu sa carinskom nomenklaturom je od suštinske važnosti u ovim ugovorima, a naša usluga carinskog zastupanja je tu da pruži podršku kompanijama u svim aspektima carinskog postupka.  Naš tim stručnjaka je tu da vam pruži podršku, da razume vaše specifične potrebe i da vam omogući da ostvarite konkurentske prednosti."
+          ]
+        },
+        {
+          "name": "Zahtevi nadležnim organima",
+          "teaser": "Carinsko zastupanje",
+          "title": "Izrada i podnošenje zateva nadležnim organima",
+          "text": [
+            "Naša kompanija pruža sveobuhvatnu uslugu izrade i podnošenja različitih zahteva nadležnim organima u sklopu carinskog zastupanja. Razumemo da carinski postupci mogu biti kompleksni i zahtevni, stoga smo tu da vam olakšamo proces i obezbedimo stručnu podršku kako biste mogli da se usredsredite na svoje osnovno poslovanje.",
+            "Kao deo naše usluge, naš stručni tim će vam pomoći u pripremi i podnošenju svih relevantnih dokumenata i zahteva nadležnim carinskim organima. Bez obzira da li se radi o uvozu, izvozu, tranzitu, carinskim skladištima ili drugim carinskim postupcima, mi smo ovde da vam pružimo stručno vođstvo i efikasnu podršku.",
+            "Naš tim poseduje  znanje o propisima i procedurama koje se primenjuju u carinskim postupcima. Razumemo važnost pravilnog popunjavanja dokumenata, pridržavanja carinskih propisa i rokova, kao i različitih zahteva koji mogu biti specifični za vašu industriju i vrstu robe koju uvozite ili izvozite.",
+            "Izrada i podnošenje zahteva su ključni koraci u procesu carinskog zastupanja i mogu uticati na brzinu i uspešnost carinskih postupaka. Naša kompanija će se pobrinuti da svi vaši zahtevi budu pravilno sastavljeni, da sadrže sve potrebne informacije i da budu u skladu sa važećim propisima. Osim toga, pružićemo vam savete i smernice kako biste iskoristili sve mogućnosti za ubrzanje carinskih procedura i smanjenje administrativnih troškova.",
+            "Kada se radi o carinskom zastupanju, svaka greška ili nedostatak u dokumentaciji može dovesti do kašnjenja, carinskih kazni ili drugih neželjenih posledica. Zato je važno imati iskusnog partnera koji će vam pružiti stručnu podršku u izradi i podnošenju zahteva. Naša kompanija ima trodecenijsko iskustvo u oblasti carinskog zastupanja i garantuje vam preciznost, tačnost i efikasnost u svakom koraku procesa.",
+            "Kada se odlučite da sarađujete sa nama, možete očekivati visok nivo profesionalizma i pažnje posvećen svakom detalju. Naš tim će vam pružiti redovna ažuriranja o napretku vašeg zahteva i blisko sarađivati sa vama kako biste bili informisani i uključeni u celokupan proces.",
+            "Za izradu i podnošenje različitih zahteva nadležnim organima u sklopu carinskog zastupanja, možete se osloniti na našu stručnost, pouzdanost i efikasnost. Naš cilj je da vam pružimo ne samo uslugu izrade i podnošenja dokumenata, već i da postanemo vaš dugoročni partner u svim carinskim poslovima."
+          ]
+        },
+        {
+          "name": "Carinsko savetovanje",
+          "teaser": "Carisnkso zastupanje",
+          "title": "Carinsko savetovanje",
+          "text": [
+            "Naša kompanija nudi visokokvalitetno carinsko savetovanje kako biste bili sigurni da vaše poslovanje u skladu sa svim relevantnim carinskim propisima. Razumemo kompleksnost carinskih procedura i promene u zakonodavstvu, te smo tu da vam pružimo stručno vođstvo i podršku u svim carinskim pitanjima.",
+            "Naš tim stručnjaka iz oblasti carinskog savetovanja ima duboko znanje i iskustvo u carinskim propisima i postupcima. Bez obzira da li se radi o uvozu, izvozu, carinskim taksama, preferencijalnim tarifama ili bilo kojem drugom carinskom pitanju, mi smo tu da vam pružimo jasne smernice i rešenja prilagođena vašim specifičnim potrebama.",
+            "Naše carinsko savetovanje obuhvata sledeće aspekte:",
+            [
+              {
+                "bold": "Tumačenje carinskih propisa: ",
+                "regular": "Pomozemo vam da razumete kompleksnost carinskih propisa i njihovu primenu na vaše poslovanje. Pružamo vam jasna i tačna tumačenja zakona i propisa kako biste bili sigurni da se pridržavate svih carinskih zahteva i izbegavate potencijalne probleme i kazne."
+              },
+              {
+                "bold": "Tarifna klasifikacija: ",
+                "regular": "Carinska tarifna klasifikacija je ključna za pravilno tarifiranje robe i određivanje carinskih stopa i taksi. Naši stručnjaci će vam pomoći da tačno klasifikujete svoju robu u skladu sa carinskom nomenklaturom kako biste izbegli pogrešno tarifiranje i eventualne carinske probleme."
+              },
+              {
+                "bold": "Preferencijalni tretman: ",
+                "regular": "Ako želite da iskoristite preferencijalne tarife u okviru trgovinskih sporazuma ili carinskih unija, naš tim će vam pružiti detaljne informacije o uslovima i procedurama za dobijanje preferencijalnog tretmana. Pomoći ćemo vam da ispunite sve potrebne zahteve i dokumente kako biste ostvarili povoljniji trgovinski položaj."
+              },
+              {
+                "bold": "Carinski postupci i dokumentacija: ",
+                "regular": "Pružamo vam sveobuhvatne informacije o različitim carinskim postupcima, kao što su uvoz, izvoz, tranzit, privremeni uvoz i druge specifične situacije. Takođe vam možemo pomoći u pripremi i popunjavanju svih potrebnih carinskih dokumenata kako biste bili sigurni da se pridržavate propisane procedure."
+              },
+              {
+                "bold": "Smanjenje carinskih troškova: ",
+                "regular": "Naša stručna podrška će vam pomoći da identifikujete mogućnosti za smanjenje carinskih troškova i optimizaciju vaših carinskih procesa. Pružićemo vam savete o strategijama kao što su carinska skladišta, slobodne zone, posebne carinske procedure i druge mere koje mogu rezultirati smanjenjem troškova i povećanjem konkurentnosti vašeg poslovanja."
+              },
+              {
+                "bold": "Carinska usaglašenost i kontrola: ",
+                "regular": "Redovno pratimo promene u carinskom zakonodavstvu kako bismo vam pružili ažurirane informacije i osigurali da vaše poslovanje ostane u skladu sa svim zakonskim zahtevima. Takođe možemo izvršiti internu kontrolu vaših carinskih procesa kako bismo identifikovali eventualne nedostatke i preporučili poboljšanja radi obezbeđivanja potpune usaglašenosti."
+              }
+            ],
+            "Naš cilj je da vam pružimo visokokvalitetno carinsko savetovanje koje će vam pomoći da uspešno upravljate svim aspektima carinskog poslovanja. Bez obzira na veličinu i kompleksnost vašeg poslovanja, možete se osloniti na naš stručni tim da vam pruži sveobuhvatnu podršku i rešenja koja su prilagođena vašim specifičnim potrebama."
+          ]
+        }
+      ]
+    }
+  ]
+}

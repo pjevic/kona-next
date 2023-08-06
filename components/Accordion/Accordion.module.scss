@@ -1,0 +1,77 @@
+/** @format */
+
+@import "../../styles//variables.scss";
+
+.accordion {
+  width: 34rem;
+  &__container {
+    &--title {
+      background-color: $primary-color;
+      color: $white;
+      font-weight: 400;
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      padding: 2rem 0;
+      text-align: center;
+      letter-spacing: 1px;
+      border-radius: 2rem 2rem 0 0;
+    }
+    &--body {
+      background: $gradient-pale;
+      padding: 3rem 2rem;
+      border-radius: 0 0 2rem 2rem;
+    }
+  }
+}
+
+.accordion-item {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  color: $white;
+  font-weight: 400;
+  font-size: 1.8rem;
+  // padding: 1.4rem 2rem;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 1.3rem;
+  }
+
+  &--title {
+    padding: 1.4rem 2rem;
+
+    &--active {
+      background: $gradient-pale;
+      border-radius: 1rem 1rem 0 0;
+    }
+  }
+
+  &--list {
+    list-style: none;
+  }
+
+  &--link {
+    background: $white;
+    color: $primary-color;
+    padding: 1.4rem 2rem;
+
+    &:not(:last-child) {
+      margin-bottom: 0.6rem;
+    }
+
+    &:last-child {
+      border-radius: 0 0 1rem 1rem;
+    }
+
+    &:hover,
+    &:active {
+      background-color: $primary-color;
+      color: $white;
+    }
+
+    &--active {
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}

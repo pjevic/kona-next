@@ -7,6 +7,11 @@ $color-4: #a7579e;
 $white: #fff;
 
 $gradient: linear-gradient(to right, $primary-color, $secondary-color);
+$gradient-pale: linear-gradient(
+  to right,
+  rgba(53, 62, 146, 0.66),
+  rgba(199, 26, 123, 0.66)
+);
 $gradient-radial: radial-gradient($primary-color, $secondary-color);
 $gradient-1: linear-gradient(to right, #323f92, #5d358c);
 $gradient-2: linear-gradient(to right, #69328a, #922884);
