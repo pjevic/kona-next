@@ -2,36 +2,104 @@
 @import "../../styles//variables.scss";
 
 .services {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 34rem minmax(0, 60rem) min-content;
+  gap: 5rem;
 
   max-width: 130rem;
   margin: 6rem auto;
 
-  // background-color: violet;
+  @media screen and (max-width: 1300px) {
+    margin: 6rem 4rem;
+  }
+
+  @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 
   &__container {
     &--accordion {
       width: 34rem;
+
+      @media screen and (max-width: 800px) {
+        width: 60%;
+      }
+
+      @media screen and (max-width: 700px) {
+        width: 70%;
+      }
+
+      @media screen and (max-width: 600px) {
+        width: 80%;
+      }
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
     }
     &--article {
+      display: flex;
+      flex-direction: column;
     }
     &--feature {
+      writing-mode: vertical-lr;
+      transform: rotate(-180deg);
+      align-self: flex-start;
+      text-align: right;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 9.7rem;
+      line-height: 1;
+      color: rgba(0, 0, 0, 0.08);
+
+      @media screen and (max-width: 900px) {
+        display: none;
+      }
     }
   }
 
   &__article {
     &--teaser {
+      color: $secondary-color;
+      font-weight: 700;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
     }
+
     &--heading {
+      color: $primary-color;
+      font-weight: 400;
+      font-size: 3.6rem;
+      margin-bottom: 3rem;
     }
     &--text {
+      &--list {
+        list-style-type: disc;
+        margin-bottom: 1.5rem;
+      }
+
+      & li {
+        display: list-item;
+        font-weight: 700;
+        margin-left: 4rem;
+        margin-bottom: 1.5rem;
+      }
+
+      & p {
+        display: inline;
+        font-weight: 400;
+        line-height: 1.6;
+      }
     }
   }
 
   &__article-img {
-  }
-
-  &__feature {
+    margin-top: 12rem;
+    &--style {
+      width: 100%;
+      height: auto;
+    }
   }
 }
