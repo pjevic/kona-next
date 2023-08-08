@@ -6,7 +6,7 @@
 
 .hero {
   width: 100%;
-
+  position: relative;
   &__image {
     width: 100%;
     height: auto;
@@ -22,7 +22,7 @@
 
   &__container {
     position: absolute;
-    top: 0;
+    top: 0rem;
     left: 0;
     width: 100%;
 

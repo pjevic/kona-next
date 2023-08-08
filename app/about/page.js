@@ -38,7 +38,7 @@ function About() {
   return (
     <div className={styles.about}>
       <Hero
-        style={{ transform: "translateY(0rem)" }}
+        // style={{ transform: "translateY(0rem)", marginTop: "8rem" }}
         teaser="stručnost koja deluje"
         line1="Vaša sigurna ruka"
         line2="za poslovne izazove"

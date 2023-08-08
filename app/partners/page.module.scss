@@ -1,0 +1,66 @@
+/** @format */
+
+@import "../../styles/variables.scss";
+
+.partners {
+  &__section {
+    max-width: 129rem;
+    margin: 0 auto;
+    margin-bottom: 12rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-column-gap: 10%;
+
+    @media screen and (max-width: 1300px) {
+      margin: 0 7rem 12rem 7rem;
+    }
+
+    @media screen and (max-width: 1100px) {
+      grid-template-columns: repeat(50%, 40%);
+
+      margin: 0 6rem 12rem 6rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      grid-template-columns: repeat(60%, 30%);
+      margin: 0 5rem 12rem 5rem;
+    }
+
+    @media screen and (max-width: 800px) {
+      grid-template-columns: 1fr;
+
+      margin: 0 4rem 12rem 4rem;
+    }
+
+    @media screen and (max-width: 700px) {
+      margin: 0 4rem 12rem 4rem;
+    }
+  }
+
+  &__img-container {
+    align-self: end;
+    justify-self: start;
+    width: 100%;
+
+    @media screen and (max-width: 800px) {
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+
+    @media screen and (max-width: 800px) {
+      width: 60%;
+      margin-top: 10rem;
+      margin-left: 10rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+      margin-top: 10rem;
+      margin-left: 0rem;
+    }
+  }
+}
