@@ -2,7 +2,8 @@
 
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
+import emailjs from "emailjs-com";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { Cousine, Lato } from "next/font/google";
@@ -61,11 +62,36 @@ function Form() {
   const { register, control, handleSubmit, formState, reset, watch } = form;
   const { errors, isDirty, isSubmitSuccessful } = formState;
 
+  const formRef = useRef();
+
   const onSubmit = (data) => {
     data.phone = phoneNumber;
     console.log("Form submmited", data);
 
-    // here I can use "data" to post it on an API endpoint
+    const serviceID = "service_vbh2dcp";
+    const templateID = "template_wg230do";
+    const publicKey = "KhWQp7tRKNQams5UU";
+    const templateParms = {
+      firstName: data.name?.firstName || "",
+      lastName: data.name?.lastName || "",
+      dob: data.dob || "",
+      gender: data.gender || "",
+      email: data.email || "",
+      phone: data.phone || "",
+      isCompany: data.company?.isCompany || false,
+      name: data.company?.name || "",
+      id: data.company?.id || "",
+      taxID: data.company?.taxID || "",
+    };
+
+    emailjs.send(serviceID, templateID, templateParms, publicKey).then(
+      (response) => {
+        console.log("Email sent successfully!", response);
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
   };
 
   const isCompany = watch("company.isCompany") === "no";
@@ -120,7 +146,7 @@ function Form() {
   }, []);
 
   return (
-    <div style={lato.style}>
+    <div style={lato.style} ref={formRef}>
       <form
         className={styles.form}
         onSubmit={handleSubmit(onSubmit)}
