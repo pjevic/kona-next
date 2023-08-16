@@ -26,7 +26,51 @@ const lato = Lato({
 });
 
 function Services() {
-  const [article, setArtcle] = useState(null);
+  const defaultArticle = {
+    imgPath: "/assets/imgs/services/osnivanje_firme.svg",
+    name: "Pregled naših usluga",
+    teaser: "Naše usluge",
+    title: "Pregled naših usluga",
+    text: [
+      "Dobrodošli na stranicu sa detaljnim opisom našeg raznovrsnog spektra usluga. Naš fokus je podrška vašem poslovanju u postizanju vaših ciljeva.",
+
+      [
+        {
+          bold: "Osnivanje firme:",
+          regular:
+            "Nudimo sveobuhvatan vodič za uspešno pokretanje vašeg preduzeća. Od pravne regulative do poslovne strategije, podržavamo vas na putu ka uspehu.",
+        },
+        {
+          bold: "Knjigovodstvo:",
+          regular:
+            "Naš tim stručnjaka pruža precizne i pouzdane finansijske informacije. Kroz analize i projekcije, podržavamo vaše odluke za dugoročni finansijski rast.",
+        },
+        {
+          bold: "Računovodstvo:",
+          regular:
+            "Investitori traže jasnu sliku vašeg poslovanja. Naša usluga omogućava vam da precizno prikažete svoje finansijske rezultate i strategije, stvarajući povjerenje kod potencijalnih partnera.",
+        },
+        {
+          bold: "Obračun PDV-a:",
+          regular:
+            "Složenost obračuna PDV-a zahteva stručnost. Naš tim vam pruža tehničku podršku i smernice za tačan i zakonit obračun PDV-a, minimizirajući rizike.",
+        },
+        {
+          bold: "Obračun zarada:",
+          regular:
+            "Srećni zaposleni su produktivni zaposleni. Obezbeđujemo tačan i pravilan obračun zarada i poreza, pružajući stabilnost i sigurnost vašem osoblju.",
+        },
+
+        {
+          bold: "Carinsko zastupanje",
+          regular:
+            "Međunarodno poslovanje zahteva pažljivo praćenje carinskih procesa. Olakšavamo prelazak granica, smanjujući birokratiju i omogućavajući vam nesmetanu trgovinu.",
+        },
+      ],
+    ],
+  };
+
+  const [article, setArtcle] = useState(defaultArticle);
 
   return (
     <div className={styles.services}>
