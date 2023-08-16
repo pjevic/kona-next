@@ -1,17 +1,32 @@
 /** @format */
+"use client";
 
 import React from "react";
+import { useMemo } from "react";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import Image from "next/image";
 import Hero from "@/components/Hero/Hero";
 import ArticleContact from "@/components/Article/Contact/ArticleContact";
 import GradientBox from "@/components/GradientBox/GradientBox";
 import Form from "@/components/Form/Form";
 import Partners from "@/components/Partners/Partners";
+import Map from "@/components/Map/Map";
 
 import data from "./data-SR.json";
 import styles from "./page.module.scss";
 
+import { Lato } from "next/font/google";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
 function Contact() {
+  const { isLoaded } = useLoadScript({
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+  });
+
   return (
     <div className={styles.contact}>
       <Hero
@@ -56,10 +71,76 @@ function Contact() {
           />
         </div>
 
-        <div className={styles.contact__address}></div>
-        <div className={styles.contact__address}></div>
+        <div
+          style={lato.style}
+          className={`${styles.contact__address} ${styles["contact__address--1"]}`}
+        >
+          <div className={styles["contact__address--section"]}>
+            {data.address.sector_1.name}
+          </div>
+          <div className={styles["contact__address--street"]}>
+            {data.address.sector_1.street}
+          </div>
+          <div className={styles["contact__address--city"]}>
+            {data.address.sector_1.city}
+          </div>
+          <div className={styles["contact__address--phone"]}>
+            <span className={styles["contact__address--phone--text"]}>
+              {data.address.sector_1.phone.text}
+            </span>
+            <span className={styles["contact__address--phone-number"]}>
+              {" "}
+              {data.address.sector_1.phone.number}
+            </span>
+          </div>
+          <div className={styles["contact__address--email"]}>
+            email: {data.address.sector_1.email}
+          </div>
+        </div>
 
-        <div className={styles.contact__map}></div>
+        <div
+          style={lato.style}
+          className={`${styles.contact__address} ${styles["contact__address--2"]}`}
+        >
+          <div className={styles["contact__address--section"]}>
+            {data.address.sector_2.name}
+          </div>
+          <div className={styles["contact__address--street"]}>
+            {data.address.sector_2.street}
+          </div>
+          <div className={styles["contact__address--city"]}>
+            {data.address.sector_2.city}
+          </div>
+          <div className={styles["contact__address--phone"]}>
+            <span className={styles["contact__address--phone--text"]}>
+              {data.address.sector_2.phone.text}
+            </span>
+            <span className={styles["contact__address--phone-number"]}>
+              {" "}
+              {data.address.sector_2.phone.number}
+            </span>
+          </div>
+          <div className={styles["contact__address--email"]}>
+            email: {data.address.sector_2.email}
+          </div>
+        </div>
+
+        <div className={`${styles.contact__map} ${styles["contact__map--1"]}`}>
+          {!isLoaded ? (
+            <div>Loading...</div>
+          ) : (
+            <Map lat={45.831891377436776} lng={20.46804550774456} zoom={14} />
+          )}
+        </div>
+
+        <div className={`${styles.contact__map} ${styles["contact__map--2"]}`}>
+          {!isLoaded ? (
+            <div>Loading...</div>
+          ) : (
+            <Map lat={45.8397231136138} lng={20.48597606519586} zoom={14} />
+          )}
+        </div>
+
         <div className={styles.contact__map}></div>
       </div>
     </div>

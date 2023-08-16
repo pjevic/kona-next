@@ -23,9 +23,9 @@
       "name": "Špedicija",
       "address": "Oslobođenja 9",
       "city": "23300 Kikinda",
-      "phone": "+381",
+      "phone": "+381230500870",
       "phoneIcon": "/assets/imgs/icons/phone.svg",
-      "email": "spedicija@kona.rs",
+      "email": "office.smiljana.kona@gmail.com",
       "emailIcon": "/assets/imgs/icons/email.svg"
     },
 
@@ -33,9 +33,9 @@
       "name": "Računovodstvo",
       "address": "Trg srpskih dobrovoljaca 51/1",
       "city": "23300 Kikinda",
-      "phone": "+381",
+      "phone": "+381230505105",
       "phoneIcon": "/assets/imgs/icons/phone.svg",
-      "email": "računovodstvo@kona.rs",
+      "email": "office.smiljana.kona@gmail.com",
       "emailIcon": "/assets/imgs/icons/email.svg"
     }
   },

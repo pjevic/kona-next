@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-email/components": "^0.0.6",
+    "@react-google-maps/api": "^2.19.2",
     "classnames": "^2.3.2",
     "emailjs-com": "^3.2.0",
     "eslint": "8.44.0",

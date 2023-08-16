@@ -10,5 +10,28 @@
       "Ne čekajte više, već iskoristite priliku i popunite formular ispod kako bismo vam pružili dodatne informacije i dogovorili sastanak. Naš tim je spreman da odgovori na vaša pitanja i pruži vam sve potrebne detalje. Zajedno možemo ostvariti vrhunske rezultate i graditi uspešno partnerstvo.",
       "Napomena: Popunjavanjem formulara izražavate svoj interes za naše usluge. Vaše podatke ćemo čuvati u skladu sa našom Politikom privatnosti i koristiti isključivo u svrhu komunikacije sa vama. Vaša privatnost nam je važna i garantujemo da ćemo pažljivo štititi vaše podatke."
     ]
+  },
+
+  "address": {
+    "sector_1": {
+      "name": "računovodstvo",
+      "street": "Trg srpskih dobrovoljaca 51/1",
+      "city": "23300 Kikinda",
+      "phone": {
+        "text": "telefon:",
+        "number": "+381230505105"
+      },
+      "email": "office.smiljana.kona@gmail.com"
+    },
+    "sector_2": {
+      "name": "špedicija",
+      "street": "Oslobođenja 9",
+      "city": "23300 Kikinda",
+      "phone": {
+        "text": "telefon:",
+        "number": "+381230505105"
+      },
+      "email": "office.smiljana.kona@gmail.com"
+    }
   }
 }
