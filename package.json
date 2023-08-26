@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,12 +15,14 @@
     "emailjs-com": "^3.2.0",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
+    "http": "^0.0.1-security",
     "next": "13.4.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.45.2",
     "react-phone-input-2": "^2.15.1",
-    "resend": "^0.15.4"
+    "resend": "^0.15.4",
+    "url": "^0.11.1"
   },
   "devDependencies": {
     "@hookform/devtools": "^4.3.1",
