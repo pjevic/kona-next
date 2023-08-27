@@ -43,12 +43,12 @@
   "services": {
     "title": "Usluge",
     "services": [
-      { "name": "Carinsko zastupanje", "link": "/" },
-      { "name": "Računovodstvene usluge", "link": "/" },
-      { "name": "Knjigovodstvene usluge", "link": "/" },
-      { "name": "Osnivanje firme", "link": "/" },
-      { "name": "Obračun PDV-a", "link": "/" },
-      { "name": "Obračun zarada", "link": "/" }
+      { "name": "Carinsko zastupanje", "link": "/services" },
+      { "name": "Računovodstvene usluge", "link": "/services" },
+      { "name": "Knjigovodstvene usluge", "link": "/services" },
+      { "name": "Osnivanje firme", "link": "/services" },
+      { "name": "Obračun PDV-a", "link": "/services" },
+      { "name": "Obračun zarada", "link": "/services" }
     ]
   }
 }
