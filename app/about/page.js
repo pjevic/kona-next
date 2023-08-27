@@ -98,7 +98,7 @@ function About() {
                 style={lato.style}
                 className={styles["about__blog-intro--btn"]}
               >
-                {data.blog.intro.btn.text} &nbsp;&nbsp;&nbsp;
+                {data.blog.intro.btn.text} &nbsp;
                 <span>&rarr;</span>
               </button>
             </Link>
