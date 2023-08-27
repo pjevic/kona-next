@@ -64,6 +64,7 @@ function Advisor() {
             <Btn href="services">saznaj više</Btn>
           </div>
         </div>
+
         <div className={styles["advisor__container--right"]}>
           <Smiljana />
         </div>
