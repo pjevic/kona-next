@@ -1,5 +1,7 @@
 /** @format */
 
+import Script from "next/script";
+
 import Navigation from "@/components/Navigation/Navigation";
 import Footer from "@/components/Footer/Footer";
 
@@ -22,6 +24,20 @@ export default function RootLayout({ children }) {
         {children}
         <Footer />
       </body>
+
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-767NNYNK96"
+      />
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-767NNYNK96');
+        `}
+      </Script>
     </html>
   );
 }
