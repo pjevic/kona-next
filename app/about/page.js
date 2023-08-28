@@ -135,7 +135,7 @@ function About() {
               >
                 {p.text}
               </p>
-              <BtnCTA text="saznaj više" href="blog" />
+              <BtnCTA text="više &rarr;" href="blog" />
             </div>
           ))}
         </div>

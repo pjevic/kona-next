@@ -17,8 +17,7 @@ function PartnersPage() {
       <HelloSection
         teaser="naši partneri"
         line1="Kompanije koje nam"
-        line2="ukazuju porverenje i sa kojima"
-        line3="zajedno ostvarujemo uspeh"
+        line2="ukazuju porverenje"
       />
 
       <section className={styles.partners__section}>

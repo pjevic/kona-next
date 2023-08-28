@@ -392,7 +392,7 @@
         },
         {
           "name": "Organizovanje",
-          "teaser": "knjigovodstvo",
+          "teaser": "računovodstvo",
           "imgPath": "/assets/imgs/services/racunovodstvo.svg",
 
           "title": "Organizovanje računovodstva",
@@ -669,7 +669,7 @@
           "name": "PDV prijave",
           "teaser": "obračun PDV-a",
           "imgPath": "/assets/imgs/services/obracunPDV.svg",
-          "title": "Izrada i podnošenje PDV priajva",
+          "title": "Izrada i podnošenje PDV prijave",
           "text": [
             "Izrada i podnošenje PDV prijava je jedna od bitnih usluga koje pružamo u okviru poreskog savetovanja. Naš stručni tim posvećuje pažnju detaljima i pažljivo analizira finansijske podatke i transakcije kako bi pripremio precizne PDV prijave za naše klijente.",
             "Naša usluga obuhvata sledeće korake:",
@@ -831,7 +831,7 @@
       "imgPath": "./imgPath",
       "subService": [
         {
-          "name": "Noramtivni akti",
+          "name": "Normativni akti",
           "teaser": "obračun zarada",
           "imgPath": "/assets/imgs/services/obracunZarada.svg",
           "title": "Izrada normativnih akata",
@@ -919,7 +919,7 @@
           "name": "Olakšice i benificije",
           "teaser": "obračun zarada",
           "imgPath": "/assets/imgs/services/obracunZarada.svg",
-          "title": "Savetovanje o poreskim olakicama i benificijama",
+          "title": "Savetovanje o poreskim olakšicama i benificijama",
           "text": [
             "Naše usluge savetovanja o poreskim olakšicama i beneficijama u oblasti obračuna zarada u Republici Srbiji pružaju vam stručno vođstvo i podršku u optimizaciji vašeg poreskog položaja i iskorišćavanju svih relevantnih poreskih olakšica i beneficija. Naš tim stručnjaka će vas voditi kroz složeni poreski sistem i pružiti vam sveobuhvatne informacije i savete kako biste maksimalno iskoristili dostupne povlastice. Evo kako naše usluge mogu koristiti vašem poslovanju:",
             [
@@ -1100,7 +1100,7 @@
         },
         {
           "name": "Carinsko savetovanje",
-          "teaser": "Carisnkso zastupanje",
+          "teaser": "Carinsko zastupanje",
           "imgPath": "/assets/imgs/services/carina.svg",
           "title": "Carinsko savetovanje",
           "text": [
