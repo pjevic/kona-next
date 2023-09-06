@@ -78,7 +78,7 @@ function Services() {
         <Accordion data={data} setArtcle={setArtcle} />
       </div>
 
-      <div className={styles["services__container--article"]}>
+      <section className={styles["services__container--article"]}>
         <div className={styles["services__article"]}>
           <div
             style={cousine.style}
@@ -92,7 +92,10 @@ function Services() {
           >
             {article?.title}
           </h1>
-          <div style={lato.style} className={styles["services__article--text"]}>
+          <article
+            style={lato.style}
+            className={styles["services__article--text"]}
+          >
             {article?.text.map((p, i) => (
               <ul key={i} className={styles["services__article--text--list"]}>
                 {typeof p === "string" ? (
@@ -109,7 +112,7 @@ function Services() {
                 )}
               </ul>
             ))}
-          </div>
+          </article>
         </div>
 
         <div className={styles["services__article-img"]}>
@@ -123,7 +126,7 @@ function Services() {
             />
           )}
         </div>
-      </div>
+      </section>
 
       <div
         style={cousine.style}

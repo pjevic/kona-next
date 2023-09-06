@@ -11,7 +11,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "KO-NA",
+  title:
+    "KO-NA doo Kikinda | Računovodstvo. Knjigovodstvo. Carinsko zastupanje - špedicija",
   description:
     "Računovodstvo. Knjigovodstvo. Carinsko zastupanje - špedicija. Sve na jednom mestu. Kikinda",
 };
